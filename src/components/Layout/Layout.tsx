@@ -1,4 +1,9 @@
 import React, { FunctionComponent} from 'react';
+import { 
+  NavLink
+} from "react-router-dom";
+
+const linkClassName:string = 'uppercase border-b-2 border-black text-white font-bold py-3 mr-8 text-sm opacity-75 hover:opacity-100 transition duration-300 ease-in-out';
 
 const Layout: FunctionComponent = ({ children }) => {
 
@@ -11,8 +16,21 @@ const Layout: FunctionComponent = ({ children }) => {
           </div>
 
           <ul className="w-full flex flex-row h-12 items-end">
-            <li className="h-12 flex items-end"><a className="uppercase border-b-2 border-white text-white font-bold py-3 mr-6 text-sm opacity-75 hover:opacity-100 transition duration-300 ease-in-out" href="movies">Movies</a></li>
-            <li className="h-12 flex items-end"><a className="uppercase border-b-2 border-black text-white font-bold py-3 mr-6 text-sm opacity-75 hover:opacity-100 transition duration-300 ease-in-out" href="tv-shows">TV Shows</a></li>
+            <li className="h-12 flex items-end">
+              <NavLink activeClassName="border-white" className={linkClassName} to="/">
+                Dashboard
+              </NavLink>
+            </li>
+            <li className="h-12 flex items-end">
+              <NavLink activeClassName="border-white" className={linkClassName} to="/movies">
+                Movies
+              </NavLink>
+            </li>
+            <li className="h-12 flex items-end">
+              <NavLink activeClassName="border-white" className={linkClassName} to="/series">
+                Series
+              </NavLink>
+            </li>
           </ul>    
 
         </div>
