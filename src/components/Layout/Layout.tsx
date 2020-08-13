@@ -3,15 +3,15 @@ import {
   NavLink
 } from "react-router-dom";
 
-const linkClassName:string = 'uppercase border-b-2 border-black text-white font-bold py-3 mr-8 text-sm opacity-75 hover:opacity-100 transition duration-300 ease-in-out';
+const linkClassName:string = 'uppercase border-b-2 border-black text-inter-sm text-white font-bold py-3 mr-8 opacity-75 hover:opacity-100 transition duration-300 ease-in-out';
 
 const Layout: FunctionComponent = ({ children }) => {
 
   return (
-    <div className="flex flex-col min-h-screen bg-gray-900">
+    <div className="flex flex-col min-h-screen bg-gray-900 font-inter">
       <header className="bg-black fixed z-10 w-full border-gray-700 border-b">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-3xl text-white h-16 flex items-center">
+          <div className="text-inter-3xl text-white h-16 flex items-center">
             Lights, camera, action
           </div>
 

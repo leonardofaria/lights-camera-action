@@ -14446,6 +14446,920 @@ video {
   animation: bounce 1s infinite;
 }
 
+.font-inter {
+  font-family: "Inter", sans-serif;
+}
+
+@supports(font-variation-settings: normal) {
+  .font-inter {
+    font-family: "Inter var", sans-serif;
+  }
+}
+
+.font-feature-normal {
+  font-feature-settings: normal;
+}
+
+.text-inter-xs {
+  font-size: 12px;
+  letter-spacing: 0em;
+  line-height: 18px;
+}
+
+.leading-3 .text-inter-xs, .text-inter-xs .leading-3, .leading-3.text-inter-xs {
+  font-size: 12px;
+  letter-spacing: 0em;
+  line-height: NaNpx;
+}
+
+.leading-4 .text-inter-xs, .text-inter-xs .leading-4, .leading-4.text-inter-xs {
+  font-size: 12px;
+  letter-spacing: 0em;
+  line-height: NaNpx;
+}
+
+.leading-5 .text-inter-xs, .text-inter-xs .leading-5, .leading-5.text-inter-xs {
+  font-size: 12px;
+  letter-spacing: 0em;
+  line-height: NaNpx;
+}
+
+.leading-6 .text-inter-xs, .text-inter-xs .leading-6, .leading-6.text-inter-xs {
+  font-size: 12px;
+  letter-spacing: 0em;
+  line-height: NaNpx;
+}
+
+.leading-7 .text-inter-xs, .text-inter-xs .leading-7, .leading-7.text-inter-xs {
+  font-size: 12px;
+  letter-spacing: 0em;
+  line-height: NaNpx;
+}
+
+.leading-8 .text-inter-xs, .text-inter-xs .leading-8, .leading-8.text-inter-xs {
+  font-size: 12px;
+  letter-spacing: 0em;
+  line-height: NaNpx;
+}
+
+.leading-9 .text-inter-xs, .text-inter-xs .leading-9, .leading-9.text-inter-xs {
+  font-size: 12px;
+  letter-spacing: 0em;
+  line-height: NaNpx;
+}
+
+.leading-10 .text-inter-xs, .text-inter-xs .leading-10, .leading-10.text-inter-xs {
+  font-size: 12px;
+  letter-spacing: 0em;
+  line-height: NaNpx;
+}
+
+.leading-none .text-inter-xs, .text-inter-xs .leading-none, .leading-none.text-inter-xs {
+  font-size: 12px;
+  letter-spacing: 0em;
+  line-height: 12px;
+}
+
+.leading-tight .text-inter-xs, .text-inter-xs .leading-tight, .leading-tight.text-inter-xs {
+  font-size: 12px;
+  letter-spacing: 0em;
+  line-height: 15px;
+}
+
+.leading-snug .text-inter-xs, .text-inter-xs .leading-snug, .leading-snug.text-inter-xs {
+  font-size: 12px;
+  letter-spacing: 0em;
+  line-height: 17px;
+}
+
+.leading-normal .text-inter-xs, .text-inter-xs .leading-normal, .leading-normal.text-inter-xs {
+  font-size: 12px;
+  letter-spacing: 0em;
+  line-height: 18px;
+}
+
+.leading-relaxed .text-inter-xs, .text-inter-xs .leading-relaxed, .leading-relaxed.text-inter-xs {
+  font-size: 12px;
+  letter-spacing: 0em;
+  line-height: 20px;
+}
+
+.leading-loose .text-inter-xs, .text-inter-xs .leading-loose, .leading-loose.text-inter-xs {
+  font-size: 12px;
+  letter-spacing: 0em;
+  line-height: 24px;
+}
+
+.text-inter-sm {
+  font-size: 14px;
+  letter-spacing: -0.006em;
+  line-height: 21px;
+}
+
+.leading-3 .text-inter-sm, .text-inter-sm .leading-3, .leading-3.text-inter-sm {
+  font-size: 14px;
+  letter-spacing: -0.006em;
+  line-height: NaNpx;
+}
+
+.leading-4 .text-inter-sm, .text-inter-sm .leading-4, .leading-4.text-inter-sm {
+  font-size: 14px;
+  letter-spacing: -0.006em;
+  line-height: NaNpx;
+}
+
+.leading-5 .text-inter-sm, .text-inter-sm .leading-5, .leading-5.text-inter-sm {
+  font-size: 14px;
+  letter-spacing: -0.006em;
+  line-height: NaNpx;
+}
+
+.leading-6 .text-inter-sm, .text-inter-sm .leading-6, .leading-6.text-inter-sm {
+  font-size: 14px;
+  letter-spacing: -0.006em;
+  line-height: NaNpx;
+}
+
+.leading-7 .text-inter-sm, .text-inter-sm .leading-7, .leading-7.text-inter-sm {
+  font-size: 14px;
+  letter-spacing: -0.006em;
+  line-height: NaNpx;
+}
+
+.leading-8 .text-inter-sm, .text-inter-sm .leading-8, .leading-8.text-inter-sm {
+  font-size: 14px;
+  letter-spacing: -0.006em;
+  line-height: NaNpx;
+}
+
+.leading-9 .text-inter-sm, .text-inter-sm .leading-9, .leading-9.text-inter-sm {
+  font-size: 14px;
+  letter-spacing: -0.006em;
+  line-height: NaNpx;
+}
+
+.leading-10 .text-inter-sm, .text-inter-sm .leading-10, .leading-10.text-inter-sm {
+  font-size: 14px;
+  letter-spacing: -0.006em;
+  line-height: NaNpx;
+}
+
+.leading-none .text-inter-sm, .text-inter-sm .leading-none, .leading-none.text-inter-sm {
+  font-size: 14px;
+  letter-spacing: -0.006em;
+  line-height: 14px;
+}
+
+.leading-tight .text-inter-sm, .text-inter-sm .leading-tight, .leading-tight.text-inter-sm {
+  font-size: 14px;
+  letter-spacing: -0.006em;
+  line-height: 18px;
+}
+
+.leading-snug .text-inter-sm, .text-inter-sm .leading-snug, .leading-snug.text-inter-sm {
+  font-size: 14px;
+  letter-spacing: -0.006em;
+  line-height: 19px;
+}
+
+.leading-normal .text-inter-sm, .text-inter-sm .leading-normal, .leading-normal.text-inter-sm {
+  font-size: 14px;
+  letter-spacing: -0.006em;
+  line-height: 21px;
+}
+
+.leading-relaxed .text-inter-sm, .text-inter-sm .leading-relaxed, .leading-relaxed.text-inter-sm {
+  font-size: 14px;
+  letter-spacing: -0.006em;
+  line-height: 23px;
+}
+
+.leading-loose .text-inter-sm, .text-inter-sm .leading-loose, .leading-loose.text-inter-sm {
+  font-size: 14px;
+  letter-spacing: -0.006em;
+  line-height: 28px;
+}
+
+.text-inter-base {
+  font-size: 16px;
+  letter-spacing: -0.011em;
+  line-height: 24px;
+}
+
+.leading-3 .text-inter-base, .text-inter-base .leading-3, .leading-3.text-inter-base {
+  font-size: 16px;
+  letter-spacing: -0.011em;
+  line-height: NaNpx;
+}
+
+.leading-4 .text-inter-base, .text-inter-base .leading-4, .leading-4.text-inter-base {
+  font-size: 16px;
+  letter-spacing: -0.011em;
+  line-height: NaNpx;
+}
+
+.leading-5 .text-inter-base, .text-inter-base .leading-5, .leading-5.text-inter-base {
+  font-size: 16px;
+  letter-spacing: -0.011em;
+  line-height: NaNpx;
+}
+
+.leading-6 .text-inter-base, .text-inter-base .leading-6, .leading-6.text-inter-base {
+  font-size: 16px;
+  letter-spacing: -0.011em;
+  line-height: NaNpx;
+}
+
+.leading-7 .text-inter-base, .text-inter-base .leading-7, .leading-7.text-inter-base {
+  font-size: 16px;
+  letter-spacing: -0.011em;
+  line-height: NaNpx;
+}
+
+.leading-8 .text-inter-base, .text-inter-base .leading-8, .leading-8.text-inter-base {
+  font-size: 16px;
+  letter-spacing: -0.011em;
+  line-height: NaNpx;
+}
+
+.leading-9 .text-inter-base, .text-inter-base .leading-9, .leading-9.text-inter-base {
+  font-size: 16px;
+  letter-spacing: -0.011em;
+  line-height: NaNpx;
+}
+
+.leading-10 .text-inter-base, .text-inter-base .leading-10, .leading-10.text-inter-base {
+  font-size: 16px;
+  letter-spacing: -0.011em;
+  line-height: NaNpx;
+}
+
+.leading-none .text-inter-base, .text-inter-base .leading-none, .leading-none.text-inter-base {
+  font-size: 16px;
+  letter-spacing: -0.011em;
+  line-height: 16px;
+}
+
+.leading-tight .text-inter-base, .text-inter-base .leading-tight, .leading-tight.text-inter-base {
+  font-size: 16px;
+  letter-spacing: -0.011em;
+  line-height: 20px;
+}
+
+.leading-snug .text-inter-base, .text-inter-base .leading-snug, .leading-snug.text-inter-base {
+  font-size: 16px;
+  letter-spacing: -0.011em;
+  line-height: 22px;
+}
+
+.leading-normal .text-inter-base, .text-inter-base .leading-normal, .leading-normal.text-inter-base {
+  font-size: 16px;
+  letter-spacing: -0.011em;
+  line-height: 24px;
+}
+
+.leading-relaxed .text-inter-base, .text-inter-base .leading-relaxed, .leading-relaxed.text-inter-base {
+  font-size: 16px;
+  letter-spacing: -0.011em;
+  line-height: 26px;
+}
+
+.leading-loose .text-inter-base, .text-inter-base .leading-loose, .leading-loose.text-inter-base {
+  font-size: 16px;
+  letter-spacing: -0.011em;
+  line-height: 32px;
+}
+
+.text-inter-lg {
+  font-size: 18px;
+  letter-spacing: -0.014em;
+  line-height: 27px;
+}
+
+.leading-3 .text-inter-lg, .text-inter-lg .leading-3, .leading-3.text-inter-lg {
+  font-size: 18px;
+  letter-spacing: -0.014em;
+  line-height: NaNpx;
+}
+
+.leading-4 .text-inter-lg, .text-inter-lg .leading-4, .leading-4.text-inter-lg {
+  font-size: 18px;
+  letter-spacing: -0.014em;
+  line-height: NaNpx;
+}
+
+.leading-5 .text-inter-lg, .text-inter-lg .leading-5, .leading-5.text-inter-lg {
+  font-size: 18px;
+  letter-spacing: -0.014em;
+  line-height: NaNpx;
+}
+
+.leading-6 .text-inter-lg, .text-inter-lg .leading-6, .leading-6.text-inter-lg {
+  font-size: 18px;
+  letter-spacing: -0.014em;
+  line-height: NaNpx;
+}
+
+.leading-7 .text-inter-lg, .text-inter-lg .leading-7, .leading-7.text-inter-lg {
+  font-size: 18px;
+  letter-spacing: -0.014em;
+  line-height: NaNpx;
+}
+
+.leading-8 .text-inter-lg, .text-inter-lg .leading-8, .leading-8.text-inter-lg {
+  font-size: 18px;
+  letter-spacing: -0.014em;
+  line-height: NaNpx;
+}
+
+.leading-9 .text-inter-lg, .text-inter-lg .leading-9, .leading-9.text-inter-lg {
+  font-size: 18px;
+  letter-spacing: -0.014em;
+  line-height: NaNpx;
+}
+
+.leading-10 .text-inter-lg, .text-inter-lg .leading-10, .leading-10.text-inter-lg {
+  font-size: 18px;
+  letter-spacing: -0.014em;
+  line-height: NaNpx;
+}
+
+.leading-none .text-inter-lg, .text-inter-lg .leading-none, .leading-none.text-inter-lg {
+  font-size: 18px;
+  letter-spacing: -0.014em;
+  line-height: 18px;
+}
+
+.leading-tight .text-inter-lg, .text-inter-lg .leading-tight, .leading-tight.text-inter-lg {
+  font-size: 18px;
+  letter-spacing: -0.014em;
+  line-height: 23px;
+}
+
+.leading-snug .text-inter-lg, .text-inter-lg .leading-snug, .leading-snug.text-inter-lg {
+  font-size: 18px;
+  letter-spacing: -0.014em;
+  line-height: 25px;
+}
+
+.leading-normal .text-inter-lg, .text-inter-lg .leading-normal, .leading-normal.text-inter-lg {
+  font-size: 18px;
+  letter-spacing: -0.014em;
+  line-height: 27px;
+}
+
+.leading-relaxed .text-inter-lg, .text-inter-lg .leading-relaxed, .leading-relaxed.text-inter-lg {
+  font-size: 18px;
+  letter-spacing: -0.014em;
+  line-height: 29px;
+}
+
+.leading-loose .text-inter-lg, .text-inter-lg .leading-loose, .leading-loose.text-inter-lg {
+  font-size: 18px;
+  letter-spacing: -0.014em;
+  line-height: 36px;
+}
+
+.text-inter-xl {
+  font-size: 20px;
+  letter-spacing: -0.017em;
+  line-height: 30px;
+}
+
+.leading-3 .text-inter-xl, .text-inter-xl .leading-3, .leading-3.text-inter-xl {
+  font-size: 20px;
+  letter-spacing: -0.017em;
+  line-height: NaNpx;
+}
+
+.leading-4 .text-inter-xl, .text-inter-xl .leading-4, .leading-4.text-inter-xl {
+  font-size: 20px;
+  letter-spacing: -0.017em;
+  line-height: NaNpx;
+}
+
+.leading-5 .text-inter-xl, .text-inter-xl .leading-5, .leading-5.text-inter-xl {
+  font-size: 20px;
+  letter-spacing: -0.017em;
+  line-height: NaNpx;
+}
+
+.leading-6 .text-inter-xl, .text-inter-xl .leading-6, .leading-6.text-inter-xl {
+  font-size: 20px;
+  letter-spacing: -0.017em;
+  line-height: NaNpx;
+}
+
+.leading-7 .text-inter-xl, .text-inter-xl .leading-7, .leading-7.text-inter-xl {
+  font-size: 20px;
+  letter-spacing: -0.017em;
+  line-height: NaNpx;
+}
+
+.leading-8 .text-inter-xl, .text-inter-xl .leading-8, .leading-8.text-inter-xl {
+  font-size: 20px;
+  letter-spacing: -0.017em;
+  line-height: NaNpx;
+}
+
+.leading-9 .text-inter-xl, .text-inter-xl .leading-9, .leading-9.text-inter-xl {
+  font-size: 20px;
+  letter-spacing: -0.017em;
+  line-height: NaNpx;
+}
+
+.leading-10 .text-inter-xl, .text-inter-xl .leading-10, .leading-10.text-inter-xl {
+  font-size: 20px;
+  letter-spacing: -0.017em;
+  line-height: NaNpx;
+}
+
+.leading-none .text-inter-xl, .text-inter-xl .leading-none, .leading-none.text-inter-xl {
+  font-size: 20px;
+  letter-spacing: -0.017em;
+  line-height: 20px;
+}
+
+.leading-tight .text-inter-xl, .text-inter-xl .leading-tight, .leading-tight.text-inter-xl {
+  font-size: 20px;
+  letter-spacing: -0.017em;
+  line-height: 25px;
+}
+
+.leading-snug .text-inter-xl, .text-inter-xl .leading-snug, .leading-snug.text-inter-xl {
+  font-size: 20px;
+  letter-spacing: -0.017em;
+  line-height: 28px;
+}
+
+.leading-normal .text-inter-xl, .text-inter-xl .leading-normal, .leading-normal.text-inter-xl {
+  font-size: 20px;
+  letter-spacing: -0.017em;
+  line-height: 30px;
+}
+
+.leading-relaxed .text-inter-xl, .text-inter-xl .leading-relaxed, .leading-relaxed.text-inter-xl {
+  font-size: 20px;
+  letter-spacing: -0.017em;
+  line-height: 33px;
+}
+
+.leading-loose .text-inter-xl, .text-inter-xl .leading-loose, .leading-loose.text-inter-xl {
+  font-size: 20px;
+  letter-spacing: -0.017em;
+  line-height: 40px;
+}
+
+.text-inter-2xl {
+  font-size: 24px;
+  letter-spacing: -0.019em;
+  line-height: 36px;
+}
+
+.leading-3 .text-inter-2xl, .text-inter-2xl .leading-3, .leading-3.text-inter-2xl {
+  font-size: 24px;
+  letter-spacing: -0.019em;
+  line-height: NaNpx;
+}
+
+.leading-4 .text-inter-2xl, .text-inter-2xl .leading-4, .leading-4.text-inter-2xl {
+  font-size: 24px;
+  letter-spacing: -0.019em;
+  line-height: NaNpx;
+}
+
+.leading-5 .text-inter-2xl, .text-inter-2xl .leading-5, .leading-5.text-inter-2xl {
+  font-size: 24px;
+  letter-spacing: -0.019em;
+  line-height: NaNpx;
+}
+
+.leading-6 .text-inter-2xl, .text-inter-2xl .leading-6, .leading-6.text-inter-2xl {
+  font-size: 24px;
+  letter-spacing: -0.019em;
+  line-height: NaNpx;
+}
+
+.leading-7 .text-inter-2xl, .text-inter-2xl .leading-7, .leading-7.text-inter-2xl {
+  font-size: 24px;
+  letter-spacing: -0.019em;
+  line-height: NaNpx;
+}
+
+.leading-8 .text-inter-2xl, .text-inter-2xl .leading-8, .leading-8.text-inter-2xl {
+  font-size: 24px;
+  letter-spacing: -0.019em;
+  line-height: NaNpx;
+}
+
+.leading-9 .text-inter-2xl, .text-inter-2xl .leading-9, .leading-9.text-inter-2xl {
+  font-size: 24px;
+  letter-spacing: -0.019em;
+  line-height: NaNpx;
+}
+
+.leading-10 .text-inter-2xl, .text-inter-2xl .leading-10, .leading-10.text-inter-2xl {
+  font-size: 24px;
+  letter-spacing: -0.019em;
+  line-height: NaNpx;
+}
+
+.leading-none .text-inter-2xl, .text-inter-2xl .leading-none, .leading-none.text-inter-2xl {
+  font-size: 24px;
+  letter-spacing: -0.019em;
+  line-height: 24px;
+}
+
+.leading-tight .text-inter-2xl, .text-inter-2xl .leading-tight, .leading-tight.text-inter-2xl {
+  font-size: 24px;
+  letter-spacing: -0.019em;
+  line-height: 30px;
+}
+
+.leading-snug .text-inter-2xl, .text-inter-2xl .leading-snug, .leading-snug.text-inter-2xl {
+  font-size: 24px;
+  letter-spacing: -0.019em;
+  line-height: 33px;
+}
+
+.leading-normal .text-inter-2xl, .text-inter-2xl .leading-normal, .leading-normal.text-inter-2xl {
+  font-size: 24px;
+  letter-spacing: -0.019em;
+  line-height: 36px;
+}
+
+.leading-relaxed .text-inter-2xl, .text-inter-2xl .leading-relaxed, .leading-relaxed.text-inter-2xl {
+  font-size: 24px;
+  letter-spacing: -0.019em;
+  line-height: 39px;
+}
+
+.leading-loose .text-inter-2xl, .text-inter-2xl .leading-loose, .leading-loose.text-inter-2xl {
+  font-size: 24px;
+  letter-spacing: -0.019em;
+  line-height: 48px;
+}
+
+.text-inter-3xl {
+  font-size: 30px;
+  letter-spacing: -0.021em;
+  line-height: 45px;
+}
+
+.leading-3 .text-inter-3xl, .text-inter-3xl .leading-3, .leading-3.text-inter-3xl {
+  font-size: 30px;
+  letter-spacing: -0.021em;
+  line-height: NaNpx;
+}
+
+.leading-4 .text-inter-3xl, .text-inter-3xl .leading-4, .leading-4.text-inter-3xl {
+  font-size: 30px;
+  letter-spacing: -0.021em;
+  line-height: NaNpx;
+}
+
+.leading-5 .text-inter-3xl, .text-inter-3xl .leading-5, .leading-5.text-inter-3xl {
+  font-size: 30px;
+  letter-spacing: -0.021em;
+  line-height: NaNpx;
+}
+
+.leading-6 .text-inter-3xl, .text-inter-3xl .leading-6, .leading-6.text-inter-3xl {
+  font-size: 30px;
+  letter-spacing: -0.021em;
+  line-height: NaNpx;
+}
+
+.leading-7 .text-inter-3xl, .text-inter-3xl .leading-7, .leading-7.text-inter-3xl {
+  font-size: 30px;
+  letter-spacing: -0.021em;
+  line-height: NaNpx;
+}
+
+.leading-8 .text-inter-3xl, .text-inter-3xl .leading-8, .leading-8.text-inter-3xl {
+  font-size: 30px;
+  letter-spacing: -0.021em;
+  line-height: NaNpx;
+}
+
+.leading-9 .text-inter-3xl, .text-inter-3xl .leading-9, .leading-9.text-inter-3xl {
+  font-size: 30px;
+  letter-spacing: -0.021em;
+  line-height: NaNpx;
+}
+
+.leading-10 .text-inter-3xl, .text-inter-3xl .leading-10, .leading-10.text-inter-3xl {
+  font-size: 30px;
+  letter-spacing: -0.021em;
+  line-height: NaNpx;
+}
+
+.leading-none .text-inter-3xl, .text-inter-3xl .leading-none, .leading-none.text-inter-3xl {
+  font-size: 30px;
+  letter-spacing: -0.021em;
+  line-height: 30px;
+}
+
+.leading-tight .text-inter-3xl, .text-inter-3xl .leading-tight, .leading-tight.text-inter-3xl {
+  font-size: 30px;
+  letter-spacing: -0.021em;
+  line-height: 38px;
+}
+
+.leading-snug .text-inter-3xl, .text-inter-3xl .leading-snug, .leading-snug.text-inter-3xl {
+  font-size: 30px;
+  letter-spacing: -0.021em;
+  line-height: 41px;
+}
+
+.leading-normal .text-inter-3xl, .text-inter-3xl .leading-normal, .leading-normal.text-inter-3xl {
+  font-size: 30px;
+  letter-spacing: -0.021em;
+  line-height: 45px;
+}
+
+.leading-relaxed .text-inter-3xl, .text-inter-3xl .leading-relaxed, .leading-relaxed.text-inter-3xl {
+  font-size: 30px;
+  letter-spacing: -0.021em;
+  line-height: 49px;
+}
+
+.leading-loose .text-inter-3xl, .text-inter-3xl .leading-loose, .leading-loose.text-inter-3xl {
+  font-size: 30px;
+  letter-spacing: -0.021em;
+  line-height: 60px;
+}
+
+.text-inter-4xl {
+  font-size: 36px;
+  letter-spacing: -0.022em;
+  line-height: 54px;
+}
+
+.leading-3 .text-inter-4xl, .text-inter-4xl .leading-3, .leading-3.text-inter-4xl {
+  font-size: 36px;
+  letter-spacing: -0.022em;
+  line-height: NaNpx;
+}
+
+.leading-4 .text-inter-4xl, .text-inter-4xl .leading-4, .leading-4.text-inter-4xl {
+  font-size: 36px;
+  letter-spacing: -0.022em;
+  line-height: NaNpx;
+}
+
+.leading-5 .text-inter-4xl, .text-inter-4xl .leading-5, .leading-5.text-inter-4xl {
+  font-size: 36px;
+  letter-spacing: -0.022em;
+  line-height: NaNpx;
+}
+
+.leading-6 .text-inter-4xl, .text-inter-4xl .leading-6, .leading-6.text-inter-4xl {
+  font-size: 36px;
+  letter-spacing: -0.022em;
+  line-height: NaNpx;
+}
+
+.leading-7 .text-inter-4xl, .text-inter-4xl .leading-7, .leading-7.text-inter-4xl {
+  font-size: 36px;
+  letter-spacing: -0.022em;
+  line-height: NaNpx;
+}
+
+.leading-8 .text-inter-4xl, .text-inter-4xl .leading-8, .leading-8.text-inter-4xl {
+  font-size: 36px;
+  letter-spacing: -0.022em;
+  line-height: NaNpx;
+}
+
+.leading-9 .text-inter-4xl, .text-inter-4xl .leading-9, .leading-9.text-inter-4xl {
+  font-size: 36px;
+  letter-spacing: -0.022em;
+  line-height: NaNpx;
+}
+
+.leading-10 .text-inter-4xl, .text-inter-4xl .leading-10, .leading-10.text-inter-4xl {
+  font-size: 36px;
+  letter-spacing: -0.022em;
+  line-height: NaNpx;
+}
+
+.leading-none .text-inter-4xl, .text-inter-4xl .leading-none, .leading-none.text-inter-4xl {
+  font-size: 36px;
+  letter-spacing: -0.022em;
+  line-height: 36px;
+}
+
+.leading-tight .text-inter-4xl, .text-inter-4xl .leading-tight, .leading-tight.text-inter-4xl {
+  font-size: 36px;
+  letter-spacing: -0.022em;
+  line-height: 45px;
+}
+
+.leading-snug .text-inter-4xl, .text-inter-4xl .leading-snug, .leading-snug.text-inter-4xl {
+  font-size: 36px;
+  letter-spacing: -0.022em;
+  line-height: 50px;
+}
+
+.leading-normal .text-inter-4xl, .text-inter-4xl .leading-normal, .leading-normal.text-inter-4xl {
+  font-size: 36px;
+  letter-spacing: -0.022em;
+  line-height: 54px;
+}
+
+.leading-relaxed .text-inter-4xl, .text-inter-4xl .leading-relaxed, .leading-relaxed.text-inter-4xl {
+  font-size: 36px;
+  letter-spacing: -0.022em;
+  line-height: 59px;
+}
+
+.leading-loose .text-inter-4xl, .text-inter-4xl .leading-loose, .leading-loose.text-inter-4xl {
+  font-size: 36px;
+  letter-spacing: -0.022em;
+  line-height: 72px;
+}
+
+.text-inter-5xl {
+  font-size: 48px;
+  letter-spacing: -0.022em;
+  line-height: 72px;
+}
+
+.leading-3 .text-inter-5xl, .text-inter-5xl .leading-3, .leading-3.text-inter-5xl {
+  font-size: 48px;
+  letter-spacing: -0.022em;
+  line-height: NaNpx;
+}
+
+.leading-4 .text-inter-5xl, .text-inter-5xl .leading-4, .leading-4.text-inter-5xl {
+  font-size: 48px;
+  letter-spacing: -0.022em;
+  line-height: NaNpx;
+}
+
+.leading-5 .text-inter-5xl, .text-inter-5xl .leading-5, .leading-5.text-inter-5xl {
+  font-size: 48px;
+  letter-spacing: -0.022em;
+  line-height: NaNpx;
+}
+
+.leading-6 .text-inter-5xl, .text-inter-5xl .leading-6, .leading-6.text-inter-5xl {
+  font-size: 48px;
+  letter-spacing: -0.022em;
+  line-height: NaNpx;
+}
+
+.leading-7 .text-inter-5xl, .text-inter-5xl .leading-7, .leading-7.text-inter-5xl {
+  font-size: 48px;
+  letter-spacing: -0.022em;
+  line-height: NaNpx;
+}
+
+.leading-8 .text-inter-5xl, .text-inter-5xl .leading-8, .leading-8.text-inter-5xl {
+  font-size: 48px;
+  letter-spacing: -0.022em;
+  line-height: NaNpx;
+}
+
+.leading-9 .text-inter-5xl, .text-inter-5xl .leading-9, .leading-9.text-inter-5xl {
+  font-size: 48px;
+  letter-spacing: -0.022em;
+  line-height: NaNpx;
+}
+
+.leading-10 .text-inter-5xl, .text-inter-5xl .leading-10, .leading-10.text-inter-5xl {
+  font-size: 48px;
+  letter-spacing: -0.022em;
+  line-height: NaNpx;
+}
+
+.leading-none .text-inter-5xl, .text-inter-5xl .leading-none, .leading-none.text-inter-5xl {
+  font-size: 48px;
+  letter-spacing: -0.022em;
+  line-height: 48px;
+}
+
+.leading-tight .text-inter-5xl, .text-inter-5xl .leading-tight, .leading-tight.text-inter-5xl {
+  font-size: 48px;
+  letter-spacing: -0.022em;
+  line-height: 60px;
+}
+
+.leading-snug .text-inter-5xl, .text-inter-5xl .leading-snug, .leading-snug.text-inter-5xl {
+  font-size: 48px;
+  letter-spacing: -0.022em;
+  line-height: 66px;
+}
+
+.leading-normal .text-inter-5xl, .text-inter-5xl .leading-normal, .leading-normal.text-inter-5xl {
+  font-size: 48px;
+  letter-spacing: -0.022em;
+  line-height: 72px;
+}
+
+.leading-relaxed .text-inter-5xl, .text-inter-5xl .leading-relaxed, .leading-relaxed.text-inter-5xl {
+  font-size: 48px;
+  letter-spacing: -0.022em;
+  line-height: 78px;
+}
+
+.leading-loose .text-inter-5xl, .text-inter-5xl .leading-loose, .leading-loose.text-inter-5xl {
+  font-size: 48px;
+  letter-spacing: -0.022em;
+  line-height: 96px;
+}
+
+.text-inter-6xl {
+  font-size: 64px;
+  letter-spacing: -0.022em;
+  line-height: 96px;
+}
+
+.leading-3 .text-inter-6xl, .text-inter-6xl .leading-3, .leading-3.text-inter-6xl {
+  font-size: 64px;
+  letter-spacing: -0.022em;
+  line-height: NaNpx;
+}
+
+.leading-4 .text-inter-6xl, .text-inter-6xl .leading-4, .leading-4.text-inter-6xl {
+  font-size: 64px;
+  letter-spacing: -0.022em;
+  line-height: NaNpx;
+}
+
+.leading-5 .text-inter-6xl, .text-inter-6xl .leading-5, .leading-5.text-inter-6xl {
+  font-size: 64px;
+  letter-spacing: -0.022em;
+  line-height: NaNpx;
+}
+
+.leading-6 .text-inter-6xl, .text-inter-6xl .leading-6, .leading-6.text-inter-6xl {
+  font-size: 64px;
+  letter-spacing: -0.022em;
+  line-height: NaNpx;
+}
+
+.leading-7 .text-inter-6xl, .text-inter-6xl .leading-7, .leading-7.text-inter-6xl {
+  font-size: 64px;
+  letter-spacing: -0.022em;
+  line-height: NaNpx;
+}
+
+.leading-8 .text-inter-6xl, .text-inter-6xl .leading-8, .leading-8.text-inter-6xl {
+  font-size: 64px;
+  letter-spacing: -0.022em;
+  line-height: NaNpx;
+}
+
+.leading-9 .text-inter-6xl, .text-inter-6xl .leading-9, .leading-9.text-inter-6xl {
+  font-size: 64px;
+  letter-spacing: -0.022em;
+  line-height: NaNpx;
+}
+
+.leading-10 .text-inter-6xl, .text-inter-6xl .leading-10, .leading-10.text-inter-6xl {
+  font-size: 64px;
+  letter-spacing: -0.022em;
+  line-height: NaNpx;
+}
+
+.leading-none .text-inter-6xl, .text-inter-6xl .leading-none, .leading-none.text-inter-6xl {
+  font-size: 64px;
+  letter-spacing: -0.022em;
+  line-height: 64px;
+}
+
+.leading-tight .text-inter-6xl, .text-inter-6xl .leading-tight, .leading-tight.text-inter-6xl {
+  font-size: 64px;
+  letter-spacing: -0.022em;
+  line-height: 80px;
+}
+
+.leading-snug .text-inter-6xl, .text-inter-6xl .leading-snug, .leading-snug.text-inter-6xl {
+  font-size: 64px;
+  letter-spacing: -0.022em;
+  line-height: 88px;
+}
+
+.leading-normal .text-inter-6xl, .text-inter-6xl .leading-normal, .leading-normal.text-inter-6xl {
+  font-size: 64px;
+  letter-spacing: -0.022em;
+  line-height: 96px;
+}
+
+.leading-relaxed .text-inter-6xl, .text-inter-6xl .leading-relaxed, .leading-relaxed.text-inter-6xl {
+  font-size: 64px;
+  letter-spacing: -0.022em;
+  line-height: 104px;
+}
+
+.leading-loose .text-inter-6xl, .text-inter-6xl .leading-loose, .leading-loose.text-inter-6xl {
+  font-size: 64px;
+  letter-spacing: -0.022em;
+  line-height: 128px;
+}
+
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;
@@ -28266,6 +29180,906 @@ video {
 
   .sm\:animate-bounce {
     animation: bounce 1s infinite;
+  }
+
+  .sm\:text-inter-xs {
+    font-size: 12px;
+    letter-spacing: 0em;
+    line-height: 18px;
+  }
+
+  .leading-3 .sm\:text-inter-xs, .text-inter-xs .sm\:leading-3, .leading-3.sm\:text-inter-xs {
+    font-size: 12px;
+    letter-spacing: 0em;
+    line-height: NaNpx;
+  }
+
+  .leading-4 .sm\:text-inter-xs, .text-inter-xs .sm\:leading-4, .leading-4.sm\:text-inter-xs {
+    font-size: 12px;
+    letter-spacing: 0em;
+    line-height: NaNpx;
+  }
+
+  .leading-5 .sm\:text-inter-xs, .text-inter-xs .sm\:leading-5, .leading-5.sm\:text-inter-xs {
+    font-size: 12px;
+    letter-spacing: 0em;
+    line-height: NaNpx;
+  }
+
+  .leading-6 .sm\:text-inter-xs, .text-inter-xs .sm\:leading-6, .leading-6.sm\:text-inter-xs {
+    font-size: 12px;
+    letter-spacing: 0em;
+    line-height: NaNpx;
+  }
+
+  .leading-7 .sm\:text-inter-xs, .text-inter-xs .sm\:leading-7, .leading-7.sm\:text-inter-xs {
+    font-size: 12px;
+    letter-spacing: 0em;
+    line-height: NaNpx;
+  }
+
+  .leading-8 .sm\:text-inter-xs, .text-inter-xs .sm\:leading-8, .leading-8.sm\:text-inter-xs {
+    font-size: 12px;
+    letter-spacing: 0em;
+    line-height: NaNpx;
+  }
+
+  .leading-9 .sm\:text-inter-xs, .text-inter-xs .sm\:leading-9, .leading-9.sm\:text-inter-xs {
+    font-size: 12px;
+    letter-spacing: 0em;
+    line-height: NaNpx;
+  }
+
+  .leading-10 .sm\:text-inter-xs, .text-inter-xs .sm\:leading-10, .leading-10.sm\:text-inter-xs {
+    font-size: 12px;
+    letter-spacing: 0em;
+    line-height: NaNpx;
+  }
+
+  .leading-none .sm\:text-inter-xs, .text-inter-xs .sm\:leading-none, .leading-none.sm\:text-inter-xs {
+    font-size: 12px;
+    letter-spacing: 0em;
+    line-height: 12px;
+  }
+
+  .leading-tight .sm\:text-inter-xs, .text-inter-xs .sm\:leading-tight, .leading-tight.sm\:text-inter-xs {
+    font-size: 12px;
+    letter-spacing: 0em;
+    line-height: 15px;
+  }
+
+  .leading-snug .sm\:text-inter-xs, .text-inter-xs .sm\:leading-snug, .leading-snug.sm\:text-inter-xs {
+    font-size: 12px;
+    letter-spacing: 0em;
+    line-height: 17px;
+  }
+
+  .leading-normal .sm\:text-inter-xs, .text-inter-xs .sm\:leading-normal, .leading-normal.sm\:text-inter-xs {
+    font-size: 12px;
+    letter-spacing: 0em;
+    line-height: 18px;
+  }
+
+  .leading-relaxed .sm\:text-inter-xs, .text-inter-xs .sm\:leading-relaxed, .leading-relaxed.sm\:text-inter-xs {
+    font-size: 12px;
+    letter-spacing: 0em;
+    line-height: 20px;
+  }
+
+  .leading-loose .sm\:text-inter-xs, .text-inter-xs .sm\:leading-loose, .leading-loose.sm\:text-inter-xs {
+    font-size: 12px;
+    letter-spacing: 0em;
+    line-height: 24px;
+  }
+
+  .sm\:text-inter-sm {
+    font-size: 14px;
+    letter-spacing: -0.006em;
+    line-height: 21px;
+  }
+
+  .leading-3 .sm\:text-inter-sm, .text-inter-sm .sm\:leading-3, .leading-3.sm\:text-inter-sm {
+    font-size: 14px;
+    letter-spacing: -0.006em;
+    line-height: NaNpx;
+  }
+
+  .leading-4 .sm\:text-inter-sm, .text-inter-sm .sm\:leading-4, .leading-4.sm\:text-inter-sm {
+    font-size: 14px;
+    letter-spacing: -0.006em;
+    line-height: NaNpx;
+  }
+
+  .leading-5 .sm\:text-inter-sm, .text-inter-sm .sm\:leading-5, .leading-5.sm\:text-inter-sm {
+    font-size: 14px;
+    letter-spacing: -0.006em;
+    line-height: NaNpx;
+  }
+
+  .leading-6 .sm\:text-inter-sm, .text-inter-sm .sm\:leading-6, .leading-6.sm\:text-inter-sm {
+    font-size: 14px;
+    letter-spacing: -0.006em;
+    line-height: NaNpx;
+  }
+
+  .leading-7 .sm\:text-inter-sm, .text-inter-sm .sm\:leading-7, .leading-7.sm\:text-inter-sm {
+    font-size: 14px;
+    letter-spacing: -0.006em;
+    line-height: NaNpx;
+  }
+
+  .leading-8 .sm\:text-inter-sm, .text-inter-sm .sm\:leading-8, .leading-8.sm\:text-inter-sm {
+    font-size: 14px;
+    letter-spacing: -0.006em;
+    line-height: NaNpx;
+  }
+
+  .leading-9 .sm\:text-inter-sm, .text-inter-sm .sm\:leading-9, .leading-9.sm\:text-inter-sm {
+    font-size: 14px;
+    letter-spacing: -0.006em;
+    line-height: NaNpx;
+  }
+
+  .leading-10 .sm\:text-inter-sm, .text-inter-sm .sm\:leading-10, .leading-10.sm\:text-inter-sm {
+    font-size: 14px;
+    letter-spacing: -0.006em;
+    line-height: NaNpx;
+  }
+
+  .leading-none .sm\:text-inter-sm, .text-inter-sm .sm\:leading-none, .leading-none.sm\:text-inter-sm {
+    font-size: 14px;
+    letter-spacing: -0.006em;
+    line-height: 14px;
+  }
+
+  .leading-tight .sm\:text-inter-sm, .text-inter-sm .sm\:leading-tight, .leading-tight.sm\:text-inter-sm {
+    font-size: 14px;
+    letter-spacing: -0.006em;
+    line-height: 18px;
+  }
+
+  .leading-snug .sm\:text-inter-sm, .text-inter-sm .sm\:leading-snug, .leading-snug.sm\:text-inter-sm {
+    font-size: 14px;
+    letter-spacing: -0.006em;
+    line-height: 19px;
+  }
+
+  .leading-normal .sm\:text-inter-sm, .text-inter-sm .sm\:leading-normal, .leading-normal.sm\:text-inter-sm {
+    font-size: 14px;
+    letter-spacing: -0.006em;
+    line-height: 21px;
+  }
+
+  .leading-relaxed .sm\:text-inter-sm, .text-inter-sm .sm\:leading-relaxed, .leading-relaxed.sm\:text-inter-sm {
+    font-size: 14px;
+    letter-spacing: -0.006em;
+    line-height: 23px;
+  }
+
+  .leading-loose .sm\:text-inter-sm, .text-inter-sm .sm\:leading-loose, .leading-loose.sm\:text-inter-sm {
+    font-size: 14px;
+    letter-spacing: -0.006em;
+    line-height: 28px;
+  }
+
+  .sm\:text-inter-base {
+    font-size: 16px;
+    letter-spacing: -0.011em;
+    line-height: 24px;
+  }
+
+  .leading-3 .sm\:text-inter-base, .text-inter-base .sm\:leading-3, .leading-3.sm\:text-inter-base {
+    font-size: 16px;
+    letter-spacing: -0.011em;
+    line-height: NaNpx;
+  }
+
+  .leading-4 .sm\:text-inter-base, .text-inter-base .sm\:leading-4, .leading-4.sm\:text-inter-base {
+    font-size: 16px;
+    letter-spacing: -0.011em;
+    line-height: NaNpx;
+  }
+
+  .leading-5 .sm\:text-inter-base, .text-inter-base .sm\:leading-5, .leading-5.sm\:text-inter-base {
+    font-size: 16px;
+    letter-spacing: -0.011em;
+    line-height: NaNpx;
+  }
+
+  .leading-6 .sm\:text-inter-base, .text-inter-base .sm\:leading-6, .leading-6.sm\:text-inter-base {
+    font-size: 16px;
+    letter-spacing: -0.011em;
+    line-height: NaNpx;
+  }
+
+  .leading-7 .sm\:text-inter-base, .text-inter-base .sm\:leading-7, .leading-7.sm\:text-inter-base {
+    font-size: 16px;
+    letter-spacing: -0.011em;
+    line-height: NaNpx;
+  }
+
+  .leading-8 .sm\:text-inter-base, .text-inter-base .sm\:leading-8, .leading-8.sm\:text-inter-base {
+    font-size: 16px;
+    letter-spacing: -0.011em;
+    line-height: NaNpx;
+  }
+
+  .leading-9 .sm\:text-inter-base, .text-inter-base .sm\:leading-9, .leading-9.sm\:text-inter-base {
+    font-size: 16px;
+    letter-spacing: -0.011em;
+    line-height: NaNpx;
+  }
+
+  .leading-10 .sm\:text-inter-base, .text-inter-base .sm\:leading-10, .leading-10.sm\:text-inter-base {
+    font-size: 16px;
+    letter-spacing: -0.011em;
+    line-height: NaNpx;
+  }
+
+  .leading-none .sm\:text-inter-base, .text-inter-base .sm\:leading-none, .leading-none.sm\:text-inter-base {
+    font-size: 16px;
+    letter-spacing: -0.011em;
+    line-height: 16px;
+  }
+
+  .leading-tight .sm\:text-inter-base, .text-inter-base .sm\:leading-tight, .leading-tight.sm\:text-inter-base {
+    font-size: 16px;
+    letter-spacing: -0.011em;
+    line-height: 20px;
+  }
+
+  .leading-snug .sm\:text-inter-base, .text-inter-base .sm\:leading-snug, .leading-snug.sm\:text-inter-base {
+    font-size: 16px;
+    letter-spacing: -0.011em;
+    line-height: 22px;
+  }
+
+  .leading-normal .sm\:text-inter-base, .text-inter-base .sm\:leading-normal, .leading-normal.sm\:text-inter-base {
+    font-size: 16px;
+    letter-spacing: -0.011em;
+    line-height: 24px;
+  }
+
+  .leading-relaxed .sm\:text-inter-base, .text-inter-base .sm\:leading-relaxed, .leading-relaxed.sm\:text-inter-base {
+    font-size: 16px;
+    letter-spacing: -0.011em;
+    line-height: 26px;
+  }
+
+  .leading-loose .sm\:text-inter-base, .text-inter-base .sm\:leading-loose, .leading-loose.sm\:text-inter-base {
+    font-size: 16px;
+    letter-spacing: -0.011em;
+    line-height: 32px;
+  }
+
+  .sm\:text-inter-lg {
+    font-size: 18px;
+    letter-spacing: -0.014em;
+    line-height: 27px;
+  }
+
+  .leading-3 .sm\:text-inter-lg, .text-inter-lg .sm\:leading-3, .leading-3.sm\:text-inter-lg {
+    font-size: 18px;
+    letter-spacing: -0.014em;
+    line-height: NaNpx;
+  }
+
+  .leading-4 .sm\:text-inter-lg, .text-inter-lg .sm\:leading-4, .leading-4.sm\:text-inter-lg {
+    font-size: 18px;
+    letter-spacing: -0.014em;
+    line-height: NaNpx;
+  }
+
+  .leading-5 .sm\:text-inter-lg, .text-inter-lg .sm\:leading-5, .leading-5.sm\:text-inter-lg {
+    font-size: 18px;
+    letter-spacing: -0.014em;
+    line-height: NaNpx;
+  }
+
+  .leading-6 .sm\:text-inter-lg, .text-inter-lg .sm\:leading-6, .leading-6.sm\:text-inter-lg {
+    font-size: 18px;
+    letter-spacing: -0.014em;
+    line-height: NaNpx;
+  }
+
+  .leading-7 .sm\:text-inter-lg, .text-inter-lg .sm\:leading-7, .leading-7.sm\:text-inter-lg {
+    font-size: 18px;
+    letter-spacing: -0.014em;
+    line-height: NaNpx;
+  }
+
+  .leading-8 .sm\:text-inter-lg, .text-inter-lg .sm\:leading-8, .leading-8.sm\:text-inter-lg {
+    font-size: 18px;
+    letter-spacing: -0.014em;
+    line-height: NaNpx;
+  }
+
+  .leading-9 .sm\:text-inter-lg, .text-inter-lg .sm\:leading-9, .leading-9.sm\:text-inter-lg {
+    font-size: 18px;
+    letter-spacing: -0.014em;
+    line-height: NaNpx;
+  }
+
+  .leading-10 .sm\:text-inter-lg, .text-inter-lg .sm\:leading-10, .leading-10.sm\:text-inter-lg {
+    font-size: 18px;
+    letter-spacing: -0.014em;
+    line-height: NaNpx;
+  }
+
+  .leading-none .sm\:text-inter-lg, .text-inter-lg .sm\:leading-none, .leading-none.sm\:text-inter-lg {
+    font-size: 18px;
+    letter-spacing: -0.014em;
+    line-height: 18px;
+  }
+
+  .leading-tight .sm\:text-inter-lg, .text-inter-lg .sm\:leading-tight, .leading-tight.sm\:text-inter-lg {
+    font-size: 18px;
+    letter-spacing: -0.014em;
+    line-height: 23px;
+  }
+
+  .leading-snug .sm\:text-inter-lg, .text-inter-lg .sm\:leading-snug, .leading-snug.sm\:text-inter-lg {
+    font-size: 18px;
+    letter-spacing: -0.014em;
+    line-height: 25px;
+  }
+
+  .leading-normal .sm\:text-inter-lg, .text-inter-lg .sm\:leading-normal, .leading-normal.sm\:text-inter-lg {
+    font-size: 18px;
+    letter-spacing: -0.014em;
+    line-height: 27px;
+  }
+
+  .leading-relaxed .sm\:text-inter-lg, .text-inter-lg .sm\:leading-relaxed, .leading-relaxed.sm\:text-inter-lg {
+    font-size: 18px;
+    letter-spacing: -0.014em;
+    line-height: 29px;
+  }
+
+  .leading-loose .sm\:text-inter-lg, .text-inter-lg .sm\:leading-loose, .leading-loose.sm\:text-inter-lg {
+    font-size: 18px;
+    letter-spacing: -0.014em;
+    line-height: 36px;
+  }
+
+  .sm\:text-inter-xl {
+    font-size: 20px;
+    letter-spacing: -0.017em;
+    line-height: 30px;
+  }
+
+  .leading-3 .sm\:text-inter-xl, .text-inter-xl .sm\:leading-3, .leading-3.sm\:text-inter-xl {
+    font-size: 20px;
+    letter-spacing: -0.017em;
+    line-height: NaNpx;
+  }
+
+  .leading-4 .sm\:text-inter-xl, .text-inter-xl .sm\:leading-4, .leading-4.sm\:text-inter-xl {
+    font-size: 20px;
+    letter-spacing: -0.017em;
+    line-height: NaNpx;
+  }
+
+  .leading-5 .sm\:text-inter-xl, .text-inter-xl .sm\:leading-5, .leading-5.sm\:text-inter-xl {
+    font-size: 20px;
+    letter-spacing: -0.017em;
+    line-height: NaNpx;
+  }
+
+  .leading-6 .sm\:text-inter-xl, .text-inter-xl .sm\:leading-6, .leading-6.sm\:text-inter-xl {
+    font-size: 20px;
+    letter-spacing: -0.017em;
+    line-height: NaNpx;
+  }
+
+  .leading-7 .sm\:text-inter-xl, .text-inter-xl .sm\:leading-7, .leading-7.sm\:text-inter-xl {
+    font-size: 20px;
+    letter-spacing: -0.017em;
+    line-height: NaNpx;
+  }
+
+  .leading-8 .sm\:text-inter-xl, .text-inter-xl .sm\:leading-8, .leading-8.sm\:text-inter-xl {
+    font-size: 20px;
+    letter-spacing: -0.017em;
+    line-height: NaNpx;
+  }
+
+  .leading-9 .sm\:text-inter-xl, .text-inter-xl .sm\:leading-9, .leading-9.sm\:text-inter-xl {
+    font-size: 20px;
+    letter-spacing: -0.017em;
+    line-height: NaNpx;
+  }
+
+  .leading-10 .sm\:text-inter-xl, .text-inter-xl .sm\:leading-10, .leading-10.sm\:text-inter-xl {
+    font-size: 20px;
+    letter-spacing: -0.017em;
+    line-height: NaNpx;
+  }
+
+  .leading-none .sm\:text-inter-xl, .text-inter-xl .sm\:leading-none, .leading-none.sm\:text-inter-xl {
+    font-size: 20px;
+    letter-spacing: -0.017em;
+    line-height: 20px;
+  }
+
+  .leading-tight .sm\:text-inter-xl, .text-inter-xl .sm\:leading-tight, .leading-tight.sm\:text-inter-xl {
+    font-size: 20px;
+    letter-spacing: -0.017em;
+    line-height: 25px;
+  }
+
+  .leading-snug .sm\:text-inter-xl, .text-inter-xl .sm\:leading-snug, .leading-snug.sm\:text-inter-xl {
+    font-size: 20px;
+    letter-spacing: -0.017em;
+    line-height: 28px;
+  }
+
+  .leading-normal .sm\:text-inter-xl, .text-inter-xl .sm\:leading-normal, .leading-normal.sm\:text-inter-xl {
+    font-size: 20px;
+    letter-spacing: -0.017em;
+    line-height: 30px;
+  }
+
+  .leading-relaxed .sm\:text-inter-xl, .text-inter-xl .sm\:leading-relaxed, .leading-relaxed.sm\:text-inter-xl {
+    font-size: 20px;
+    letter-spacing: -0.017em;
+    line-height: 33px;
+  }
+
+  .leading-loose .sm\:text-inter-xl, .text-inter-xl .sm\:leading-loose, .leading-loose.sm\:text-inter-xl {
+    font-size: 20px;
+    letter-spacing: -0.017em;
+    line-height: 40px;
+  }
+
+  .sm\:text-inter-2xl {
+    font-size: 24px;
+    letter-spacing: -0.019em;
+    line-height: 36px;
+  }
+
+  .leading-3 .sm\:text-inter-2xl, .text-inter-2xl .sm\:leading-3, .leading-3.sm\:text-inter-2xl {
+    font-size: 24px;
+    letter-spacing: -0.019em;
+    line-height: NaNpx;
+  }
+
+  .leading-4 .sm\:text-inter-2xl, .text-inter-2xl .sm\:leading-4, .leading-4.sm\:text-inter-2xl {
+    font-size: 24px;
+    letter-spacing: -0.019em;
+    line-height: NaNpx;
+  }
+
+  .leading-5 .sm\:text-inter-2xl, .text-inter-2xl .sm\:leading-5, .leading-5.sm\:text-inter-2xl {
+    font-size: 24px;
+    letter-spacing: -0.019em;
+    line-height: NaNpx;
+  }
+
+  .leading-6 .sm\:text-inter-2xl, .text-inter-2xl .sm\:leading-6, .leading-6.sm\:text-inter-2xl {
+    font-size: 24px;
+    letter-spacing: -0.019em;
+    line-height: NaNpx;
+  }
+
+  .leading-7 .sm\:text-inter-2xl, .text-inter-2xl .sm\:leading-7, .leading-7.sm\:text-inter-2xl {
+    font-size: 24px;
+    letter-spacing: -0.019em;
+    line-height: NaNpx;
+  }
+
+  .leading-8 .sm\:text-inter-2xl, .text-inter-2xl .sm\:leading-8, .leading-8.sm\:text-inter-2xl {
+    font-size: 24px;
+    letter-spacing: -0.019em;
+    line-height: NaNpx;
+  }
+
+  .leading-9 .sm\:text-inter-2xl, .text-inter-2xl .sm\:leading-9, .leading-9.sm\:text-inter-2xl {
+    font-size: 24px;
+    letter-spacing: -0.019em;
+    line-height: NaNpx;
+  }
+
+  .leading-10 .sm\:text-inter-2xl, .text-inter-2xl .sm\:leading-10, .leading-10.sm\:text-inter-2xl {
+    font-size: 24px;
+    letter-spacing: -0.019em;
+    line-height: NaNpx;
+  }
+
+  .leading-none .sm\:text-inter-2xl, .text-inter-2xl .sm\:leading-none, .leading-none.sm\:text-inter-2xl {
+    font-size: 24px;
+    letter-spacing: -0.019em;
+    line-height: 24px;
+  }
+
+  .leading-tight .sm\:text-inter-2xl, .text-inter-2xl .sm\:leading-tight, .leading-tight.sm\:text-inter-2xl {
+    font-size: 24px;
+    letter-spacing: -0.019em;
+    line-height: 30px;
+  }
+
+  .leading-snug .sm\:text-inter-2xl, .text-inter-2xl .sm\:leading-snug, .leading-snug.sm\:text-inter-2xl {
+    font-size: 24px;
+    letter-spacing: -0.019em;
+    line-height: 33px;
+  }
+
+  .leading-normal .sm\:text-inter-2xl, .text-inter-2xl .sm\:leading-normal, .leading-normal.sm\:text-inter-2xl {
+    font-size: 24px;
+    letter-spacing: -0.019em;
+    line-height: 36px;
+  }
+
+  .leading-relaxed .sm\:text-inter-2xl, .text-inter-2xl .sm\:leading-relaxed, .leading-relaxed.sm\:text-inter-2xl {
+    font-size: 24px;
+    letter-spacing: -0.019em;
+    line-height: 39px;
+  }
+
+  .leading-loose .sm\:text-inter-2xl, .text-inter-2xl .sm\:leading-loose, .leading-loose.sm\:text-inter-2xl {
+    font-size: 24px;
+    letter-spacing: -0.019em;
+    line-height: 48px;
+  }
+
+  .sm\:text-inter-3xl {
+    font-size: 30px;
+    letter-spacing: -0.021em;
+    line-height: 45px;
+  }
+
+  .leading-3 .sm\:text-inter-3xl, .text-inter-3xl .sm\:leading-3, .leading-3.sm\:text-inter-3xl {
+    font-size: 30px;
+    letter-spacing: -0.021em;
+    line-height: NaNpx;
+  }
+
+  .leading-4 .sm\:text-inter-3xl, .text-inter-3xl .sm\:leading-4, .leading-4.sm\:text-inter-3xl {
+    font-size: 30px;
+    letter-spacing: -0.021em;
+    line-height: NaNpx;
+  }
+
+  .leading-5 .sm\:text-inter-3xl, .text-inter-3xl .sm\:leading-5, .leading-5.sm\:text-inter-3xl {
+    font-size: 30px;
+    letter-spacing: -0.021em;
+    line-height: NaNpx;
+  }
+
+  .leading-6 .sm\:text-inter-3xl, .text-inter-3xl .sm\:leading-6, .leading-6.sm\:text-inter-3xl {
+    font-size: 30px;
+    letter-spacing: -0.021em;
+    line-height: NaNpx;
+  }
+
+  .leading-7 .sm\:text-inter-3xl, .text-inter-3xl .sm\:leading-7, .leading-7.sm\:text-inter-3xl {
+    font-size: 30px;
+    letter-spacing: -0.021em;
+    line-height: NaNpx;
+  }
+
+  .leading-8 .sm\:text-inter-3xl, .text-inter-3xl .sm\:leading-8, .leading-8.sm\:text-inter-3xl {
+    font-size: 30px;
+    letter-spacing: -0.021em;
+    line-height: NaNpx;
+  }
+
+  .leading-9 .sm\:text-inter-3xl, .text-inter-3xl .sm\:leading-9, .leading-9.sm\:text-inter-3xl {
+    font-size: 30px;
+    letter-spacing: -0.021em;
+    line-height: NaNpx;
+  }
+
+  .leading-10 .sm\:text-inter-3xl, .text-inter-3xl .sm\:leading-10, .leading-10.sm\:text-inter-3xl {
+    font-size: 30px;
+    letter-spacing: -0.021em;
+    line-height: NaNpx;
+  }
+
+  .leading-none .sm\:text-inter-3xl, .text-inter-3xl .sm\:leading-none, .leading-none.sm\:text-inter-3xl {
+    font-size: 30px;
+    letter-spacing: -0.021em;
+    line-height: 30px;
+  }
+
+  .leading-tight .sm\:text-inter-3xl, .text-inter-3xl .sm\:leading-tight, .leading-tight.sm\:text-inter-3xl {
+    font-size: 30px;
+    letter-spacing: -0.021em;
+    line-height: 38px;
+  }
+
+  .leading-snug .sm\:text-inter-3xl, .text-inter-3xl .sm\:leading-snug, .leading-snug.sm\:text-inter-3xl {
+    font-size: 30px;
+    letter-spacing: -0.021em;
+    line-height: 41px;
+  }
+
+  .leading-normal .sm\:text-inter-3xl, .text-inter-3xl .sm\:leading-normal, .leading-normal.sm\:text-inter-3xl {
+    font-size: 30px;
+    letter-spacing: -0.021em;
+    line-height: 45px;
+  }
+
+  .leading-relaxed .sm\:text-inter-3xl, .text-inter-3xl .sm\:leading-relaxed, .leading-relaxed.sm\:text-inter-3xl {
+    font-size: 30px;
+    letter-spacing: -0.021em;
+    line-height: 49px;
+  }
+
+  .leading-loose .sm\:text-inter-3xl, .text-inter-3xl .sm\:leading-loose, .leading-loose.sm\:text-inter-3xl {
+    font-size: 30px;
+    letter-spacing: -0.021em;
+    line-height: 60px;
+  }
+
+  .sm\:text-inter-4xl {
+    font-size: 36px;
+    letter-spacing: -0.022em;
+    line-height: 54px;
+  }
+
+  .leading-3 .sm\:text-inter-4xl, .text-inter-4xl .sm\:leading-3, .leading-3.sm\:text-inter-4xl {
+    font-size: 36px;
+    letter-spacing: -0.022em;
+    line-height: NaNpx;
+  }
+
+  .leading-4 .sm\:text-inter-4xl, .text-inter-4xl .sm\:leading-4, .leading-4.sm\:text-inter-4xl {
+    font-size: 36px;
+    letter-spacing: -0.022em;
+    line-height: NaNpx;
+  }
+
+  .leading-5 .sm\:text-inter-4xl, .text-inter-4xl .sm\:leading-5, .leading-5.sm\:text-inter-4xl {
+    font-size: 36px;
+    letter-spacing: -0.022em;
+    line-height: NaNpx;
+  }
+
+  .leading-6 .sm\:text-inter-4xl, .text-inter-4xl .sm\:leading-6, .leading-6.sm\:text-inter-4xl {
+    font-size: 36px;
+    letter-spacing: -0.022em;
+    line-height: NaNpx;
+  }
+
+  .leading-7 .sm\:text-inter-4xl, .text-inter-4xl .sm\:leading-7, .leading-7.sm\:text-inter-4xl {
+    font-size: 36px;
+    letter-spacing: -0.022em;
+    line-height: NaNpx;
+  }
+
+  .leading-8 .sm\:text-inter-4xl, .text-inter-4xl .sm\:leading-8, .leading-8.sm\:text-inter-4xl {
+    font-size: 36px;
+    letter-spacing: -0.022em;
+    line-height: NaNpx;
+  }
+
+  .leading-9 .sm\:text-inter-4xl, .text-inter-4xl .sm\:leading-9, .leading-9.sm\:text-inter-4xl {
+    font-size: 36px;
+    letter-spacing: -0.022em;
+    line-height: NaNpx;
+  }
+
+  .leading-10 .sm\:text-inter-4xl, .text-inter-4xl .sm\:leading-10, .leading-10.sm\:text-inter-4xl {
+    font-size: 36px;
+    letter-spacing: -0.022em;
+    line-height: NaNpx;
+  }
+
+  .leading-none .sm\:text-inter-4xl, .text-inter-4xl .sm\:leading-none, .leading-none.sm\:text-inter-4xl {
+    font-size: 36px;
+    letter-spacing: -0.022em;
+    line-height: 36px;
+  }
+
+  .leading-tight .sm\:text-inter-4xl, .text-inter-4xl .sm\:leading-tight, .leading-tight.sm\:text-inter-4xl {
+    font-size: 36px;
+    letter-spacing: -0.022em;
+    line-height: 45px;
+  }
+
+  .leading-snug .sm\:text-inter-4xl, .text-inter-4xl .sm\:leading-snug, .leading-snug.sm\:text-inter-4xl {
+    font-size: 36px;
+    letter-spacing: -0.022em;
+    line-height: 50px;
+  }
+
+  .leading-normal .sm\:text-inter-4xl, .text-inter-4xl .sm\:leading-normal, .leading-normal.sm\:text-inter-4xl {
+    font-size: 36px;
+    letter-spacing: -0.022em;
+    line-height: 54px;
+  }
+
+  .leading-relaxed .sm\:text-inter-4xl, .text-inter-4xl .sm\:leading-relaxed, .leading-relaxed.sm\:text-inter-4xl {
+    font-size: 36px;
+    letter-spacing: -0.022em;
+    line-height: 59px;
+  }
+
+  .leading-loose .sm\:text-inter-4xl, .text-inter-4xl .sm\:leading-loose, .leading-loose.sm\:text-inter-4xl {
+    font-size: 36px;
+    letter-spacing: -0.022em;
+    line-height: 72px;
+  }
+
+  .sm\:text-inter-5xl {
+    font-size: 48px;
+    letter-spacing: -0.022em;
+    line-height: 72px;
+  }
+
+  .leading-3 .sm\:text-inter-5xl, .text-inter-5xl .sm\:leading-3, .leading-3.sm\:text-inter-5xl {
+    font-size: 48px;
+    letter-spacing: -0.022em;
+    line-height: NaNpx;
+  }
+
+  .leading-4 .sm\:text-inter-5xl, .text-inter-5xl .sm\:leading-4, .leading-4.sm\:text-inter-5xl {
+    font-size: 48px;
+    letter-spacing: -0.022em;
+    line-height: NaNpx;
+  }
+
+  .leading-5 .sm\:text-inter-5xl, .text-inter-5xl .sm\:leading-5, .leading-5.sm\:text-inter-5xl {
+    font-size: 48px;
+    letter-spacing: -0.022em;
+    line-height: NaNpx;
+  }
+
+  .leading-6 .sm\:text-inter-5xl, .text-inter-5xl .sm\:leading-6, .leading-6.sm\:text-inter-5xl {
+    font-size: 48px;
+    letter-spacing: -0.022em;
+    line-height: NaNpx;
+  }
+
+  .leading-7 .sm\:text-inter-5xl, .text-inter-5xl .sm\:leading-7, .leading-7.sm\:text-inter-5xl {
+    font-size: 48px;
+    letter-spacing: -0.022em;
+    line-height: NaNpx;
+  }
+
+  .leading-8 .sm\:text-inter-5xl, .text-inter-5xl .sm\:leading-8, .leading-8.sm\:text-inter-5xl {
+    font-size: 48px;
+    letter-spacing: -0.022em;
+    line-height: NaNpx;
+  }
+
+  .leading-9 .sm\:text-inter-5xl, .text-inter-5xl .sm\:leading-9, .leading-9.sm\:text-inter-5xl {
+    font-size: 48px;
+    letter-spacing: -0.022em;
+    line-height: NaNpx;
+  }
+
+  .leading-10 .sm\:text-inter-5xl, .text-inter-5xl .sm\:leading-10, .leading-10.sm\:text-inter-5xl {
+    font-size: 48px;
+    letter-spacing: -0.022em;
+    line-height: NaNpx;
+  }
+
+  .leading-none .sm\:text-inter-5xl, .text-inter-5xl .sm\:leading-none, .leading-none.sm\:text-inter-5xl {
+    font-size: 48px;
+    letter-spacing: -0.022em;
+    line-height: 48px;
+  }
+
+  .leading-tight .sm\:text-inter-5xl, .text-inter-5xl .sm\:leading-tight, .leading-tight.sm\:text-inter-5xl {
+    font-size: 48px;
+    letter-spacing: -0.022em;
+    line-height: 60px;
+  }
+
+  .leading-snug .sm\:text-inter-5xl, .text-inter-5xl .sm\:leading-snug, .leading-snug.sm\:text-inter-5xl {
+    font-size: 48px;
+    letter-spacing: -0.022em;
+    line-height: 66px;
+  }
+
+  .leading-normal .sm\:text-inter-5xl, .text-inter-5xl .sm\:leading-normal, .leading-normal.sm\:text-inter-5xl {
+    font-size: 48px;
+    letter-spacing: -0.022em;
+    line-height: 72px;
+  }
+
+  .leading-relaxed .sm\:text-inter-5xl, .text-inter-5xl .sm\:leading-relaxed, .leading-relaxed.sm\:text-inter-5xl {
+    font-size: 48px;
+    letter-spacing: -0.022em;
+    line-height: 78px;
+  }
+
+  .leading-loose .sm\:text-inter-5xl, .text-inter-5xl .sm\:leading-loose, .leading-loose.sm\:text-inter-5xl {
+    font-size: 48px;
+    letter-spacing: -0.022em;
+    line-height: 96px;
+  }
+
+  .sm\:text-inter-6xl {
+    font-size: 64px;
+    letter-spacing: -0.022em;
+    line-height: 96px;
+  }
+
+  .leading-3 .sm\:text-inter-6xl, .text-inter-6xl .sm\:leading-3, .leading-3.sm\:text-inter-6xl {
+    font-size: 64px;
+    letter-spacing: -0.022em;
+    line-height: NaNpx;
+  }
+
+  .leading-4 .sm\:text-inter-6xl, .text-inter-6xl .sm\:leading-4, .leading-4.sm\:text-inter-6xl {
+    font-size: 64px;
+    letter-spacing: -0.022em;
+    line-height: NaNpx;
+  }
+
+  .leading-5 .sm\:text-inter-6xl, .text-inter-6xl .sm\:leading-5, .leading-5.sm\:text-inter-6xl {
+    font-size: 64px;
+    letter-spacing: -0.022em;
+    line-height: NaNpx;
+  }
+
+  .leading-6 .sm\:text-inter-6xl, .text-inter-6xl .sm\:leading-6, .leading-6.sm\:text-inter-6xl {
+    font-size: 64px;
+    letter-spacing: -0.022em;
+    line-height: NaNpx;
+  }
+
+  .leading-7 .sm\:text-inter-6xl, .text-inter-6xl .sm\:leading-7, .leading-7.sm\:text-inter-6xl {
+    font-size: 64px;
+    letter-spacing: -0.022em;
+    line-height: NaNpx;
+  }
+
+  .leading-8 .sm\:text-inter-6xl, .text-inter-6xl .sm\:leading-8, .leading-8.sm\:text-inter-6xl {
+    font-size: 64px;
+    letter-spacing: -0.022em;
+    line-height: NaNpx;
+  }
+
+  .leading-9 .sm\:text-inter-6xl, .text-inter-6xl .sm\:leading-9, .leading-9.sm\:text-inter-6xl {
+    font-size: 64px;
+    letter-spacing: -0.022em;
+    line-height: NaNpx;
+  }
+
+  .leading-10 .sm\:text-inter-6xl, .text-inter-6xl .sm\:leading-10, .leading-10.sm\:text-inter-6xl {
+    font-size: 64px;
+    letter-spacing: -0.022em;
+    line-height: NaNpx;
+  }
+
+  .leading-none .sm\:text-inter-6xl, .text-inter-6xl .sm\:leading-none, .leading-none.sm\:text-inter-6xl {
+    font-size: 64px;
+    letter-spacing: -0.022em;
+    line-height: 64px;
+  }
+
+  .leading-tight .sm\:text-inter-6xl, .text-inter-6xl .sm\:leading-tight, .leading-tight.sm\:text-inter-6xl {
+    font-size: 64px;
+    letter-spacing: -0.022em;
+    line-height: 80px;
+  }
+
+  .leading-snug .sm\:text-inter-6xl, .text-inter-6xl .sm\:leading-snug, .leading-snug.sm\:text-inter-6xl {
+    font-size: 64px;
+    letter-spacing: -0.022em;
+    line-height: 88px;
+  }
+
+  .leading-normal .sm\:text-inter-6xl, .text-inter-6xl .sm\:leading-normal, .leading-normal.sm\:text-inter-6xl {
+    font-size: 64px;
+    letter-spacing: -0.022em;
+    line-height: 96px;
+  }
+
+  .leading-relaxed .sm\:text-inter-6xl, .text-inter-6xl .sm\:leading-relaxed, .leading-relaxed.sm\:text-inter-6xl {
+    font-size: 64px;
+    letter-spacing: -0.022em;
+    line-height: 104px;
+  }
+
+  .leading-loose .sm\:text-inter-6xl, .text-inter-6xl .sm\:leading-loose, .leading-loose.sm\:text-inter-6xl {
+    font-size: 64px;
+    letter-spacing: -0.022em;
+    line-height: 128px;
   }
 }
 
@@ -42090,6 +43904,906 @@ video {
   .md\:animate-bounce {
     animation: bounce 1s infinite;
   }
+
+  .md\:text-inter-xs {
+    font-size: 12px;
+    letter-spacing: 0em;
+    line-height: 18px;
+  }
+
+  .leading-3 .md\:text-inter-xs, .text-inter-xs .md\:leading-3, .leading-3.md\:text-inter-xs {
+    font-size: 12px;
+    letter-spacing: 0em;
+    line-height: NaNpx;
+  }
+
+  .leading-4 .md\:text-inter-xs, .text-inter-xs .md\:leading-4, .leading-4.md\:text-inter-xs {
+    font-size: 12px;
+    letter-spacing: 0em;
+    line-height: NaNpx;
+  }
+
+  .leading-5 .md\:text-inter-xs, .text-inter-xs .md\:leading-5, .leading-5.md\:text-inter-xs {
+    font-size: 12px;
+    letter-spacing: 0em;
+    line-height: NaNpx;
+  }
+
+  .leading-6 .md\:text-inter-xs, .text-inter-xs .md\:leading-6, .leading-6.md\:text-inter-xs {
+    font-size: 12px;
+    letter-spacing: 0em;
+    line-height: NaNpx;
+  }
+
+  .leading-7 .md\:text-inter-xs, .text-inter-xs .md\:leading-7, .leading-7.md\:text-inter-xs {
+    font-size: 12px;
+    letter-spacing: 0em;
+    line-height: NaNpx;
+  }
+
+  .leading-8 .md\:text-inter-xs, .text-inter-xs .md\:leading-8, .leading-8.md\:text-inter-xs {
+    font-size: 12px;
+    letter-spacing: 0em;
+    line-height: NaNpx;
+  }
+
+  .leading-9 .md\:text-inter-xs, .text-inter-xs .md\:leading-9, .leading-9.md\:text-inter-xs {
+    font-size: 12px;
+    letter-spacing: 0em;
+    line-height: NaNpx;
+  }
+
+  .leading-10 .md\:text-inter-xs, .text-inter-xs .md\:leading-10, .leading-10.md\:text-inter-xs {
+    font-size: 12px;
+    letter-spacing: 0em;
+    line-height: NaNpx;
+  }
+
+  .leading-none .md\:text-inter-xs, .text-inter-xs .md\:leading-none, .leading-none.md\:text-inter-xs {
+    font-size: 12px;
+    letter-spacing: 0em;
+    line-height: 12px;
+  }
+
+  .leading-tight .md\:text-inter-xs, .text-inter-xs .md\:leading-tight, .leading-tight.md\:text-inter-xs {
+    font-size: 12px;
+    letter-spacing: 0em;
+    line-height: 15px;
+  }
+
+  .leading-snug .md\:text-inter-xs, .text-inter-xs .md\:leading-snug, .leading-snug.md\:text-inter-xs {
+    font-size: 12px;
+    letter-spacing: 0em;
+    line-height: 17px;
+  }
+
+  .leading-normal .md\:text-inter-xs, .text-inter-xs .md\:leading-normal, .leading-normal.md\:text-inter-xs {
+    font-size: 12px;
+    letter-spacing: 0em;
+    line-height: 18px;
+  }
+
+  .leading-relaxed .md\:text-inter-xs, .text-inter-xs .md\:leading-relaxed, .leading-relaxed.md\:text-inter-xs {
+    font-size: 12px;
+    letter-spacing: 0em;
+    line-height: 20px;
+  }
+
+  .leading-loose .md\:text-inter-xs, .text-inter-xs .md\:leading-loose, .leading-loose.md\:text-inter-xs {
+    font-size: 12px;
+    letter-spacing: 0em;
+    line-height: 24px;
+  }
+
+  .md\:text-inter-sm {
+    font-size: 14px;
+    letter-spacing: -0.006em;
+    line-height: 21px;
+  }
+
+  .leading-3 .md\:text-inter-sm, .text-inter-sm .md\:leading-3, .leading-3.md\:text-inter-sm {
+    font-size: 14px;
+    letter-spacing: -0.006em;
+    line-height: NaNpx;
+  }
+
+  .leading-4 .md\:text-inter-sm, .text-inter-sm .md\:leading-4, .leading-4.md\:text-inter-sm {
+    font-size: 14px;
+    letter-spacing: -0.006em;
+    line-height: NaNpx;
+  }
+
+  .leading-5 .md\:text-inter-sm, .text-inter-sm .md\:leading-5, .leading-5.md\:text-inter-sm {
+    font-size: 14px;
+    letter-spacing: -0.006em;
+    line-height: NaNpx;
+  }
+
+  .leading-6 .md\:text-inter-sm, .text-inter-sm .md\:leading-6, .leading-6.md\:text-inter-sm {
+    font-size: 14px;
+    letter-spacing: -0.006em;
+    line-height: NaNpx;
+  }
+
+  .leading-7 .md\:text-inter-sm, .text-inter-sm .md\:leading-7, .leading-7.md\:text-inter-sm {
+    font-size: 14px;
+    letter-spacing: -0.006em;
+    line-height: NaNpx;
+  }
+
+  .leading-8 .md\:text-inter-sm, .text-inter-sm .md\:leading-8, .leading-8.md\:text-inter-sm {
+    font-size: 14px;
+    letter-spacing: -0.006em;
+    line-height: NaNpx;
+  }
+
+  .leading-9 .md\:text-inter-sm, .text-inter-sm .md\:leading-9, .leading-9.md\:text-inter-sm {
+    font-size: 14px;
+    letter-spacing: -0.006em;
+    line-height: NaNpx;
+  }
+
+  .leading-10 .md\:text-inter-sm, .text-inter-sm .md\:leading-10, .leading-10.md\:text-inter-sm {
+    font-size: 14px;
+    letter-spacing: -0.006em;
+    line-height: NaNpx;
+  }
+
+  .leading-none .md\:text-inter-sm, .text-inter-sm .md\:leading-none, .leading-none.md\:text-inter-sm {
+    font-size: 14px;
+    letter-spacing: -0.006em;
+    line-height: 14px;
+  }
+
+  .leading-tight .md\:text-inter-sm, .text-inter-sm .md\:leading-tight, .leading-tight.md\:text-inter-sm {
+    font-size: 14px;
+    letter-spacing: -0.006em;
+    line-height: 18px;
+  }
+
+  .leading-snug .md\:text-inter-sm, .text-inter-sm .md\:leading-snug, .leading-snug.md\:text-inter-sm {
+    font-size: 14px;
+    letter-spacing: -0.006em;
+    line-height: 19px;
+  }
+
+  .leading-normal .md\:text-inter-sm, .text-inter-sm .md\:leading-normal, .leading-normal.md\:text-inter-sm {
+    font-size: 14px;
+    letter-spacing: -0.006em;
+    line-height: 21px;
+  }
+
+  .leading-relaxed .md\:text-inter-sm, .text-inter-sm .md\:leading-relaxed, .leading-relaxed.md\:text-inter-sm {
+    font-size: 14px;
+    letter-spacing: -0.006em;
+    line-height: 23px;
+  }
+
+  .leading-loose .md\:text-inter-sm, .text-inter-sm .md\:leading-loose, .leading-loose.md\:text-inter-sm {
+    font-size: 14px;
+    letter-spacing: -0.006em;
+    line-height: 28px;
+  }
+
+  .md\:text-inter-base {
+    font-size: 16px;
+    letter-spacing: -0.011em;
+    line-height: 24px;
+  }
+
+  .leading-3 .md\:text-inter-base, .text-inter-base .md\:leading-3, .leading-3.md\:text-inter-base {
+    font-size: 16px;
+    letter-spacing: -0.011em;
+    line-height: NaNpx;
+  }
+
+  .leading-4 .md\:text-inter-base, .text-inter-base .md\:leading-4, .leading-4.md\:text-inter-base {
+    font-size: 16px;
+    letter-spacing: -0.011em;
+    line-height: NaNpx;
+  }
+
+  .leading-5 .md\:text-inter-base, .text-inter-base .md\:leading-5, .leading-5.md\:text-inter-base {
+    font-size: 16px;
+    letter-spacing: -0.011em;
+    line-height: NaNpx;
+  }
+
+  .leading-6 .md\:text-inter-base, .text-inter-base .md\:leading-6, .leading-6.md\:text-inter-base {
+    font-size: 16px;
+    letter-spacing: -0.011em;
+    line-height: NaNpx;
+  }
+
+  .leading-7 .md\:text-inter-base, .text-inter-base .md\:leading-7, .leading-7.md\:text-inter-base {
+    font-size: 16px;
+    letter-spacing: -0.011em;
+    line-height: NaNpx;
+  }
+
+  .leading-8 .md\:text-inter-base, .text-inter-base .md\:leading-8, .leading-8.md\:text-inter-base {
+    font-size: 16px;
+    letter-spacing: -0.011em;
+    line-height: NaNpx;
+  }
+
+  .leading-9 .md\:text-inter-base, .text-inter-base .md\:leading-9, .leading-9.md\:text-inter-base {
+    font-size: 16px;
+    letter-spacing: -0.011em;
+    line-height: NaNpx;
+  }
+
+  .leading-10 .md\:text-inter-base, .text-inter-base .md\:leading-10, .leading-10.md\:text-inter-base {
+    font-size: 16px;
+    letter-spacing: -0.011em;
+    line-height: NaNpx;
+  }
+
+  .leading-none .md\:text-inter-base, .text-inter-base .md\:leading-none, .leading-none.md\:text-inter-base {
+    font-size: 16px;
+    letter-spacing: -0.011em;
+    line-height: 16px;
+  }
+
+  .leading-tight .md\:text-inter-base, .text-inter-base .md\:leading-tight, .leading-tight.md\:text-inter-base {
+    font-size: 16px;
+    letter-spacing: -0.011em;
+    line-height: 20px;
+  }
+
+  .leading-snug .md\:text-inter-base, .text-inter-base .md\:leading-snug, .leading-snug.md\:text-inter-base {
+    font-size: 16px;
+    letter-spacing: -0.011em;
+    line-height: 22px;
+  }
+
+  .leading-normal .md\:text-inter-base, .text-inter-base .md\:leading-normal, .leading-normal.md\:text-inter-base {
+    font-size: 16px;
+    letter-spacing: -0.011em;
+    line-height: 24px;
+  }
+
+  .leading-relaxed .md\:text-inter-base, .text-inter-base .md\:leading-relaxed, .leading-relaxed.md\:text-inter-base {
+    font-size: 16px;
+    letter-spacing: -0.011em;
+    line-height: 26px;
+  }
+
+  .leading-loose .md\:text-inter-base, .text-inter-base .md\:leading-loose, .leading-loose.md\:text-inter-base {
+    font-size: 16px;
+    letter-spacing: -0.011em;
+    line-height: 32px;
+  }
+
+  .md\:text-inter-lg {
+    font-size: 18px;
+    letter-spacing: -0.014em;
+    line-height: 27px;
+  }
+
+  .leading-3 .md\:text-inter-lg, .text-inter-lg .md\:leading-3, .leading-3.md\:text-inter-lg {
+    font-size: 18px;
+    letter-spacing: -0.014em;
+    line-height: NaNpx;
+  }
+
+  .leading-4 .md\:text-inter-lg, .text-inter-lg .md\:leading-4, .leading-4.md\:text-inter-lg {
+    font-size: 18px;
+    letter-spacing: -0.014em;
+    line-height: NaNpx;
+  }
+
+  .leading-5 .md\:text-inter-lg, .text-inter-lg .md\:leading-5, .leading-5.md\:text-inter-lg {
+    font-size: 18px;
+    letter-spacing: -0.014em;
+    line-height: NaNpx;
+  }
+
+  .leading-6 .md\:text-inter-lg, .text-inter-lg .md\:leading-6, .leading-6.md\:text-inter-lg {
+    font-size: 18px;
+    letter-spacing: -0.014em;
+    line-height: NaNpx;
+  }
+
+  .leading-7 .md\:text-inter-lg, .text-inter-lg .md\:leading-7, .leading-7.md\:text-inter-lg {
+    font-size: 18px;
+    letter-spacing: -0.014em;
+    line-height: NaNpx;
+  }
+
+  .leading-8 .md\:text-inter-lg, .text-inter-lg .md\:leading-8, .leading-8.md\:text-inter-lg {
+    font-size: 18px;
+    letter-spacing: -0.014em;
+    line-height: NaNpx;
+  }
+
+  .leading-9 .md\:text-inter-lg, .text-inter-lg .md\:leading-9, .leading-9.md\:text-inter-lg {
+    font-size: 18px;
+    letter-spacing: -0.014em;
+    line-height: NaNpx;
+  }
+
+  .leading-10 .md\:text-inter-lg, .text-inter-lg .md\:leading-10, .leading-10.md\:text-inter-lg {
+    font-size: 18px;
+    letter-spacing: -0.014em;
+    line-height: NaNpx;
+  }
+
+  .leading-none .md\:text-inter-lg, .text-inter-lg .md\:leading-none, .leading-none.md\:text-inter-lg {
+    font-size: 18px;
+    letter-spacing: -0.014em;
+    line-height: 18px;
+  }
+
+  .leading-tight .md\:text-inter-lg, .text-inter-lg .md\:leading-tight, .leading-tight.md\:text-inter-lg {
+    font-size: 18px;
+    letter-spacing: -0.014em;
+    line-height: 23px;
+  }
+
+  .leading-snug .md\:text-inter-lg, .text-inter-lg .md\:leading-snug, .leading-snug.md\:text-inter-lg {
+    font-size: 18px;
+    letter-spacing: -0.014em;
+    line-height: 25px;
+  }
+
+  .leading-normal .md\:text-inter-lg, .text-inter-lg .md\:leading-normal, .leading-normal.md\:text-inter-lg {
+    font-size: 18px;
+    letter-spacing: -0.014em;
+    line-height: 27px;
+  }
+
+  .leading-relaxed .md\:text-inter-lg, .text-inter-lg .md\:leading-relaxed, .leading-relaxed.md\:text-inter-lg {
+    font-size: 18px;
+    letter-spacing: -0.014em;
+    line-height: 29px;
+  }
+
+  .leading-loose .md\:text-inter-lg, .text-inter-lg .md\:leading-loose, .leading-loose.md\:text-inter-lg {
+    font-size: 18px;
+    letter-spacing: -0.014em;
+    line-height: 36px;
+  }
+
+  .md\:text-inter-xl {
+    font-size: 20px;
+    letter-spacing: -0.017em;
+    line-height: 30px;
+  }
+
+  .leading-3 .md\:text-inter-xl, .text-inter-xl .md\:leading-3, .leading-3.md\:text-inter-xl {
+    font-size: 20px;
+    letter-spacing: -0.017em;
+    line-height: NaNpx;
+  }
+
+  .leading-4 .md\:text-inter-xl, .text-inter-xl .md\:leading-4, .leading-4.md\:text-inter-xl {
+    font-size: 20px;
+    letter-spacing: -0.017em;
+    line-height: NaNpx;
+  }
+
+  .leading-5 .md\:text-inter-xl, .text-inter-xl .md\:leading-5, .leading-5.md\:text-inter-xl {
+    font-size: 20px;
+    letter-spacing: -0.017em;
+    line-height: NaNpx;
+  }
+
+  .leading-6 .md\:text-inter-xl, .text-inter-xl .md\:leading-6, .leading-6.md\:text-inter-xl {
+    font-size: 20px;
+    letter-spacing: -0.017em;
+    line-height: NaNpx;
+  }
+
+  .leading-7 .md\:text-inter-xl, .text-inter-xl .md\:leading-7, .leading-7.md\:text-inter-xl {
+    font-size: 20px;
+    letter-spacing: -0.017em;
+    line-height: NaNpx;
+  }
+
+  .leading-8 .md\:text-inter-xl, .text-inter-xl .md\:leading-8, .leading-8.md\:text-inter-xl {
+    font-size: 20px;
+    letter-spacing: -0.017em;
+    line-height: NaNpx;
+  }
+
+  .leading-9 .md\:text-inter-xl, .text-inter-xl .md\:leading-9, .leading-9.md\:text-inter-xl {
+    font-size: 20px;
+    letter-spacing: -0.017em;
+    line-height: NaNpx;
+  }
+
+  .leading-10 .md\:text-inter-xl, .text-inter-xl .md\:leading-10, .leading-10.md\:text-inter-xl {
+    font-size: 20px;
+    letter-spacing: -0.017em;
+    line-height: NaNpx;
+  }
+
+  .leading-none .md\:text-inter-xl, .text-inter-xl .md\:leading-none, .leading-none.md\:text-inter-xl {
+    font-size: 20px;
+    letter-spacing: -0.017em;
+    line-height: 20px;
+  }
+
+  .leading-tight .md\:text-inter-xl, .text-inter-xl .md\:leading-tight, .leading-tight.md\:text-inter-xl {
+    font-size: 20px;
+    letter-spacing: -0.017em;
+    line-height: 25px;
+  }
+
+  .leading-snug .md\:text-inter-xl, .text-inter-xl .md\:leading-snug, .leading-snug.md\:text-inter-xl {
+    font-size: 20px;
+    letter-spacing: -0.017em;
+    line-height: 28px;
+  }
+
+  .leading-normal .md\:text-inter-xl, .text-inter-xl .md\:leading-normal, .leading-normal.md\:text-inter-xl {
+    font-size: 20px;
+    letter-spacing: -0.017em;
+    line-height: 30px;
+  }
+
+  .leading-relaxed .md\:text-inter-xl, .text-inter-xl .md\:leading-relaxed, .leading-relaxed.md\:text-inter-xl {
+    font-size: 20px;
+    letter-spacing: -0.017em;
+    line-height: 33px;
+  }
+
+  .leading-loose .md\:text-inter-xl, .text-inter-xl .md\:leading-loose, .leading-loose.md\:text-inter-xl {
+    font-size: 20px;
+    letter-spacing: -0.017em;
+    line-height: 40px;
+  }
+
+  .md\:text-inter-2xl {
+    font-size: 24px;
+    letter-spacing: -0.019em;
+    line-height: 36px;
+  }
+
+  .leading-3 .md\:text-inter-2xl, .text-inter-2xl .md\:leading-3, .leading-3.md\:text-inter-2xl {
+    font-size: 24px;
+    letter-spacing: -0.019em;
+    line-height: NaNpx;
+  }
+
+  .leading-4 .md\:text-inter-2xl, .text-inter-2xl .md\:leading-4, .leading-4.md\:text-inter-2xl {
+    font-size: 24px;
+    letter-spacing: -0.019em;
+    line-height: NaNpx;
+  }
+
+  .leading-5 .md\:text-inter-2xl, .text-inter-2xl .md\:leading-5, .leading-5.md\:text-inter-2xl {
+    font-size: 24px;
+    letter-spacing: -0.019em;
+    line-height: NaNpx;
+  }
+
+  .leading-6 .md\:text-inter-2xl, .text-inter-2xl .md\:leading-6, .leading-6.md\:text-inter-2xl {
+    font-size: 24px;
+    letter-spacing: -0.019em;
+    line-height: NaNpx;
+  }
+
+  .leading-7 .md\:text-inter-2xl, .text-inter-2xl .md\:leading-7, .leading-7.md\:text-inter-2xl {
+    font-size: 24px;
+    letter-spacing: -0.019em;
+    line-height: NaNpx;
+  }
+
+  .leading-8 .md\:text-inter-2xl, .text-inter-2xl .md\:leading-8, .leading-8.md\:text-inter-2xl {
+    font-size: 24px;
+    letter-spacing: -0.019em;
+    line-height: NaNpx;
+  }
+
+  .leading-9 .md\:text-inter-2xl, .text-inter-2xl .md\:leading-9, .leading-9.md\:text-inter-2xl {
+    font-size: 24px;
+    letter-spacing: -0.019em;
+    line-height: NaNpx;
+  }
+
+  .leading-10 .md\:text-inter-2xl, .text-inter-2xl .md\:leading-10, .leading-10.md\:text-inter-2xl {
+    font-size: 24px;
+    letter-spacing: -0.019em;
+    line-height: NaNpx;
+  }
+
+  .leading-none .md\:text-inter-2xl, .text-inter-2xl .md\:leading-none, .leading-none.md\:text-inter-2xl {
+    font-size: 24px;
+    letter-spacing: -0.019em;
+    line-height: 24px;
+  }
+
+  .leading-tight .md\:text-inter-2xl, .text-inter-2xl .md\:leading-tight, .leading-tight.md\:text-inter-2xl {
+    font-size: 24px;
+    letter-spacing: -0.019em;
+    line-height: 30px;
+  }
+
+  .leading-snug .md\:text-inter-2xl, .text-inter-2xl .md\:leading-snug, .leading-snug.md\:text-inter-2xl {
+    font-size: 24px;
+    letter-spacing: -0.019em;
+    line-height: 33px;
+  }
+
+  .leading-normal .md\:text-inter-2xl, .text-inter-2xl .md\:leading-normal, .leading-normal.md\:text-inter-2xl {
+    font-size: 24px;
+    letter-spacing: -0.019em;
+    line-height: 36px;
+  }
+
+  .leading-relaxed .md\:text-inter-2xl, .text-inter-2xl .md\:leading-relaxed, .leading-relaxed.md\:text-inter-2xl {
+    font-size: 24px;
+    letter-spacing: -0.019em;
+    line-height: 39px;
+  }
+
+  .leading-loose .md\:text-inter-2xl, .text-inter-2xl .md\:leading-loose, .leading-loose.md\:text-inter-2xl {
+    font-size: 24px;
+    letter-spacing: -0.019em;
+    line-height: 48px;
+  }
+
+  .md\:text-inter-3xl {
+    font-size: 30px;
+    letter-spacing: -0.021em;
+    line-height: 45px;
+  }
+
+  .leading-3 .md\:text-inter-3xl, .text-inter-3xl .md\:leading-3, .leading-3.md\:text-inter-3xl {
+    font-size: 30px;
+    letter-spacing: -0.021em;
+    line-height: NaNpx;
+  }
+
+  .leading-4 .md\:text-inter-3xl, .text-inter-3xl .md\:leading-4, .leading-4.md\:text-inter-3xl {
+    font-size: 30px;
+    letter-spacing: -0.021em;
+    line-height: NaNpx;
+  }
+
+  .leading-5 .md\:text-inter-3xl, .text-inter-3xl .md\:leading-5, .leading-5.md\:text-inter-3xl {
+    font-size: 30px;
+    letter-spacing: -0.021em;
+    line-height: NaNpx;
+  }
+
+  .leading-6 .md\:text-inter-3xl, .text-inter-3xl .md\:leading-6, .leading-6.md\:text-inter-3xl {
+    font-size: 30px;
+    letter-spacing: -0.021em;
+    line-height: NaNpx;
+  }
+
+  .leading-7 .md\:text-inter-3xl, .text-inter-3xl .md\:leading-7, .leading-7.md\:text-inter-3xl {
+    font-size: 30px;
+    letter-spacing: -0.021em;
+    line-height: NaNpx;
+  }
+
+  .leading-8 .md\:text-inter-3xl, .text-inter-3xl .md\:leading-8, .leading-8.md\:text-inter-3xl {
+    font-size: 30px;
+    letter-spacing: -0.021em;
+    line-height: NaNpx;
+  }
+
+  .leading-9 .md\:text-inter-3xl, .text-inter-3xl .md\:leading-9, .leading-9.md\:text-inter-3xl {
+    font-size: 30px;
+    letter-spacing: -0.021em;
+    line-height: NaNpx;
+  }
+
+  .leading-10 .md\:text-inter-3xl, .text-inter-3xl .md\:leading-10, .leading-10.md\:text-inter-3xl {
+    font-size: 30px;
+    letter-spacing: -0.021em;
+    line-height: NaNpx;
+  }
+
+  .leading-none .md\:text-inter-3xl, .text-inter-3xl .md\:leading-none, .leading-none.md\:text-inter-3xl {
+    font-size: 30px;
+    letter-spacing: -0.021em;
+    line-height: 30px;
+  }
+
+  .leading-tight .md\:text-inter-3xl, .text-inter-3xl .md\:leading-tight, .leading-tight.md\:text-inter-3xl {
+    font-size: 30px;
+    letter-spacing: -0.021em;
+    line-height: 38px;
+  }
+
+  .leading-snug .md\:text-inter-3xl, .text-inter-3xl .md\:leading-snug, .leading-snug.md\:text-inter-3xl {
+    font-size: 30px;
+    letter-spacing: -0.021em;
+    line-height: 41px;
+  }
+
+  .leading-normal .md\:text-inter-3xl, .text-inter-3xl .md\:leading-normal, .leading-normal.md\:text-inter-3xl {
+    font-size: 30px;
+    letter-spacing: -0.021em;
+    line-height: 45px;
+  }
+
+  .leading-relaxed .md\:text-inter-3xl, .text-inter-3xl .md\:leading-relaxed, .leading-relaxed.md\:text-inter-3xl {
+    font-size: 30px;
+    letter-spacing: -0.021em;
+    line-height: 49px;
+  }
+
+  .leading-loose .md\:text-inter-3xl, .text-inter-3xl .md\:leading-loose, .leading-loose.md\:text-inter-3xl {
+    font-size: 30px;
+    letter-spacing: -0.021em;
+    line-height: 60px;
+  }
+
+  .md\:text-inter-4xl {
+    font-size: 36px;
+    letter-spacing: -0.022em;
+    line-height: 54px;
+  }
+
+  .leading-3 .md\:text-inter-4xl, .text-inter-4xl .md\:leading-3, .leading-3.md\:text-inter-4xl {
+    font-size: 36px;
+    letter-spacing: -0.022em;
+    line-height: NaNpx;
+  }
+
+  .leading-4 .md\:text-inter-4xl, .text-inter-4xl .md\:leading-4, .leading-4.md\:text-inter-4xl {
+    font-size: 36px;
+    letter-spacing: -0.022em;
+    line-height: NaNpx;
+  }
+
+  .leading-5 .md\:text-inter-4xl, .text-inter-4xl .md\:leading-5, .leading-5.md\:text-inter-4xl {
+    font-size: 36px;
+    letter-spacing: -0.022em;
+    line-height: NaNpx;
+  }
+
+  .leading-6 .md\:text-inter-4xl, .text-inter-4xl .md\:leading-6, .leading-6.md\:text-inter-4xl {
+    font-size: 36px;
+    letter-spacing: -0.022em;
+    line-height: NaNpx;
+  }
+
+  .leading-7 .md\:text-inter-4xl, .text-inter-4xl .md\:leading-7, .leading-7.md\:text-inter-4xl {
+    font-size: 36px;
+    letter-spacing: -0.022em;
+    line-height: NaNpx;
+  }
+
+  .leading-8 .md\:text-inter-4xl, .text-inter-4xl .md\:leading-8, .leading-8.md\:text-inter-4xl {
+    font-size: 36px;
+    letter-spacing: -0.022em;
+    line-height: NaNpx;
+  }
+
+  .leading-9 .md\:text-inter-4xl, .text-inter-4xl .md\:leading-9, .leading-9.md\:text-inter-4xl {
+    font-size: 36px;
+    letter-spacing: -0.022em;
+    line-height: NaNpx;
+  }
+
+  .leading-10 .md\:text-inter-4xl, .text-inter-4xl .md\:leading-10, .leading-10.md\:text-inter-4xl {
+    font-size: 36px;
+    letter-spacing: -0.022em;
+    line-height: NaNpx;
+  }
+
+  .leading-none .md\:text-inter-4xl, .text-inter-4xl .md\:leading-none, .leading-none.md\:text-inter-4xl {
+    font-size: 36px;
+    letter-spacing: -0.022em;
+    line-height: 36px;
+  }
+
+  .leading-tight .md\:text-inter-4xl, .text-inter-4xl .md\:leading-tight, .leading-tight.md\:text-inter-4xl {
+    font-size: 36px;
+    letter-spacing: -0.022em;
+    line-height: 45px;
+  }
+
+  .leading-snug .md\:text-inter-4xl, .text-inter-4xl .md\:leading-snug, .leading-snug.md\:text-inter-4xl {
+    font-size: 36px;
+    letter-spacing: -0.022em;
+    line-height: 50px;
+  }
+
+  .leading-normal .md\:text-inter-4xl, .text-inter-4xl .md\:leading-normal, .leading-normal.md\:text-inter-4xl {
+    font-size: 36px;
+    letter-spacing: -0.022em;
+    line-height: 54px;
+  }
+
+  .leading-relaxed .md\:text-inter-4xl, .text-inter-4xl .md\:leading-relaxed, .leading-relaxed.md\:text-inter-4xl {
+    font-size: 36px;
+    letter-spacing: -0.022em;
+    line-height: 59px;
+  }
+
+  .leading-loose .md\:text-inter-4xl, .text-inter-4xl .md\:leading-loose, .leading-loose.md\:text-inter-4xl {
+    font-size: 36px;
+    letter-spacing: -0.022em;
+    line-height: 72px;
+  }
+
+  .md\:text-inter-5xl {
+    font-size: 48px;
+    letter-spacing: -0.022em;
+    line-height: 72px;
+  }
+
+  .leading-3 .md\:text-inter-5xl, .text-inter-5xl .md\:leading-3, .leading-3.md\:text-inter-5xl {
+    font-size: 48px;
+    letter-spacing: -0.022em;
+    line-height: NaNpx;
+  }
+
+  .leading-4 .md\:text-inter-5xl, .text-inter-5xl .md\:leading-4, .leading-4.md\:text-inter-5xl {
+    font-size: 48px;
+    letter-spacing: -0.022em;
+    line-height: NaNpx;
+  }
+
+  .leading-5 .md\:text-inter-5xl, .text-inter-5xl .md\:leading-5, .leading-5.md\:text-inter-5xl {
+    font-size: 48px;
+    letter-spacing: -0.022em;
+    line-height: NaNpx;
+  }
+
+  .leading-6 .md\:text-inter-5xl, .text-inter-5xl .md\:leading-6, .leading-6.md\:text-inter-5xl {
+    font-size: 48px;
+    letter-spacing: -0.022em;
+    line-height: NaNpx;
+  }
+
+  .leading-7 .md\:text-inter-5xl, .text-inter-5xl .md\:leading-7, .leading-7.md\:text-inter-5xl {
+    font-size: 48px;
+    letter-spacing: -0.022em;
+    line-height: NaNpx;
+  }
+
+  .leading-8 .md\:text-inter-5xl, .text-inter-5xl .md\:leading-8, .leading-8.md\:text-inter-5xl {
+    font-size: 48px;
+    letter-spacing: -0.022em;
+    line-height: NaNpx;
+  }
+
+  .leading-9 .md\:text-inter-5xl, .text-inter-5xl .md\:leading-9, .leading-9.md\:text-inter-5xl {
+    font-size: 48px;
+    letter-spacing: -0.022em;
+    line-height: NaNpx;
+  }
+
+  .leading-10 .md\:text-inter-5xl, .text-inter-5xl .md\:leading-10, .leading-10.md\:text-inter-5xl {
+    font-size: 48px;
+    letter-spacing: -0.022em;
+    line-height: NaNpx;
+  }
+
+  .leading-none .md\:text-inter-5xl, .text-inter-5xl .md\:leading-none, .leading-none.md\:text-inter-5xl {
+    font-size: 48px;
+    letter-spacing: -0.022em;
+    line-height: 48px;
+  }
+
+  .leading-tight .md\:text-inter-5xl, .text-inter-5xl .md\:leading-tight, .leading-tight.md\:text-inter-5xl {
+    font-size: 48px;
+    letter-spacing: -0.022em;
+    line-height: 60px;
+  }
+
+  .leading-snug .md\:text-inter-5xl, .text-inter-5xl .md\:leading-snug, .leading-snug.md\:text-inter-5xl {
+    font-size: 48px;
+    letter-spacing: -0.022em;
+    line-height: 66px;
+  }
+
+  .leading-normal .md\:text-inter-5xl, .text-inter-5xl .md\:leading-normal, .leading-normal.md\:text-inter-5xl {
+    font-size: 48px;
+    letter-spacing: -0.022em;
+    line-height: 72px;
+  }
+
+  .leading-relaxed .md\:text-inter-5xl, .text-inter-5xl .md\:leading-relaxed, .leading-relaxed.md\:text-inter-5xl {
+    font-size: 48px;
+    letter-spacing: -0.022em;
+    line-height: 78px;
+  }
+
+  .leading-loose .md\:text-inter-5xl, .text-inter-5xl .md\:leading-loose, .leading-loose.md\:text-inter-5xl {
+    font-size: 48px;
+    letter-spacing: -0.022em;
+    line-height: 96px;
+  }
+
+  .md\:text-inter-6xl {
+    font-size: 64px;
+    letter-spacing: -0.022em;
+    line-height: 96px;
+  }
+
+  .leading-3 .md\:text-inter-6xl, .text-inter-6xl .md\:leading-3, .leading-3.md\:text-inter-6xl {
+    font-size: 64px;
+    letter-spacing: -0.022em;
+    line-height: NaNpx;
+  }
+
+  .leading-4 .md\:text-inter-6xl, .text-inter-6xl .md\:leading-4, .leading-4.md\:text-inter-6xl {
+    font-size: 64px;
+    letter-spacing: -0.022em;
+    line-height: NaNpx;
+  }
+
+  .leading-5 .md\:text-inter-6xl, .text-inter-6xl .md\:leading-5, .leading-5.md\:text-inter-6xl {
+    font-size: 64px;
+    letter-spacing: -0.022em;
+    line-height: NaNpx;
+  }
+
+  .leading-6 .md\:text-inter-6xl, .text-inter-6xl .md\:leading-6, .leading-6.md\:text-inter-6xl {
+    font-size: 64px;
+    letter-spacing: -0.022em;
+    line-height: NaNpx;
+  }
+
+  .leading-7 .md\:text-inter-6xl, .text-inter-6xl .md\:leading-7, .leading-7.md\:text-inter-6xl {
+    font-size: 64px;
+    letter-spacing: -0.022em;
+    line-height: NaNpx;
+  }
+
+  .leading-8 .md\:text-inter-6xl, .text-inter-6xl .md\:leading-8, .leading-8.md\:text-inter-6xl {
+    font-size: 64px;
+    letter-spacing: -0.022em;
+    line-height: NaNpx;
+  }
+
+  .leading-9 .md\:text-inter-6xl, .text-inter-6xl .md\:leading-9, .leading-9.md\:text-inter-6xl {
+    font-size: 64px;
+    letter-spacing: -0.022em;
+    line-height: NaNpx;
+  }
+
+  .leading-10 .md\:text-inter-6xl, .text-inter-6xl .md\:leading-10, .leading-10.md\:text-inter-6xl {
+    font-size: 64px;
+    letter-spacing: -0.022em;
+    line-height: NaNpx;
+  }
+
+  .leading-none .md\:text-inter-6xl, .text-inter-6xl .md\:leading-none, .leading-none.md\:text-inter-6xl {
+    font-size: 64px;
+    letter-spacing: -0.022em;
+    line-height: 64px;
+  }
+
+  .leading-tight .md\:text-inter-6xl, .text-inter-6xl .md\:leading-tight, .leading-tight.md\:text-inter-6xl {
+    font-size: 64px;
+    letter-spacing: -0.022em;
+    line-height: 80px;
+  }
+
+  .leading-snug .md\:text-inter-6xl, .text-inter-6xl .md\:leading-snug, .leading-snug.md\:text-inter-6xl {
+    font-size: 64px;
+    letter-spacing: -0.022em;
+    line-height: 88px;
+  }
+
+  .leading-normal .md\:text-inter-6xl, .text-inter-6xl .md\:leading-normal, .leading-normal.md\:text-inter-6xl {
+    font-size: 64px;
+    letter-spacing: -0.022em;
+    line-height: 96px;
+  }
+
+  .leading-relaxed .md\:text-inter-6xl, .text-inter-6xl .md\:leading-relaxed, .leading-relaxed.md\:text-inter-6xl {
+    font-size: 64px;
+    letter-spacing: -0.022em;
+    line-height: 104px;
+  }
+
+  .leading-loose .md\:text-inter-6xl, .text-inter-6xl .md\:leading-loose, .leading-loose.md\:text-inter-6xl {
+    font-size: 64px;
+    letter-spacing: -0.022em;
+    line-height: 128px;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -55913,6 +58627,906 @@ video {
   .lg\:animate-bounce {
     animation: bounce 1s infinite;
   }
+
+  .lg\:text-inter-xs {
+    font-size: 12px;
+    letter-spacing: 0em;
+    line-height: 18px;
+  }
+
+  .leading-3 .lg\:text-inter-xs, .text-inter-xs .lg\:leading-3, .leading-3.lg\:text-inter-xs {
+    font-size: 12px;
+    letter-spacing: 0em;
+    line-height: NaNpx;
+  }
+
+  .leading-4 .lg\:text-inter-xs, .text-inter-xs .lg\:leading-4, .leading-4.lg\:text-inter-xs {
+    font-size: 12px;
+    letter-spacing: 0em;
+    line-height: NaNpx;
+  }
+
+  .leading-5 .lg\:text-inter-xs, .text-inter-xs .lg\:leading-5, .leading-5.lg\:text-inter-xs {
+    font-size: 12px;
+    letter-spacing: 0em;
+    line-height: NaNpx;
+  }
+
+  .leading-6 .lg\:text-inter-xs, .text-inter-xs .lg\:leading-6, .leading-6.lg\:text-inter-xs {
+    font-size: 12px;
+    letter-spacing: 0em;
+    line-height: NaNpx;
+  }
+
+  .leading-7 .lg\:text-inter-xs, .text-inter-xs .lg\:leading-7, .leading-7.lg\:text-inter-xs {
+    font-size: 12px;
+    letter-spacing: 0em;
+    line-height: NaNpx;
+  }
+
+  .leading-8 .lg\:text-inter-xs, .text-inter-xs .lg\:leading-8, .leading-8.lg\:text-inter-xs {
+    font-size: 12px;
+    letter-spacing: 0em;
+    line-height: NaNpx;
+  }
+
+  .leading-9 .lg\:text-inter-xs, .text-inter-xs .lg\:leading-9, .leading-9.lg\:text-inter-xs {
+    font-size: 12px;
+    letter-spacing: 0em;
+    line-height: NaNpx;
+  }
+
+  .leading-10 .lg\:text-inter-xs, .text-inter-xs .lg\:leading-10, .leading-10.lg\:text-inter-xs {
+    font-size: 12px;
+    letter-spacing: 0em;
+    line-height: NaNpx;
+  }
+
+  .leading-none .lg\:text-inter-xs, .text-inter-xs .lg\:leading-none, .leading-none.lg\:text-inter-xs {
+    font-size: 12px;
+    letter-spacing: 0em;
+    line-height: 12px;
+  }
+
+  .leading-tight .lg\:text-inter-xs, .text-inter-xs .lg\:leading-tight, .leading-tight.lg\:text-inter-xs {
+    font-size: 12px;
+    letter-spacing: 0em;
+    line-height: 15px;
+  }
+
+  .leading-snug .lg\:text-inter-xs, .text-inter-xs .lg\:leading-snug, .leading-snug.lg\:text-inter-xs {
+    font-size: 12px;
+    letter-spacing: 0em;
+    line-height: 17px;
+  }
+
+  .leading-normal .lg\:text-inter-xs, .text-inter-xs .lg\:leading-normal, .leading-normal.lg\:text-inter-xs {
+    font-size: 12px;
+    letter-spacing: 0em;
+    line-height: 18px;
+  }
+
+  .leading-relaxed .lg\:text-inter-xs, .text-inter-xs .lg\:leading-relaxed, .leading-relaxed.lg\:text-inter-xs {
+    font-size: 12px;
+    letter-spacing: 0em;
+    line-height: 20px;
+  }
+
+  .leading-loose .lg\:text-inter-xs, .text-inter-xs .lg\:leading-loose, .leading-loose.lg\:text-inter-xs {
+    font-size: 12px;
+    letter-spacing: 0em;
+    line-height: 24px;
+  }
+
+  .lg\:text-inter-sm {
+    font-size: 14px;
+    letter-spacing: -0.006em;
+    line-height: 21px;
+  }
+
+  .leading-3 .lg\:text-inter-sm, .text-inter-sm .lg\:leading-3, .leading-3.lg\:text-inter-sm {
+    font-size: 14px;
+    letter-spacing: -0.006em;
+    line-height: NaNpx;
+  }
+
+  .leading-4 .lg\:text-inter-sm, .text-inter-sm .lg\:leading-4, .leading-4.lg\:text-inter-sm {
+    font-size: 14px;
+    letter-spacing: -0.006em;
+    line-height: NaNpx;
+  }
+
+  .leading-5 .lg\:text-inter-sm, .text-inter-sm .lg\:leading-5, .leading-5.lg\:text-inter-sm {
+    font-size: 14px;
+    letter-spacing: -0.006em;
+    line-height: NaNpx;
+  }
+
+  .leading-6 .lg\:text-inter-sm, .text-inter-sm .lg\:leading-6, .leading-6.lg\:text-inter-sm {
+    font-size: 14px;
+    letter-spacing: -0.006em;
+    line-height: NaNpx;
+  }
+
+  .leading-7 .lg\:text-inter-sm, .text-inter-sm .lg\:leading-7, .leading-7.lg\:text-inter-sm {
+    font-size: 14px;
+    letter-spacing: -0.006em;
+    line-height: NaNpx;
+  }
+
+  .leading-8 .lg\:text-inter-sm, .text-inter-sm .lg\:leading-8, .leading-8.lg\:text-inter-sm {
+    font-size: 14px;
+    letter-spacing: -0.006em;
+    line-height: NaNpx;
+  }
+
+  .leading-9 .lg\:text-inter-sm, .text-inter-sm .lg\:leading-9, .leading-9.lg\:text-inter-sm {
+    font-size: 14px;
+    letter-spacing: -0.006em;
+    line-height: NaNpx;
+  }
+
+  .leading-10 .lg\:text-inter-sm, .text-inter-sm .lg\:leading-10, .leading-10.lg\:text-inter-sm {
+    font-size: 14px;
+    letter-spacing: -0.006em;
+    line-height: NaNpx;
+  }
+
+  .leading-none .lg\:text-inter-sm, .text-inter-sm .lg\:leading-none, .leading-none.lg\:text-inter-sm {
+    font-size: 14px;
+    letter-spacing: -0.006em;
+    line-height: 14px;
+  }
+
+  .leading-tight .lg\:text-inter-sm, .text-inter-sm .lg\:leading-tight, .leading-tight.lg\:text-inter-sm {
+    font-size: 14px;
+    letter-spacing: -0.006em;
+    line-height: 18px;
+  }
+
+  .leading-snug .lg\:text-inter-sm, .text-inter-sm .lg\:leading-snug, .leading-snug.lg\:text-inter-sm {
+    font-size: 14px;
+    letter-spacing: -0.006em;
+    line-height: 19px;
+  }
+
+  .leading-normal .lg\:text-inter-sm, .text-inter-sm .lg\:leading-normal, .leading-normal.lg\:text-inter-sm {
+    font-size: 14px;
+    letter-spacing: -0.006em;
+    line-height: 21px;
+  }
+
+  .leading-relaxed .lg\:text-inter-sm, .text-inter-sm .lg\:leading-relaxed, .leading-relaxed.lg\:text-inter-sm {
+    font-size: 14px;
+    letter-spacing: -0.006em;
+    line-height: 23px;
+  }
+
+  .leading-loose .lg\:text-inter-sm, .text-inter-sm .lg\:leading-loose, .leading-loose.lg\:text-inter-sm {
+    font-size: 14px;
+    letter-spacing: -0.006em;
+    line-height: 28px;
+  }
+
+  .lg\:text-inter-base {
+    font-size: 16px;
+    letter-spacing: -0.011em;
+    line-height: 24px;
+  }
+
+  .leading-3 .lg\:text-inter-base, .text-inter-base .lg\:leading-3, .leading-3.lg\:text-inter-base {
+    font-size: 16px;
+    letter-spacing: -0.011em;
+    line-height: NaNpx;
+  }
+
+  .leading-4 .lg\:text-inter-base, .text-inter-base .lg\:leading-4, .leading-4.lg\:text-inter-base {
+    font-size: 16px;
+    letter-spacing: -0.011em;
+    line-height: NaNpx;
+  }
+
+  .leading-5 .lg\:text-inter-base, .text-inter-base .lg\:leading-5, .leading-5.lg\:text-inter-base {
+    font-size: 16px;
+    letter-spacing: -0.011em;
+    line-height: NaNpx;
+  }
+
+  .leading-6 .lg\:text-inter-base, .text-inter-base .lg\:leading-6, .leading-6.lg\:text-inter-base {
+    font-size: 16px;
+    letter-spacing: -0.011em;
+    line-height: NaNpx;
+  }
+
+  .leading-7 .lg\:text-inter-base, .text-inter-base .lg\:leading-7, .leading-7.lg\:text-inter-base {
+    font-size: 16px;
+    letter-spacing: -0.011em;
+    line-height: NaNpx;
+  }
+
+  .leading-8 .lg\:text-inter-base, .text-inter-base .lg\:leading-8, .leading-8.lg\:text-inter-base {
+    font-size: 16px;
+    letter-spacing: -0.011em;
+    line-height: NaNpx;
+  }
+
+  .leading-9 .lg\:text-inter-base, .text-inter-base .lg\:leading-9, .leading-9.lg\:text-inter-base {
+    font-size: 16px;
+    letter-spacing: -0.011em;
+    line-height: NaNpx;
+  }
+
+  .leading-10 .lg\:text-inter-base, .text-inter-base .lg\:leading-10, .leading-10.lg\:text-inter-base {
+    font-size: 16px;
+    letter-spacing: -0.011em;
+    line-height: NaNpx;
+  }
+
+  .leading-none .lg\:text-inter-base, .text-inter-base .lg\:leading-none, .leading-none.lg\:text-inter-base {
+    font-size: 16px;
+    letter-spacing: -0.011em;
+    line-height: 16px;
+  }
+
+  .leading-tight .lg\:text-inter-base, .text-inter-base .lg\:leading-tight, .leading-tight.lg\:text-inter-base {
+    font-size: 16px;
+    letter-spacing: -0.011em;
+    line-height: 20px;
+  }
+
+  .leading-snug .lg\:text-inter-base, .text-inter-base .lg\:leading-snug, .leading-snug.lg\:text-inter-base {
+    font-size: 16px;
+    letter-spacing: -0.011em;
+    line-height: 22px;
+  }
+
+  .leading-normal .lg\:text-inter-base, .text-inter-base .lg\:leading-normal, .leading-normal.lg\:text-inter-base {
+    font-size: 16px;
+    letter-spacing: -0.011em;
+    line-height: 24px;
+  }
+
+  .leading-relaxed .lg\:text-inter-base, .text-inter-base .lg\:leading-relaxed, .leading-relaxed.lg\:text-inter-base {
+    font-size: 16px;
+    letter-spacing: -0.011em;
+    line-height: 26px;
+  }
+
+  .leading-loose .lg\:text-inter-base, .text-inter-base .lg\:leading-loose, .leading-loose.lg\:text-inter-base {
+    font-size: 16px;
+    letter-spacing: -0.011em;
+    line-height: 32px;
+  }
+
+  .lg\:text-inter-lg {
+    font-size: 18px;
+    letter-spacing: -0.014em;
+    line-height: 27px;
+  }
+
+  .leading-3 .lg\:text-inter-lg, .text-inter-lg .lg\:leading-3, .leading-3.lg\:text-inter-lg {
+    font-size: 18px;
+    letter-spacing: -0.014em;
+    line-height: NaNpx;
+  }
+
+  .leading-4 .lg\:text-inter-lg, .text-inter-lg .lg\:leading-4, .leading-4.lg\:text-inter-lg {
+    font-size: 18px;
+    letter-spacing: -0.014em;
+    line-height: NaNpx;
+  }
+
+  .leading-5 .lg\:text-inter-lg, .text-inter-lg .lg\:leading-5, .leading-5.lg\:text-inter-lg {
+    font-size: 18px;
+    letter-spacing: -0.014em;
+    line-height: NaNpx;
+  }
+
+  .leading-6 .lg\:text-inter-lg, .text-inter-lg .lg\:leading-6, .leading-6.lg\:text-inter-lg {
+    font-size: 18px;
+    letter-spacing: -0.014em;
+    line-height: NaNpx;
+  }
+
+  .leading-7 .lg\:text-inter-lg, .text-inter-lg .lg\:leading-7, .leading-7.lg\:text-inter-lg {
+    font-size: 18px;
+    letter-spacing: -0.014em;
+    line-height: NaNpx;
+  }
+
+  .leading-8 .lg\:text-inter-lg, .text-inter-lg .lg\:leading-8, .leading-8.lg\:text-inter-lg {
+    font-size: 18px;
+    letter-spacing: -0.014em;
+    line-height: NaNpx;
+  }
+
+  .leading-9 .lg\:text-inter-lg, .text-inter-lg .lg\:leading-9, .leading-9.lg\:text-inter-lg {
+    font-size: 18px;
+    letter-spacing: -0.014em;
+    line-height: NaNpx;
+  }
+
+  .leading-10 .lg\:text-inter-lg, .text-inter-lg .lg\:leading-10, .leading-10.lg\:text-inter-lg {
+    font-size: 18px;
+    letter-spacing: -0.014em;
+    line-height: NaNpx;
+  }
+
+  .leading-none .lg\:text-inter-lg, .text-inter-lg .lg\:leading-none, .leading-none.lg\:text-inter-lg {
+    font-size: 18px;
+    letter-spacing: -0.014em;
+    line-height: 18px;
+  }
+
+  .leading-tight .lg\:text-inter-lg, .text-inter-lg .lg\:leading-tight, .leading-tight.lg\:text-inter-lg {
+    font-size: 18px;
+    letter-spacing: -0.014em;
+    line-height: 23px;
+  }
+
+  .leading-snug .lg\:text-inter-lg, .text-inter-lg .lg\:leading-snug, .leading-snug.lg\:text-inter-lg {
+    font-size: 18px;
+    letter-spacing: -0.014em;
+    line-height: 25px;
+  }
+
+  .leading-normal .lg\:text-inter-lg, .text-inter-lg .lg\:leading-normal, .leading-normal.lg\:text-inter-lg {
+    font-size: 18px;
+    letter-spacing: -0.014em;
+    line-height: 27px;
+  }
+
+  .leading-relaxed .lg\:text-inter-lg, .text-inter-lg .lg\:leading-relaxed, .leading-relaxed.lg\:text-inter-lg {
+    font-size: 18px;
+    letter-spacing: -0.014em;
+    line-height: 29px;
+  }
+
+  .leading-loose .lg\:text-inter-lg, .text-inter-lg .lg\:leading-loose, .leading-loose.lg\:text-inter-lg {
+    font-size: 18px;
+    letter-spacing: -0.014em;
+    line-height: 36px;
+  }
+
+  .lg\:text-inter-xl {
+    font-size: 20px;
+    letter-spacing: -0.017em;
+    line-height: 30px;
+  }
+
+  .leading-3 .lg\:text-inter-xl, .text-inter-xl .lg\:leading-3, .leading-3.lg\:text-inter-xl {
+    font-size: 20px;
+    letter-spacing: -0.017em;
+    line-height: NaNpx;
+  }
+
+  .leading-4 .lg\:text-inter-xl, .text-inter-xl .lg\:leading-4, .leading-4.lg\:text-inter-xl {
+    font-size: 20px;
+    letter-spacing: -0.017em;
+    line-height: NaNpx;
+  }
+
+  .leading-5 .lg\:text-inter-xl, .text-inter-xl .lg\:leading-5, .leading-5.lg\:text-inter-xl {
+    font-size: 20px;
+    letter-spacing: -0.017em;
+    line-height: NaNpx;
+  }
+
+  .leading-6 .lg\:text-inter-xl, .text-inter-xl .lg\:leading-6, .leading-6.lg\:text-inter-xl {
+    font-size: 20px;
+    letter-spacing: -0.017em;
+    line-height: NaNpx;
+  }
+
+  .leading-7 .lg\:text-inter-xl, .text-inter-xl .lg\:leading-7, .leading-7.lg\:text-inter-xl {
+    font-size: 20px;
+    letter-spacing: -0.017em;
+    line-height: NaNpx;
+  }
+
+  .leading-8 .lg\:text-inter-xl, .text-inter-xl .lg\:leading-8, .leading-8.lg\:text-inter-xl {
+    font-size: 20px;
+    letter-spacing: -0.017em;
+    line-height: NaNpx;
+  }
+
+  .leading-9 .lg\:text-inter-xl, .text-inter-xl .lg\:leading-9, .leading-9.lg\:text-inter-xl {
+    font-size: 20px;
+    letter-spacing: -0.017em;
+    line-height: NaNpx;
+  }
+
+  .leading-10 .lg\:text-inter-xl, .text-inter-xl .lg\:leading-10, .leading-10.lg\:text-inter-xl {
+    font-size: 20px;
+    letter-spacing: -0.017em;
+    line-height: NaNpx;
+  }
+
+  .leading-none .lg\:text-inter-xl, .text-inter-xl .lg\:leading-none, .leading-none.lg\:text-inter-xl {
+    font-size: 20px;
+    letter-spacing: -0.017em;
+    line-height: 20px;
+  }
+
+  .leading-tight .lg\:text-inter-xl, .text-inter-xl .lg\:leading-tight, .leading-tight.lg\:text-inter-xl {
+    font-size: 20px;
+    letter-spacing: -0.017em;
+    line-height: 25px;
+  }
+
+  .leading-snug .lg\:text-inter-xl, .text-inter-xl .lg\:leading-snug, .leading-snug.lg\:text-inter-xl {
+    font-size: 20px;
+    letter-spacing: -0.017em;
+    line-height: 28px;
+  }
+
+  .leading-normal .lg\:text-inter-xl, .text-inter-xl .lg\:leading-normal, .leading-normal.lg\:text-inter-xl {
+    font-size: 20px;
+    letter-spacing: -0.017em;
+    line-height: 30px;
+  }
+
+  .leading-relaxed .lg\:text-inter-xl, .text-inter-xl .lg\:leading-relaxed, .leading-relaxed.lg\:text-inter-xl {
+    font-size: 20px;
+    letter-spacing: -0.017em;
+    line-height: 33px;
+  }
+
+  .leading-loose .lg\:text-inter-xl, .text-inter-xl .lg\:leading-loose, .leading-loose.lg\:text-inter-xl {
+    font-size: 20px;
+    letter-spacing: -0.017em;
+    line-height: 40px;
+  }
+
+  .lg\:text-inter-2xl {
+    font-size: 24px;
+    letter-spacing: -0.019em;
+    line-height: 36px;
+  }
+
+  .leading-3 .lg\:text-inter-2xl, .text-inter-2xl .lg\:leading-3, .leading-3.lg\:text-inter-2xl {
+    font-size: 24px;
+    letter-spacing: -0.019em;
+    line-height: NaNpx;
+  }
+
+  .leading-4 .lg\:text-inter-2xl, .text-inter-2xl .lg\:leading-4, .leading-4.lg\:text-inter-2xl {
+    font-size: 24px;
+    letter-spacing: -0.019em;
+    line-height: NaNpx;
+  }
+
+  .leading-5 .lg\:text-inter-2xl, .text-inter-2xl .lg\:leading-5, .leading-5.lg\:text-inter-2xl {
+    font-size: 24px;
+    letter-spacing: -0.019em;
+    line-height: NaNpx;
+  }
+
+  .leading-6 .lg\:text-inter-2xl, .text-inter-2xl .lg\:leading-6, .leading-6.lg\:text-inter-2xl {
+    font-size: 24px;
+    letter-spacing: -0.019em;
+    line-height: NaNpx;
+  }
+
+  .leading-7 .lg\:text-inter-2xl, .text-inter-2xl .lg\:leading-7, .leading-7.lg\:text-inter-2xl {
+    font-size: 24px;
+    letter-spacing: -0.019em;
+    line-height: NaNpx;
+  }
+
+  .leading-8 .lg\:text-inter-2xl, .text-inter-2xl .lg\:leading-8, .leading-8.lg\:text-inter-2xl {
+    font-size: 24px;
+    letter-spacing: -0.019em;
+    line-height: NaNpx;
+  }
+
+  .leading-9 .lg\:text-inter-2xl, .text-inter-2xl .lg\:leading-9, .leading-9.lg\:text-inter-2xl {
+    font-size: 24px;
+    letter-spacing: -0.019em;
+    line-height: NaNpx;
+  }
+
+  .leading-10 .lg\:text-inter-2xl, .text-inter-2xl .lg\:leading-10, .leading-10.lg\:text-inter-2xl {
+    font-size: 24px;
+    letter-spacing: -0.019em;
+    line-height: NaNpx;
+  }
+
+  .leading-none .lg\:text-inter-2xl, .text-inter-2xl .lg\:leading-none, .leading-none.lg\:text-inter-2xl {
+    font-size: 24px;
+    letter-spacing: -0.019em;
+    line-height: 24px;
+  }
+
+  .leading-tight .lg\:text-inter-2xl, .text-inter-2xl .lg\:leading-tight, .leading-tight.lg\:text-inter-2xl {
+    font-size: 24px;
+    letter-spacing: -0.019em;
+    line-height: 30px;
+  }
+
+  .leading-snug .lg\:text-inter-2xl, .text-inter-2xl .lg\:leading-snug, .leading-snug.lg\:text-inter-2xl {
+    font-size: 24px;
+    letter-spacing: -0.019em;
+    line-height: 33px;
+  }
+
+  .leading-normal .lg\:text-inter-2xl, .text-inter-2xl .lg\:leading-normal, .leading-normal.lg\:text-inter-2xl {
+    font-size: 24px;
+    letter-spacing: -0.019em;
+    line-height: 36px;
+  }
+
+  .leading-relaxed .lg\:text-inter-2xl, .text-inter-2xl .lg\:leading-relaxed, .leading-relaxed.lg\:text-inter-2xl {
+    font-size: 24px;
+    letter-spacing: -0.019em;
+    line-height: 39px;
+  }
+
+  .leading-loose .lg\:text-inter-2xl, .text-inter-2xl .lg\:leading-loose, .leading-loose.lg\:text-inter-2xl {
+    font-size: 24px;
+    letter-spacing: -0.019em;
+    line-height: 48px;
+  }
+
+  .lg\:text-inter-3xl {
+    font-size: 30px;
+    letter-spacing: -0.021em;
+    line-height: 45px;
+  }
+
+  .leading-3 .lg\:text-inter-3xl, .text-inter-3xl .lg\:leading-3, .leading-3.lg\:text-inter-3xl {
+    font-size: 30px;
+    letter-spacing: -0.021em;
+    line-height: NaNpx;
+  }
+
+  .leading-4 .lg\:text-inter-3xl, .text-inter-3xl .lg\:leading-4, .leading-4.lg\:text-inter-3xl {
+    font-size: 30px;
+    letter-spacing: -0.021em;
+    line-height: NaNpx;
+  }
+
+  .leading-5 .lg\:text-inter-3xl, .text-inter-3xl .lg\:leading-5, .leading-5.lg\:text-inter-3xl {
+    font-size: 30px;
+    letter-spacing: -0.021em;
+    line-height: NaNpx;
+  }
+
+  .leading-6 .lg\:text-inter-3xl, .text-inter-3xl .lg\:leading-6, .leading-6.lg\:text-inter-3xl {
+    font-size: 30px;
+    letter-spacing: -0.021em;
+    line-height: NaNpx;
+  }
+
+  .leading-7 .lg\:text-inter-3xl, .text-inter-3xl .lg\:leading-7, .leading-7.lg\:text-inter-3xl {
+    font-size: 30px;
+    letter-spacing: -0.021em;
+    line-height: NaNpx;
+  }
+
+  .leading-8 .lg\:text-inter-3xl, .text-inter-3xl .lg\:leading-8, .leading-8.lg\:text-inter-3xl {
+    font-size: 30px;
+    letter-spacing: -0.021em;
+    line-height: NaNpx;
+  }
+
+  .leading-9 .lg\:text-inter-3xl, .text-inter-3xl .lg\:leading-9, .leading-9.lg\:text-inter-3xl {
+    font-size: 30px;
+    letter-spacing: -0.021em;
+    line-height: NaNpx;
+  }
+
+  .leading-10 .lg\:text-inter-3xl, .text-inter-3xl .lg\:leading-10, .leading-10.lg\:text-inter-3xl {
+    font-size: 30px;
+    letter-spacing: -0.021em;
+    line-height: NaNpx;
+  }
+
+  .leading-none .lg\:text-inter-3xl, .text-inter-3xl .lg\:leading-none, .leading-none.lg\:text-inter-3xl {
+    font-size: 30px;
+    letter-spacing: -0.021em;
+    line-height: 30px;
+  }
+
+  .leading-tight .lg\:text-inter-3xl, .text-inter-3xl .lg\:leading-tight, .leading-tight.lg\:text-inter-3xl {
+    font-size: 30px;
+    letter-spacing: -0.021em;
+    line-height: 38px;
+  }
+
+  .leading-snug .lg\:text-inter-3xl, .text-inter-3xl .lg\:leading-snug, .leading-snug.lg\:text-inter-3xl {
+    font-size: 30px;
+    letter-spacing: -0.021em;
+    line-height: 41px;
+  }
+
+  .leading-normal .lg\:text-inter-3xl, .text-inter-3xl .lg\:leading-normal, .leading-normal.lg\:text-inter-3xl {
+    font-size: 30px;
+    letter-spacing: -0.021em;
+    line-height: 45px;
+  }
+
+  .leading-relaxed .lg\:text-inter-3xl, .text-inter-3xl .lg\:leading-relaxed, .leading-relaxed.lg\:text-inter-3xl {
+    font-size: 30px;
+    letter-spacing: -0.021em;
+    line-height: 49px;
+  }
+
+  .leading-loose .lg\:text-inter-3xl, .text-inter-3xl .lg\:leading-loose, .leading-loose.lg\:text-inter-3xl {
+    font-size: 30px;
+    letter-spacing: -0.021em;
+    line-height: 60px;
+  }
+
+  .lg\:text-inter-4xl {
+    font-size: 36px;
+    letter-spacing: -0.022em;
+    line-height: 54px;
+  }
+
+  .leading-3 .lg\:text-inter-4xl, .text-inter-4xl .lg\:leading-3, .leading-3.lg\:text-inter-4xl {
+    font-size: 36px;
+    letter-spacing: -0.022em;
+    line-height: NaNpx;
+  }
+
+  .leading-4 .lg\:text-inter-4xl, .text-inter-4xl .lg\:leading-4, .leading-4.lg\:text-inter-4xl {
+    font-size: 36px;
+    letter-spacing: -0.022em;
+    line-height: NaNpx;
+  }
+
+  .leading-5 .lg\:text-inter-4xl, .text-inter-4xl .lg\:leading-5, .leading-5.lg\:text-inter-4xl {
+    font-size: 36px;
+    letter-spacing: -0.022em;
+    line-height: NaNpx;
+  }
+
+  .leading-6 .lg\:text-inter-4xl, .text-inter-4xl .lg\:leading-6, .leading-6.lg\:text-inter-4xl {
+    font-size: 36px;
+    letter-spacing: -0.022em;
+    line-height: NaNpx;
+  }
+
+  .leading-7 .lg\:text-inter-4xl, .text-inter-4xl .lg\:leading-7, .leading-7.lg\:text-inter-4xl {
+    font-size: 36px;
+    letter-spacing: -0.022em;
+    line-height: NaNpx;
+  }
+
+  .leading-8 .lg\:text-inter-4xl, .text-inter-4xl .lg\:leading-8, .leading-8.lg\:text-inter-4xl {
+    font-size: 36px;
+    letter-spacing: -0.022em;
+    line-height: NaNpx;
+  }
+
+  .leading-9 .lg\:text-inter-4xl, .text-inter-4xl .lg\:leading-9, .leading-9.lg\:text-inter-4xl {
+    font-size: 36px;
+    letter-spacing: -0.022em;
+    line-height: NaNpx;
+  }
+
+  .leading-10 .lg\:text-inter-4xl, .text-inter-4xl .lg\:leading-10, .leading-10.lg\:text-inter-4xl {
+    font-size: 36px;
+    letter-spacing: -0.022em;
+    line-height: NaNpx;
+  }
+
+  .leading-none .lg\:text-inter-4xl, .text-inter-4xl .lg\:leading-none, .leading-none.lg\:text-inter-4xl {
+    font-size: 36px;
+    letter-spacing: -0.022em;
+    line-height: 36px;
+  }
+
+  .leading-tight .lg\:text-inter-4xl, .text-inter-4xl .lg\:leading-tight, .leading-tight.lg\:text-inter-4xl {
+    font-size: 36px;
+    letter-spacing: -0.022em;
+    line-height: 45px;
+  }
+
+  .leading-snug .lg\:text-inter-4xl, .text-inter-4xl .lg\:leading-snug, .leading-snug.lg\:text-inter-4xl {
+    font-size: 36px;
+    letter-spacing: -0.022em;
+    line-height: 50px;
+  }
+
+  .leading-normal .lg\:text-inter-4xl, .text-inter-4xl .lg\:leading-normal, .leading-normal.lg\:text-inter-4xl {
+    font-size: 36px;
+    letter-spacing: -0.022em;
+    line-height: 54px;
+  }
+
+  .leading-relaxed .lg\:text-inter-4xl, .text-inter-4xl .lg\:leading-relaxed, .leading-relaxed.lg\:text-inter-4xl {
+    font-size: 36px;
+    letter-spacing: -0.022em;
+    line-height: 59px;
+  }
+
+  .leading-loose .lg\:text-inter-4xl, .text-inter-4xl .lg\:leading-loose, .leading-loose.lg\:text-inter-4xl {
+    font-size: 36px;
+    letter-spacing: -0.022em;
+    line-height: 72px;
+  }
+
+  .lg\:text-inter-5xl {
+    font-size: 48px;
+    letter-spacing: -0.022em;
+    line-height: 72px;
+  }
+
+  .leading-3 .lg\:text-inter-5xl, .text-inter-5xl .lg\:leading-3, .leading-3.lg\:text-inter-5xl {
+    font-size: 48px;
+    letter-spacing: -0.022em;
+    line-height: NaNpx;
+  }
+
+  .leading-4 .lg\:text-inter-5xl, .text-inter-5xl .lg\:leading-4, .leading-4.lg\:text-inter-5xl {
+    font-size: 48px;
+    letter-spacing: -0.022em;
+    line-height: NaNpx;
+  }
+
+  .leading-5 .lg\:text-inter-5xl, .text-inter-5xl .lg\:leading-5, .leading-5.lg\:text-inter-5xl {
+    font-size: 48px;
+    letter-spacing: -0.022em;
+    line-height: NaNpx;
+  }
+
+  .leading-6 .lg\:text-inter-5xl, .text-inter-5xl .lg\:leading-6, .leading-6.lg\:text-inter-5xl {
+    font-size: 48px;
+    letter-spacing: -0.022em;
+    line-height: NaNpx;
+  }
+
+  .leading-7 .lg\:text-inter-5xl, .text-inter-5xl .lg\:leading-7, .leading-7.lg\:text-inter-5xl {
+    font-size: 48px;
+    letter-spacing: -0.022em;
+    line-height: NaNpx;
+  }
+
+  .leading-8 .lg\:text-inter-5xl, .text-inter-5xl .lg\:leading-8, .leading-8.lg\:text-inter-5xl {
+    font-size: 48px;
+    letter-spacing: -0.022em;
+    line-height: NaNpx;
+  }
+
+  .leading-9 .lg\:text-inter-5xl, .text-inter-5xl .lg\:leading-9, .leading-9.lg\:text-inter-5xl {
+    font-size: 48px;
+    letter-spacing: -0.022em;
+    line-height: NaNpx;
+  }
+
+  .leading-10 .lg\:text-inter-5xl, .text-inter-5xl .lg\:leading-10, .leading-10.lg\:text-inter-5xl {
+    font-size: 48px;
+    letter-spacing: -0.022em;
+    line-height: NaNpx;
+  }
+
+  .leading-none .lg\:text-inter-5xl, .text-inter-5xl .lg\:leading-none, .leading-none.lg\:text-inter-5xl {
+    font-size: 48px;
+    letter-spacing: -0.022em;
+    line-height: 48px;
+  }
+
+  .leading-tight .lg\:text-inter-5xl, .text-inter-5xl .lg\:leading-tight, .leading-tight.lg\:text-inter-5xl {
+    font-size: 48px;
+    letter-spacing: -0.022em;
+    line-height: 60px;
+  }
+
+  .leading-snug .lg\:text-inter-5xl, .text-inter-5xl .lg\:leading-snug, .leading-snug.lg\:text-inter-5xl {
+    font-size: 48px;
+    letter-spacing: -0.022em;
+    line-height: 66px;
+  }
+
+  .leading-normal .lg\:text-inter-5xl, .text-inter-5xl .lg\:leading-normal, .leading-normal.lg\:text-inter-5xl {
+    font-size: 48px;
+    letter-spacing: -0.022em;
+    line-height: 72px;
+  }
+
+  .leading-relaxed .lg\:text-inter-5xl, .text-inter-5xl .lg\:leading-relaxed, .leading-relaxed.lg\:text-inter-5xl {
+    font-size: 48px;
+    letter-spacing: -0.022em;
+    line-height: 78px;
+  }
+
+  .leading-loose .lg\:text-inter-5xl, .text-inter-5xl .lg\:leading-loose, .leading-loose.lg\:text-inter-5xl {
+    font-size: 48px;
+    letter-spacing: -0.022em;
+    line-height: 96px;
+  }
+
+  .lg\:text-inter-6xl {
+    font-size: 64px;
+    letter-spacing: -0.022em;
+    line-height: 96px;
+  }
+
+  .leading-3 .lg\:text-inter-6xl, .text-inter-6xl .lg\:leading-3, .leading-3.lg\:text-inter-6xl {
+    font-size: 64px;
+    letter-spacing: -0.022em;
+    line-height: NaNpx;
+  }
+
+  .leading-4 .lg\:text-inter-6xl, .text-inter-6xl .lg\:leading-4, .leading-4.lg\:text-inter-6xl {
+    font-size: 64px;
+    letter-spacing: -0.022em;
+    line-height: NaNpx;
+  }
+
+  .leading-5 .lg\:text-inter-6xl, .text-inter-6xl .lg\:leading-5, .leading-5.lg\:text-inter-6xl {
+    font-size: 64px;
+    letter-spacing: -0.022em;
+    line-height: NaNpx;
+  }
+
+  .leading-6 .lg\:text-inter-6xl, .text-inter-6xl .lg\:leading-6, .leading-6.lg\:text-inter-6xl {
+    font-size: 64px;
+    letter-spacing: -0.022em;
+    line-height: NaNpx;
+  }
+
+  .leading-7 .lg\:text-inter-6xl, .text-inter-6xl .lg\:leading-7, .leading-7.lg\:text-inter-6xl {
+    font-size: 64px;
+    letter-spacing: -0.022em;
+    line-height: NaNpx;
+  }
+
+  .leading-8 .lg\:text-inter-6xl, .text-inter-6xl .lg\:leading-8, .leading-8.lg\:text-inter-6xl {
+    font-size: 64px;
+    letter-spacing: -0.022em;
+    line-height: NaNpx;
+  }
+
+  .leading-9 .lg\:text-inter-6xl, .text-inter-6xl .lg\:leading-9, .leading-9.lg\:text-inter-6xl {
+    font-size: 64px;
+    letter-spacing: -0.022em;
+    line-height: NaNpx;
+  }
+
+  .leading-10 .lg\:text-inter-6xl, .text-inter-6xl .lg\:leading-10, .leading-10.lg\:text-inter-6xl {
+    font-size: 64px;
+    letter-spacing: -0.022em;
+    line-height: NaNpx;
+  }
+
+  .leading-none .lg\:text-inter-6xl, .text-inter-6xl .lg\:leading-none, .leading-none.lg\:text-inter-6xl {
+    font-size: 64px;
+    letter-spacing: -0.022em;
+    line-height: 64px;
+  }
+
+  .leading-tight .lg\:text-inter-6xl, .text-inter-6xl .lg\:leading-tight, .leading-tight.lg\:text-inter-6xl {
+    font-size: 64px;
+    letter-spacing: -0.022em;
+    line-height: 80px;
+  }
+
+  .leading-snug .lg\:text-inter-6xl, .text-inter-6xl .lg\:leading-snug, .leading-snug.lg\:text-inter-6xl {
+    font-size: 64px;
+    letter-spacing: -0.022em;
+    line-height: 88px;
+  }
+
+  .leading-normal .lg\:text-inter-6xl, .text-inter-6xl .lg\:leading-normal, .leading-normal.lg\:text-inter-6xl {
+    font-size: 64px;
+    letter-spacing: -0.022em;
+    line-height: 96px;
+  }
+
+  .leading-relaxed .lg\:text-inter-6xl, .text-inter-6xl .lg\:leading-relaxed, .leading-relaxed.lg\:text-inter-6xl {
+    font-size: 64px;
+    letter-spacing: -0.022em;
+    line-height: 104px;
+  }
+
+  .leading-loose .lg\:text-inter-6xl, .text-inter-6xl .lg\:leading-loose, .leading-loose.lg\:text-inter-6xl {
+    font-size: 64px;
+    letter-spacing: -0.022em;
+    line-height: 128px;
+  }
 }
 
 @media (min-width: 1280px) {
@@ -69735,5 +73349,905 @@ video {
 
   .xl\:animate-bounce {
     animation: bounce 1s infinite;
+  }
+
+  .xl\:text-inter-xs {
+    font-size: 12px;
+    letter-spacing: 0em;
+    line-height: 18px;
+  }
+
+  .leading-3 .xl\:text-inter-xs, .text-inter-xs .xl\:leading-3, .leading-3.xl\:text-inter-xs {
+    font-size: 12px;
+    letter-spacing: 0em;
+    line-height: NaNpx;
+  }
+
+  .leading-4 .xl\:text-inter-xs, .text-inter-xs .xl\:leading-4, .leading-4.xl\:text-inter-xs {
+    font-size: 12px;
+    letter-spacing: 0em;
+    line-height: NaNpx;
+  }
+
+  .leading-5 .xl\:text-inter-xs, .text-inter-xs .xl\:leading-5, .leading-5.xl\:text-inter-xs {
+    font-size: 12px;
+    letter-spacing: 0em;
+    line-height: NaNpx;
+  }
+
+  .leading-6 .xl\:text-inter-xs, .text-inter-xs .xl\:leading-6, .leading-6.xl\:text-inter-xs {
+    font-size: 12px;
+    letter-spacing: 0em;
+    line-height: NaNpx;
+  }
+
+  .leading-7 .xl\:text-inter-xs, .text-inter-xs .xl\:leading-7, .leading-7.xl\:text-inter-xs {
+    font-size: 12px;
+    letter-spacing: 0em;
+    line-height: NaNpx;
+  }
+
+  .leading-8 .xl\:text-inter-xs, .text-inter-xs .xl\:leading-8, .leading-8.xl\:text-inter-xs {
+    font-size: 12px;
+    letter-spacing: 0em;
+    line-height: NaNpx;
+  }
+
+  .leading-9 .xl\:text-inter-xs, .text-inter-xs .xl\:leading-9, .leading-9.xl\:text-inter-xs {
+    font-size: 12px;
+    letter-spacing: 0em;
+    line-height: NaNpx;
+  }
+
+  .leading-10 .xl\:text-inter-xs, .text-inter-xs .xl\:leading-10, .leading-10.xl\:text-inter-xs {
+    font-size: 12px;
+    letter-spacing: 0em;
+    line-height: NaNpx;
+  }
+
+  .leading-none .xl\:text-inter-xs, .text-inter-xs .xl\:leading-none, .leading-none.xl\:text-inter-xs {
+    font-size: 12px;
+    letter-spacing: 0em;
+    line-height: 12px;
+  }
+
+  .leading-tight .xl\:text-inter-xs, .text-inter-xs .xl\:leading-tight, .leading-tight.xl\:text-inter-xs {
+    font-size: 12px;
+    letter-spacing: 0em;
+    line-height: 15px;
+  }
+
+  .leading-snug .xl\:text-inter-xs, .text-inter-xs .xl\:leading-snug, .leading-snug.xl\:text-inter-xs {
+    font-size: 12px;
+    letter-spacing: 0em;
+    line-height: 17px;
+  }
+
+  .leading-normal .xl\:text-inter-xs, .text-inter-xs .xl\:leading-normal, .leading-normal.xl\:text-inter-xs {
+    font-size: 12px;
+    letter-spacing: 0em;
+    line-height: 18px;
+  }
+
+  .leading-relaxed .xl\:text-inter-xs, .text-inter-xs .xl\:leading-relaxed, .leading-relaxed.xl\:text-inter-xs {
+    font-size: 12px;
+    letter-spacing: 0em;
+    line-height: 20px;
+  }
+
+  .leading-loose .xl\:text-inter-xs, .text-inter-xs .xl\:leading-loose, .leading-loose.xl\:text-inter-xs {
+    font-size: 12px;
+    letter-spacing: 0em;
+    line-height: 24px;
+  }
+
+  .xl\:text-inter-sm {
+    font-size: 14px;
+    letter-spacing: -0.006em;
+    line-height: 21px;
+  }
+
+  .leading-3 .xl\:text-inter-sm, .text-inter-sm .xl\:leading-3, .leading-3.xl\:text-inter-sm {
+    font-size: 14px;
+    letter-spacing: -0.006em;
+    line-height: NaNpx;
+  }
+
+  .leading-4 .xl\:text-inter-sm, .text-inter-sm .xl\:leading-4, .leading-4.xl\:text-inter-sm {
+    font-size: 14px;
+    letter-spacing: -0.006em;
+    line-height: NaNpx;
+  }
+
+  .leading-5 .xl\:text-inter-sm, .text-inter-sm .xl\:leading-5, .leading-5.xl\:text-inter-sm {
+    font-size: 14px;
+    letter-spacing: -0.006em;
+    line-height: NaNpx;
+  }
+
+  .leading-6 .xl\:text-inter-sm, .text-inter-sm .xl\:leading-6, .leading-6.xl\:text-inter-sm {
+    font-size: 14px;
+    letter-spacing: -0.006em;
+    line-height: NaNpx;
+  }
+
+  .leading-7 .xl\:text-inter-sm, .text-inter-sm .xl\:leading-7, .leading-7.xl\:text-inter-sm {
+    font-size: 14px;
+    letter-spacing: -0.006em;
+    line-height: NaNpx;
+  }
+
+  .leading-8 .xl\:text-inter-sm, .text-inter-sm .xl\:leading-8, .leading-8.xl\:text-inter-sm {
+    font-size: 14px;
+    letter-spacing: -0.006em;
+    line-height: NaNpx;
+  }
+
+  .leading-9 .xl\:text-inter-sm, .text-inter-sm .xl\:leading-9, .leading-9.xl\:text-inter-sm {
+    font-size: 14px;
+    letter-spacing: -0.006em;
+    line-height: NaNpx;
+  }
+
+  .leading-10 .xl\:text-inter-sm, .text-inter-sm .xl\:leading-10, .leading-10.xl\:text-inter-sm {
+    font-size: 14px;
+    letter-spacing: -0.006em;
+    line-height: NaNpx;
+  }
+
+  .leading-none .xl\:text-inter-sm, .text-inter-sm .xl\:leading-none, .leading-none.xl\:text-inter-sm {
+    font-size: 14px;
+    letter-spacing: -0.006em;
+    line-height: 14px;
+  }
+
+  .leading-tight .xl\:text-inter-sm, .text-inter-sm .xl\:leading-tight, .leading-tight.xl\:text-inter-sm {
+    font-size: 14px;
+    letter-spacing: -0.006em;
+    line-height: 18px;
+  }
+
+  .leading-snug .xl\:text-inter-sm, .text-inter-sm .xl\:leading-snug, .leading-snug.xl\:text-inter-sm {
+    font-size: 14px;
+    letter-spacing: -0.006em;
+    line-height: 19px;
+  }
+
+  .leading-normal .xl\:text-inter-sm, .text-inter-sm .xl\:leading-normal, .leading-normal.xl\:text-inter-sm {
+    font-size: 14px;
+    letter-spacing: -0.006em;
+    line-height: 21px;
+  }
+
+  .leading-relaxed .xl\:text-inter-sm, .text-inter-sm .xl\:leading-relaxed, .leading-relaxed.xl\:text-inter-sm {
+    font-size: 14px;
+    letter-spacing: -0.006em;
+    line-height: 23px;
+  }
+
+  .leading-loose .xl\:text-inter-sm, .text-inter-sm .xl\:leading-loose, .leading-loose.xl\:text-inter-sm {
+    font-size: 14px;
+    letter-spacing: -0.006em;
+    line-height: 28px;
+  }
+
+  .xl\:text-inter-base {
+    font-size: 16px;
+    letter-spacing: -0.011em;
+    line-height: 24px;
+  }
+
+  .leading-3 .xl\:text-inter-base, .text-inter-base .xl\:leading-3, .leading-3.xl\:text-inter-base {
+    font-size: 16px;
+    letter-spacing: -0.011em;
+    line-height: NaNpx;
+  }
+
+  .leading-4 .xl\:text-inter-base, .text-inter-base .xl\:leading-4, .leading-4.xl\:text-inter-base {
+    font-size: 16px;
+    letter-spacing: -0.011em;
+    line-height: NaNpx;
+  }
+
+  .leading-5 .xl\:text-inter-base, .text-inter-base .xl\:leading-5, .leading-5.xl\:text-inter-base {
+    font-size: 16px;
+    letter-spacing: -0.011em;
+    line-height: NaNpx;
+  }
+
+  .leading-6 .xl\:text-inter-base, .text-inter-base .xl\:leading-6, .leading-6.xl\:text-inter-base {
+    font-size: 16px;
+    letter-spacing: -0.011em;
+    line-height: NaNpx;
+  }
+
+  .leading-7 .xl\:text-inter-base, .text-inter-base .xl\:leading-7, .leading-7.xl\:text-inter-base {
+    font-size: 16px;
+    letter-spacing: -0.011em;
+    line-height: NaNpx;
+  }
+
+  .leading-8 .xl\:text-inter-base, .text-inter-base .xl\:leading-8, .leading-8.xl\:text-inter-base {
+    font-size: 16px;
+    letter-spacing: -0.011em;
+    line-height: NaNpx;
+  }
+
+  .leading-9 .xl\:text-inter-base, .text-inter-base .xl\:leading-9, .leading-9.xl\:text-inter-base {
+    font-size: 16px;
+    letter-spacing: -0.011em;
+    line-height: NaNpx;
+  }
+
+  .leading-10 .xl\:text-inter-base, .text-inter-base .xl\:leading-10, .leading-10.xl\:text-inter-base {
+    font-size: 16px;
+    letter-spacing: -0.011em;
+    line-height: NaNpx;
+  }
+
+  .leading-none .xl\:text-inter-base, .text-inter-base .xl\:leading-none, .leading-none.xl\:text-inter-base {
+    font-size: 16px;
+    letter-spacing: -0.011em;
+    line-height: 16px;
+  }
+
+  .leading-tight .xl\:text-inter-base, .text-inter-base .xl\:leading-tight, .leading-tight.xl\:text-inter-base {
+    font-size: 16px;
+    letter-spacing: -0.011em;
+    line-height: 20px;
+  }
+
+  .leading-snug .xl\:text-inter-base, .text-inter-base .xl\:leading-snug, .leading-snug.xl\:text-inter-base {
+    font-size: 16px;
+    letter-spacing: -0.011em;
+    line-height: 22px;
+  }
+
+  .leading-normal .xl\:text-inter-base, .text-inter-base .xl\:leading-normal, .leading-normal.xl\:text-inter-base {
+    font-size: 16px;
+    letter-spacing: -0.011em;
+    line-height: 24px;
+  }
+
+  .leading-relaxed .xl\:text-inter-base, .text-inter-base .xl\:leading-relaxed, .leading-relaxed.xl\:text-inter-base {
+    font-size: 16px;
+    letter-spacing: -0.011em;
+    line-height: 26px;
+  }
+
+  .leading-loose .xl\:text-inter-base, .text-inter-base .xl\:leading-loose, .leading-loose.xl\:text-inter-base {
+    font-size: 16px;
+    letter-spacing: -0.011em;
+    line-height: 32px;
+  }
+
+  .xl\:text-inter-lg {
+    font-size: 18px;
+    letter-spacing: -0.014em;
+    line-height: 27px;
+  }
+
+  .leading-3 .xl\:text-inter-lg, .text-inter-lg .xl\:leading-3, .leading-3.xl\:text-inter-lg {
+    font-size: 18px;
+    letter-spacing: -0.014em;
+    line-height: NaNpx;
+  }
+
+  .leading-4 .xl\:text-inter-lg, .text-inter-lg .xl\:leading-4, .leading-4.xl\:text-inter-lg {
+    font-size: 18px;
+    letter-spacing: -0.014em;
+    line-height: NaNpx;
+  }
+
+  .leading-5 .xl\:text-inter-lg, .text-inter-lg .xl\:leading-5, .leading-5.xl\:text-inter-lg {
+    font-size: 18px;
+    letter-spacing: -0.014em;
+    line-height: NaNpx;
+  }
+
+  .leading-6 .xl\:text-inter-lg, .text-inter-lg .xl\:leading-6, .leading-6.xl\:text-inter-lg {
+    font-size: 18px;
+    letter-spacing: -0.014em;
+    line-height: NaNpx;
+  }
+
+  .leading-7 .xl\:text-inter-lg, .text-inter-lg .xl\:leading-7, .leading-7.xl\:text-inter-lg {
+    font-size: 18px;
+    letter-spacing: -0.014em;
+    line-height: NaNpx;
+  }
+
+  .leading-8 .xl\:text-inter-lg, .text-inter-lg .xl\:leading-8, .leading-8.xl\:text-inter-lg {
+    font-size: 18px;
+    letter-spacing: -0.014em;
+    line-height: NaNpx;
+  }
+
+  .leading-9 .xl\:text-inter-lg, .text-inter-lg .xl\:leading-9, .leading-9.xl\:text-inter-lg {
+    font-size: 18px;
+    letter-spacing: -0.014em;
+    line-height: NaNpx;
+  }
+
+  .leading-10 .xl\:text-inter-lg, .text-inter-lg .xl\:leading-10, .leading-10.xl\:text-inter-lg {
+    font-size: 18px;
+    letter-spacing: -0.014em;
+    line-height: NaNpx;
+  }
+
+  .leading-none .xl\:text-inter-lg, .text-inter-lg .xl\:leading-none, .leading-none.xl\:text-inter-lg {
+    font-size: 18px;
+    letter-spacing: -0.014em;
+    line-height: 18px;
+  }
+
+  .leading-tight .xl\:text-inter-lg, .text-inter-lg .xl\:leading-tight, .leading-tight.xl\:text-inter-lg {
+    font-size: 18px;
+    letter-spacing: -0.014em;
+    line-height: 23px;
+  }
+
+  .leading-snug .xl\:text-inter-lg, .text-inter-lg .xl\:leading-snug, .leading-snug.xl\:text-inter-lg {
+    font-size: 18px;
+    letter-spacing: -0.014em;
+    line-height: 25px;
+  }
+
+  .leading-normal .xl\:text-inter-lg, .text-inter-lg .xl\:leading-normal, .leading-normal.xl\:text-inter-lg {
+    font-size: 18px;
+    letter-spacing: -0.014em;
+    line-height: 27px;
+  }
+
+  .leading-relaxed .xl\:text-inter-lg, .text-inter-lg .xl\:leading-relaxed, .leading-relaxed.xl\:text-inter-lg {
+    font-size: 18px;
+    letter-spacing: -0.014em;
+    line-height: 29px;
+  }
+
+  .leading-loose .xl\:text-inter-lg, .text-inter-lg .xl\:leading-loose, .leading-loose.xl\:text-inter-lg {
+    font-size: 18px;
+    letter-spacing: -0.014em;
+    line-height: 36px;
+  }
+
+  .xl\:text-inter-xl {
+    font-size: 20px;
+    letter-spacing: -0.017em;
+    line-height: 30px;
+  }
+
+  .leading-3 .xl\:text-inter-xl, .text-inter-xl .xl\:leading-3, .leading-3.xl\:text-inter-xl {
+    font-size: 20px;
+    letter-spacing: -0.017em;
+    line-height: NaNpx;
+  }
+
+  .leading-4 .xl\:text-inter-xl, .text-inter-xl .xl\:leading-4, .leading-4.xl\:text-inter-xl {
+    font-size: 20px;
+    letter-spacing: -0.017em;
+    line-height: NaNpx;
+  }
+
+  .leading-5 .xl\:text-inter-xl, .text-inter-xl .xl\:leading-5, .leading-5.xl\:text-inter-xl {
+    font-size: 20px;
+    letter-spacing: -0.017em;
+    line-height: NaNpx;
+  }
+
+  .leading-6 .xl\:text-inter-xl, .text-inter-xl .xl\:leading-6, .leading-6.xl\:text-inter-xl {
+    font-size: 20px;
+    letter-spacing: -0.017em;
+    line-height: NaNpx;
+  }
+
+  .leading-7 .xl\:text-inter-xl, .text-inter-xl .xl\:leading-7, .leading-7.xl\:text-inter-xl {
+    font-size: 20px;
+    letter-spacing: -0.017em;
+    line-height: NaNpx;
+  }
+
+  .leading-8 .xl\:text-inter-xl, .text-inter-xl .xl\:leading-8, .leading-8.xl\:text-inter-xl {
+    font-size: 20px;
+    letter-spacing: -0.017em;
+    line-height: NaNpx;
+  }
+
+  .leading-9 .xl\:text-inter-xl, .text-inter-xl .xl\:leading-9, .leading-9.xl\:text-inter-xl {
+    font-size: 20px;
+    letter-spacing: -0.017em;
+    line-height: NaNpx;
+  }
+
+  .leading-10 .xl\:text-inter-xl, .text-inter-xl .xl\:leading-10, .leading-10.xl\:text-inter-xl {
+    font-size: 20px;
+    letter-spacing: -0.017em;
+    line-height: NaNpx;
+  }
+
+  .leading-none .xl\:text-inter-xl, .text-inter-xl .xl\:leading-none, .leading-none.xl\:text-inter-xl {
+    font-size: 20px;
+    letter-spacing: -0.017em;
+    line-height: 20px;
+  }
+
+  .leading-tight .xl\:text-inter-xl, .text-inter-xl .xl\:leading-tight, .leading-tight.xl\:text-inter-xl {
+    font-size: 20px;
+    letter-spacing: -0.017em;
+    line-height: 25px;
+  }
+
+  .leading-snug .xl\:text-inter-xl, .text-inter-xl .xl\:leading-snug, .leading-snug.xl\:text-inter-xl {
+    font-size: 20px;
+    letter-spacing: -0.017em;
+    line-height: 28px;
+  }
+
+  .leading-normal .xl\:text-inter-xl, .text-inter-xl .xl\:leading-normal, .leading-normal.xl\:text-inter-xl {
+    font-size: 20px;
+    letter-spacing: -0.017em;
+    line-height: 30px;
+  }
+
+  .leading-relaxed .xl\:text-inter-xl, .text-inter-xl .xl\:leading-relaxed, .leading-relaxed.xl\:text-inter-xl {
+    font-size: 20px;
+    letter-spacing: -0.017em;
+    line-height: 33px;
+  }
+
+  .leading-loose .xl\:text-inter-xl, .text-inter-xl .xl\:leading-loose, .leading-loose.xl\:text-inter-xl {
+    font-size: 20px;
+    letter-spacing: -0.017em;
+    line-height: 40px;
+  }
+
+  .xl\:text-inter-2xl {
+    font-size: 24px;
+    letter-spacing: -0.019em;
+    line-height: 36px;
+  }
+
+  .leading-3 .xl\:text-inter-2xl, .text-inter-2xl .xl\:leading-3, .leading-3.xl\:text-inter-2xl {
+    font-size: 24px;
+    letter-spacing: -0.019em;
+    line-height: NaNpx;
+  }
+
+  .leading-4 .xl\:text-inter-2xl, .text-inter-2xl .xl\:leading-4, .leading-4.xl\:text-inter-2xl {
+    font-size: 24px;
+    letter-spacing: -0.019em;
+    line-height: NaNpx;
+  }
+
+  .leading-5 .xl\:text-inter-2xl, .text-inter-2xl .xl\:leading-5, .leading-5.xl\:text-inter-2xl {
+    font-size: 24px;
+    letter-spacing: -0.019em;
+    line-height: NaNpx;
+  }
+
+  .leading-6 .xl\:text-inter-2xl, .text-inter-2xl .xl\:leading-6, .leading-6.xl\:text-inter-2xl {
+    font-size: 24px;
+    letter-spacing: -0.019em;
+    line-height: NaNpx;
+  }
+
+  .leading-7 .xl\:text-inter-2xl, .text-inter-2xl .xl\:leading-7, .leading-7.xl\:text-inter-2xl {
+    font-size: 24px;
+    letter-spacing: -0.019em;
+    line-height: NaNpx;
+  }
+
+  .leading-8 .xl\:text-inter-2xl, .text-inter-2xl .xl\:leading-8, .leading-8.xl\:text-inter-2xl {
+    font-size: 24px;
+    letter-spacing: -0.019em;
+    line-height: NaNpx;
+  }
+
+  .leading-9 .xl\:text-inter-2xl, .text-inter-2xl .xl\:leading-9, .leading-9.xl\:text-inter-2xl {
+    font-size: 24px;
+    letter-spacing: -0.019em;
+    line-height: NaNpx;
+  }
+
+  .leading-10 .xl\:text-inter-2xl, .text-inter-2xl .xl\:leading-10, .leading-10.xl\:text-inter-2xl {
+    font-size: 24px;
+    letter-spacing: -0.019em;
+    line-height: NaNpx;
+  }
+
+  .leading-none .xl\:text-inter-2xl, .text-inter-2xl .xl\:leading-none, .leading-none.xl\:text-inter-2xl {
+    font-size: 24px;
+    letter-spacing: -0.019em;
+    line-height: 24px;
+  }
+
+  .leading-tight .xl\:text-inter-2xl, .text-inter-2xl .xl\:leading-tight, .leading-tight.xl\:text-inter-2xl {
+    font-size: 24px;
+    letter-spacing: -0.019em;
+    line-height: 30px;
+  }
+
+  .leading-snug .xl\:text-inter-2xl, .text-inter-2xl .xl\:leading-snug, .leading-snug.xl\:text-inter-2xl {
+    font-size: 24px;
+    letter-spacing: -0.019em;
+    line-height: 33px;
+  }
+
+  .leading-normal .xl\:text-inter-2xl, .text-inter-2xl .xl\:leading-normal, .leading-normal.xl\:text-inter-2xl {
+    font-size: 24px;
+    letter-spacing: -0.019em;
+    line-height: 36px;
+  }
+
+  .leading-relaxed .xl\:text-inter-2xl, .text-inter-2xl .xl\:leading-relaxed, .leading-relaxed.xl\:text-inter-2xl {
+    font-size: 24px;
+    letter-spacing: -0.019em;
+    line-height: 39px;
+  }
+
+  .leading-loose .xl\:text-inter-2xl, .text-inter-2xl .xl\:leading-loose, .leading-loose.xl\:text-inter-2xl {
+    font-size: 24px;
+    letter-spacing: -0.019em;
+    line-height: 48px;
+  }
+
+  .xl\:text-inter-3xl {
+    font-size: 30px;
+    letter-spacing: -0.021em;
+    line-height: 45px;
+  }
+
+  .leading-3 .xl\:text-inter-3xl, .text-inter-3xl .xl\:leading-3, .leading-3.xl\:text-inter-3xl {
+    font-size: 30px;
+    letter-spacing: -0.021em;
+    line-height: NaNpx;
+  }
+
+  .leading-4 .xl\:text-inter-3xl, .text-inter-3xl .xl\:leading-4, .leading-4.xl\:text-inter-3xl {
+    font-size: 30px;
+    letter-spacing: -0.021em;
+    line-height: NaNpx;
+  }
+
+  .leading-5 .xl\:text-inter-3xl, .text-inter-3xl .xl\:leading-5, .leading-5.xl\:text-inter-3xl {
+    font-size: 30px;
+    letter-spacing: -0.021em;
+    line-height: NaNpx;
+  }
+
+  .leading-6 .xl\:text-inter-3xl, .text-inter-3xl .xl\:leading-6, .leading-6.xl\:text-inter-3xl {
+    font-size: 30px;
+    letter-spacing: -0.021em;
+    line-height: NaNpx;
+  }
+
+  .leading-7 .xl\:text-inter-3xl, .text-inter-3xl .xl\:leading-7, .leading-7.xl\:text-inter-3xl {
+    font-size: 30px;
+    letter-spacing: -0.021em;
+    line-height: NaNpx;
+  }
+
+  .leading-8 .xl\:text-inter-3xl, .text-inter-3xl .xl\:leading-8, .leading-8.xl\:text-inter-3xl {
+    font-size: 30px;
+    letter-spacing: -0.021em;
+    line-height: NaNpx;
+  }
+
+  .leading-9 .xl\:text-inter-3xl, .text-inter-3xl .xl\:leading-9, .leading-9.xl\:text-inter-3xl {
+    font-size: 30px;
+    letter-spacing: -0.021em;
+    line-height: NaNpx;
+  }
+
+  .leading-10 .xl\:text-inter-3xl, .text-inter-3xl .xl\:leading-10, .leading-10.xl\:text-inter-3xl {
+    font-size: 30px;
+    letter-spacing: -0.021em;
+    line-height: NaNpx;
+  }
+
+  .leading-none .xl\:text-inter-3xl, .text-inter-3xl .xl\:leading-none, .leading-none.xl\:text-inter-3xl {
+    font-size: 30px;
+    letter-spacing: -0.021em;
+    line-height: 30px;
+  }
+
+  .leading-tight .xl\:text-inter-3xl, .text-inter-3xl .xl\:leading-tight, .leading-tight.xl\:text-inter-3xl {
+    font-size: 30px;
+    letter-spacing: -0.021em;
+    line-height: 38px;
+  }
+
+  .leading-snug .xl\:text-inter-3xl, .text-inter-3xl .xl\:leading-snug, .leading-snug.xl\:text-inter-3xl {
+    font-size: 30px;
+    letter-spacing: -0.021em;
+    line-height: 41px;
+  }
+
+  .leading-normal .xl\:text-inter-3xl, .text-inter-3xl .xl\:leading-normal, .leading-normal.xl\:text-inter-3xl {
+    font-size: 30px;
+    letter-spacing: -0.021em;
+    line-height: 45px;
+  }
+
+  .leading-relaxed .xl\:text-inter-3xl, .text-inter-3xl .xl\:leading-relaxed, .leading-relaxed.xl\:text-inter-3xl {
+    font-size: 30px;
+    letter-spacing: -0.021em;
+    line-height: 49px;
+  }
+
+  .leading-loose .xl\:text-inter-3xl, .text-inter-3xl .xl\:leading-loose, .leading-loose.xl\:text-inter-3xl {
+    font-size: 30px;
+    letter-spacing: -0.021em;
+    line-height: 60px;
+  }
+
+  .xl\:text-inter-4xl {
+    font-size: 36px;
+    letter-spacing: -0.022em;
+    line-height: 54px;
+  }
+
+  .leading-3 .xl\:text-inter-4xl, .text-inter-4xl .xl\:leading-3, .leading-3.xl\:text-inter-4xl {
+    font-size: 36px;
+    letter-spacing: -0.022em;
+    line-height: NaNpx;
+  }
+
+  .leading-4 .xl\:text-inter-4xl, .text-inter-4xl .xl\:leading-4, .leading-4.xl\:text-inter-4xl {
+    font-size: 36px;
+    letter-spacing: -0.022em;
+    line-height: NaNpx;
+  }
+
+  .leading-5 .xl\:text-inter-4xl, .text-inter-4xl .xl\:leading-5, .leading-5.xl\:text-inter-4xl {
+    font-size: 36px;
+    letter-spacing: -0.022em;
+    line-height: NaNpx;
+  }
+
+  .leading-6 .xl\:text-inter-4xl, .text-inter-4xl .xl\:leading-6, .leading-6.xl\:text-inter-4xl {
+    font-size: 36px;
+    letter-spacing: -0.022em;
+    line-height: NaNpx;
+  }
+
+  .leading-7 .xl\:text-inter-4xl, .text-inter-4xl .xl\:leading-7, .leading-7.xl\:text-inter-4xl {
+    font-size: 36px;
+    letter-spacing: -0.022em;
+    line-height: NaNpx;
+  }
+
+  .leading-8 .xl\:text-inter-4xl, .text-inter-4xl .xl\:leading-8, .leading-8.xl\:text-inter-4xl {
+    font-size: 36px;
+    letter-spacing: -0.022em;
+    line-height: NaNpx;
+  }
+
+  .leading-9 .xl\:text-inter-4xl, .text-inter-4xl .xl\:leading-9, .leading-9.xl\:text-inter-4xl {
+    font-size: 36px;
+    letter-spacing: -0.022em;
+    line-height: NaNpx;
+  }
+
+  .leading-10 .xl\:text-inter-4xl, .text-inter-4xl .xl\:leading-10, .leading-10.xl\:text-inter-4xl {
+    font-size: 36px;
+    letter-spacing: -0.022em;
+    line-height: NaNpx;
+  }
+
+  .leading-none .xl\:text-inter-4xl, .text-inter-4xl .xl\:leading-none, .leading-none.xl\:text-inter-4xl {
+    font-size: 36px;
+    letter-spacing: -0.022em;
+    line-height: 36px;
+  }
+
+  .leading-tight .xl\:text-inter-4xl, .text-inter-4xl .xl\:leading-tight, .leading-tight.xl\:text-inter-4xl {
+    font-size: 36px;
+    letter-spacing: -0.022em;
+    line-height: 45px;
+  }
+
+  .leading-snug .xl\:text-inter-4xl, .text-inter-4xl .xl\:leading-snug, .leading-snug.xl\:text-inter-4xl {
+    font-size: 36px;
+    letter-spacing: -0.022em;
+    line-height: 50px;
+  }
+
+  .leading-normal .xl\:text-inter-4xl, .text-inter-4xl .xl\:leading-normal, .leading-normal.xl\:text-inter-4xl {
+    font-size: 36px;
+    letter-spacing: -0.022em;
+    line-height: 54px;
+  }
+
+  .leading-relaxed .xl\:text-inter-4xl, .text-inter-4xl .xl\:leading-relaxed, .leading-relaxed.xl\:text-inter-4xl {
+    font-size: 36px;
+    letter-spacing: -0.022em;
+    line-height: 59px;
+  }
+
+  .leading-loose .xl\:text-inter-4xl, .text-inter-4xl .xl\:leading-loose, .leading-loose.xl\:text-inter-4xl {
+    font-size: 36px;
+    letter-spacing: -0.022em;
+    line-height: 72px;
+  }
+
+  .xl\:text-inter-5xl {
+    font-size: 48px;
+    letter-spacing: -0.022em;
+    line-height: 72px;
+  }
+
+  .leading-3 .xl\:text-inter-5xl, .text-inter-5xl .xl\:leading-3, .leading-3.xl\:text-inter-5xl {
+    font-size: 48px;
+    letter-spacing: -0.022em;
+    line-height: NaNpx;
+  }
+
+  .leading-4 .xl\:text-inter-5xl, .text-inter-5xl .xl\:leading-4, .leading-4.xl\:text-inter-5xl {
+    font-size: 48px;
+    letter-spacing: -0.022em;
+    line-height: NaNpx;
+  }
+
+  .leading-5 .xl\:text-inter-5xl, .text-inter-5xl .xl\:leading-5, .leading-5.xl\:text-inter-5xl {
+    font-size: 48px;
+    letter-spacing: -0.022em;
+    line-height: NaNpx;
+  }
+
+  .leading-6 .xl\:text-inter-5xl, .text-inter-5xl .xl\:leading-6, .leading-6.xl\:text-inter-5xl {
+    font-size: 48px;
+    letter-spacing: -0.022em;
+    line-height: NaNpx;
+  }
+
+  .leading-7 .xl\:text-inter-5xl, .text-inter-5xl .xl\:leading-7, .leading-7.xl\:text-inter-5xl {
+    font-size: 48px;
+    letter-spacing: -0.022em;
+    line-height: NaNpx;
+  }
+
+  .leading-8 .xl\:text-inter-5xl, .text-inter-5xl .xl\:leading-8, .leading-8.xl\:text-inter-5xl {
+    font-size: 48px;
+    letter-spacing: -0.022em;
+    line-height: NaNpx;
+  }
+
+  .leading-9 .xl\:text-inter-5xl, .text-inter-5xl .xl\:leading-9, .leading-9.xl\:text-inter-5xl {
+    font-size: 48px;
+    letter-spacing: -0.022em;
+    line-height: NaNpx;
+  }
+
+  .leading-10 .xl\:text-inter-5xl, .text-inter-5xl .xl\:leading-10, .leading-10.xl\:text-inter-5xl {
+    font-size: 48px;
+    letter-spacing: -0.022em;
+    line-height: NaNpx;
+  }
+
+  .leading-none .xl\:text-inter-5xl, .text-inter-5xl .xl\:leading-none, .leading-none.xl\:text-inter-5xl {
+    font-size: 48px;
+    letter-spacing: -0.022em;
+    line-height: 48px;
+  }
+
+  .leading-tight .xl\:text-inter-5xl, .text-inter-5xl .xl\:leading-tight, .leading-tight.xl\:text-inter-5xl {
+    font-size: 48px;
+    letter-spacing: -0.022em;
+    line-height: 60px;
+  }
+
+  .leading-snug .xl\:text-inter-5xl, .text-inter-5xl .xl\:leading-snug, .leading-snug.xl\:text-inter-5xl {
+    font-size: 48px;
+    letter-spacing: -0.022em;
+    line-height: 66px;
+  }
+
+  .leading-normal .xl\:text-inter-5xl, .text-inter-5xl .xl\:leading-normal, .leading-normal.xl\:text-inter-5xl {
+    font-size: 48px;
+    letter-spacing: -0.022em;
+    line-height: 72px;
+  }
+
+  .leading-relaxed .xl\:text-inter-5xl, .text-inter-5xl .xl\:leading-relaxed, .leading-relaxed.xl\:text-inter-5xl {
+    font-size: 48px;
+    letter-spacing: -0.022em;
+    line-height: 78px;
+  }
+
+  .leading-loose .xl\:text-inter-5xl, .text-inter-5xl .xl\:leading-loose, .leading-loose.xl\:text-inter-5xl {
+    font-size: 48px;
+    letter-spacing: -0.022em;
+    line-height: 96px;
+  }
+
+  .xl\:text-inter-6xl {
+    font-size: 64px;
+    letter-spacing: -0.022em;
+    line-height: 96px;
+  }
+
+  .leading-3 .xl\:text-inter-6xl, .text-inter-6xl .xl\:leading-3, .leading-3.xl\:text-inter-6xl {
+    font-size: 64px;
+    letter-spacing: -0.022em;
+    line-height: NaNpx;
+  }
+
+  .leading-4 .xl\:text-inter-6xl, .text-inter-6xl .xl\:leading-4, .leading-4.xl\:text-inter-6xl {
+    font-size: 64px;
+    letter-spacing: -0.022em;
+    line-height: NaNpx;
+  }
+
+  .leading-5 .xl\:text-inter-6xl, .text-inter-6xl .xl\:leading-5, .leading-5.xl\:text-inter-6xl {
+    font-size: 64px;
+    letter-spacing: -0.022em;
+    line-height: NaNpx;
+  }
+
+  .leading-6 .xl\:text-inter-6xl, .text-inter-6xl .xl\:leading-6, .leading-6.xl\:text-inter-6xl {
+    font-size: 64px;
+    letter-spacing: -0.022em;
+    line-height: NaNpx;
+  }
+
+  .leading-7 .xl\:text-inter-6xl, .text-inter-6xl .xl\:leading-7, .leading-7.xl\:text-inter-6xl {
+    font-size: 64px;
+    letter-spacing: -0.022em;
+    line-height: NaNpx;
+  }
+
+  .leading-8 .xl\:text-inter-6xl, .text-inter-6xl .xl\:leading-8, .leading-8.xl\:text-inter-6xl {
+    font-size: 64px;
+    letter-spacing: -0.022em;
+    line-height: NaNpx;
+  }
+
+  .leading-9 .xl\:text-inter-6xl, .text-inter-6xl .xl\:leading-9, .leading-9.xl\:text-inter-6xl {
+    font-size: 64px;
+    letter-spacing: -0.022em;
+    line-height: NaNpx;
+  }
+
+  .leading-10 .xl\:text-inter-6xl, .text-inter-6xl .xl\:leading-10, .leading-10.xl\:text-inter-6xl {
+    font-size: 64px;
+    letter-spacing: -0.022em;
+    line-height: NaNpx;
+  }
+
+  .leading-none .xl\:text-inter-6xl, .text-inter-6xl .xl\:leading-none, .leading-none.xl\:text-inter-6xl {
+    font-size: 64px;
+    letter-spacing: -0.022em;
+    line-height: 64px;
+  }
+
+  .leading-tight .xl\:text-inter-6xl, .text-inter-6xl .xl\:leading-tight, .leading-tight.xl\:text-inter-6xl {
+    font-size: 64px;
+    letter-spacing: -0.022em;
+    line-height: 80px;
+  }
+
+  .leading-snug .xl\:text-inter-6xl, .text-inter-6xl .xl\:leading-snug, .leading-snug.xl\:text-inter-6xl {
+    font-size: 64px;
+    letter-spacing: -0.022em;
+    line-height: 88px;
+  }
+
+  .leading-normal .xl\:text-inter-6xl, .text-inter-6xl .xl\:leading-normal, .leading-normal.xl\:text-inter-6xl {
+    font-size: 64px;
+    letter-spacing: -0.022em;
+    line-height: 96px;
+  }
+
+  .leading-relaxed .xl\:text-inter-6xl, .text-inter-6xl .xl\:leading-relaxed, .leading-relaxed.xl\:text-inter-6xl {
+    font-size: 64px;
+    letter-spacing: -0.022em;
+    line-height: 104px;
+  }
+
+  .leading-loose .xl\:text-inter-6xl, .text-inter-6xl .xl\:leading-loose, .leading-loose.xl\:text-inter-6xl {
+    font-size: 64px;
+    letter-spacing: -0.022em;
+    line-height: 128px;
   }
 }
