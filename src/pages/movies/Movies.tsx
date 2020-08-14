@@ -1,5 +1,5 @@
 import React, { FunctionComponent, Suspense } from 'react';
-import { createResource } from '../../api';
+import { createResource } from '../../api/suspense';
 import Grid from '../../components/Grid';
 import Loader from '../../components/Loader';
 
@@ -12,7 +12,7 @@ const Movies: FunctionComponent = ({ children }) => {
       <h2 className="text-inter-2xl text-white mb-5">Popular movies</h2>
 
       <Suspense fallback={<Loader message="Loading popular movies" />}>
-        <Grid collection={resource.fetchData.read()} />
+        <Grid collection={resource.fetchData.read()} itemType="movie" />
       </Suspense>
     </>
     

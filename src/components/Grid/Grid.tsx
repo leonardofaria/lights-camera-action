@@ -3,13 +3,14 @@ import ItemCard from '../ItemCard';
 
 type Props = {
   collection?: any,
+  itemType: "movie" | "show",
 }
 
-const Grid: FunctionComponent<Props> = ({ collection }) => {
+const Grid: FunctionComponent<Props> = ({ collection, itemType }) => {
   
   return (
     <div className="flex flex-wrap">
-      { collection.map((movie: any) => <ItemCard movie={movie} key={movie.id} />)}
+      { collection.map((item: any) => <ItemCard item={item} key={item.id} />)}
     </div>
   );
 };

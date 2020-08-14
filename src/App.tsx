@@ -7,10 +7,12 @@ import {
 } from "react-router-dom";
 import Layout from './components/Layout';
 import Loader from './components/Loader';
+import { createResource } from './api/suspense';
 
 const Dashboard = lazy(() => import('./pages/dashboard'));
 const Movies = lazy(() => import('./pages/movies'));
-const Shows = lazy(() => import('./pages/shows'));
+const Movie = lazy(() => import('./pages/movies/Movie'));
+const Shows = lazy(() => import('./pages/shows/Shows'));
 
 function App() {
   return (

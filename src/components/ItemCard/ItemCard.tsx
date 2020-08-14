@@ -1,17 +1,20 @@
 import React, { FunctionComponent} from 'react';
+import { 
+  Link
+} from "react-router-dom";
 
 type Props = {
-  movie?: any,
+  item?: any,
 }
 
 const imagePath = 'https://image.tmdb.org/t/p/';
 const imageSize = 'w185';
 
-const ItemCard: FunctionComponent<Props> = ({ movie }) => {
+const ItemCard: FunctionComponent<Props> = ({ item }) => {
   return (
-    <span>
-      <img src={`${imagePath}/${imageSize}/${movie.poster_path}`} alt={movie.original_title} />
-    </span>
+    <Link to={`/movie/${item.id}`}>
+      <img src={`${imagePath}/${imageSize}/${item.poster_path}`} alt={item.original_title} />
+    </Link>
   );
 };
 
