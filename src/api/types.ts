@@ -17,3 +17,10 @@ export interface IShow {
   poster_path: string,
   overview: string,
 }
+
+export interface ISearch {
+  page: number,
+  total_results: number,
+  total_pages: number,
+  results: IGenre[] | IMovie[]
+}

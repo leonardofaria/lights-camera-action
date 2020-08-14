@@ -14,6 +14,7 @@ const Movies = lazy(() => import('./pages/movies'));
 const Movie = lazy(() => import('./pages/movies/Movie'));
 const Shows = lazy(() => import('./pages/shows/'));
 const Show = lazy(() => import('./pages/shows/Show'));
+const Search = lazy(() => import('./pages/search/'));
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
               <Route path='/movies/:id' component={Movie} />
               <Route exact path='/shows' component={Shows} />
               <Route path='/shows/:id' component={Show} />
+              <Route path='/search/:query' component={Search} />
             </Switch>
           </Suspense>
         </Layout>
