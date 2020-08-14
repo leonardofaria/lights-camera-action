@@ -1,5 +1,5 @@
 import React, { FunctionComponent} from 'react';
-import ItemCard from '../ItemCard';
+import ItemCard from '../MediaCard';
 
 type Props = {
   collection?: any,
