@@ -3,14 +3,14 @@ import MediaCard from '../MediaCard';
 
 type Props = {
   collection?: any,
-  itemType: "movie" | "show",
+  mediaType: "movie" | "show" | "trending",
 }
 
-const Grid: FunctionComponent<Props> = ({ collection, itemType }) => {
+const Grid: FunctionComponent<Props> = ({ collection, mediaType }) => {
   
   return (
     <div className="flex flex-wrap justify-around">
-      { collection.results.map((item: any) => <MediaCard item={item} itemType={itemType} key={item.id} />)}
+      { collection.results.map((item: any) => <MediaCard item={item} mediaType={mediaType} key={item.id} />)}
     </div>
   );
 };

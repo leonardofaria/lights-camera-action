@@ -6,12 +6,13 @@ import { IMAGE_PATH, IMAGE_SIZE } from '../../constants';
 
 type Props = {
   item: any,
-  itemType: "movie" | "show",
+  mediaType: "movie" | "show" | "trending",
 }
 
-const ItemCard: FunctionComponent<Props> = ({ item, itemType }) => {
+const ItemCard: FunctionComponent<Props> = ({ item, mediaType }) => {
+  const path = mediaType === "trending" ? item.media_type.replace("tv", "show") : mediaType;
   return (
-    <Link to={`/${itemType}s/${item.id}`}>
+    <Link to={`/${path}s/${item.id}`}>
       <img src={`${IMAGE_PATH}/${IMAGE_SIZE}/${item.poster_path}`} alt={item.title} />
     </Link>
   );

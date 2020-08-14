@@ -12,7 +12,7 @@ const Shows: FunctionComponent = ({ children }) => {
       <h2 className="text-inter-2xl text-white mb-5">Popular shows</h2>
 
       <Suspense fallback={<Loader message="Loading popular shows" />}>
-        <Grid collection={resource.fetchData.read()} itemType="show" />
+        <Grid collection={resource.fetchData.read()} mediaType="show" />
       </Suspense>
     </>
     
