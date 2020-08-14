@@ -6,6 +6,7 @@ import {
   Switch 
 } from "react-router-dom";
 import Layout from './components/Layout';
+import Loader from './components/Loader';
 
 const Dashboard = lazy(() => import('./pages/dashboard'));
 const Movies = lazy(() => import('./pages/movies'));
@@ -15,7 +16,7 @@ function App() {
   return (
     <Router>
       <Layout>
-        <Suspense fallback={<div className="text-white">Loading...</div>}>
+        <Suspense fallback={<Loader message="Loading" />}>
           <Switch>
             <Route exact path='/' component={Dashboard} />
             <Route path='/movies' component={Movies} />
