@@ -2,7 +2,7 @@ import React, { useState, useEffect, FunctionComponent } from 'react';
 import Loader from '../../components/Loader';
 import { fetchAPIData } from '../../api/api';
 
-import { IMovie } from '../../api/types';
+import { IShow } from '../../api/types';
 
 import { RouteComponentProps, withRouter } from 'react-router-dom';
 import ItemPage from '../../components/ItemPage';
@@ -13,27 +13,27 @@ interface MatchParams {
 
 interface MatchProps extends RouteComponentProps<MatchParams> { }
 
-const Movies: FunctionComponent<MatchProps> = ({ children, match }) => {
-  const [movie, setMovie] = useState<IMovie | null>(null);
+const Show: FunctionComponent<MatchProps> = ({ children, match }) => {
+  const [show, setShow] = useState<IShow | null>(null);
   const [loading, setLoading] = useState(false);
 
   useEffect(() => {
     setLoading(true);
-    fetchAPIData(`movie/${match.params.id}`, null).then(
-      (response: IMovie) => {
-        setMovie(response);
+    fetchAPIData(`tv/${match.params.id}`, null).then(
+      (response: IShow) => {
+        setShow(response);
         setLoading(false);
       }
     );    
   }, [match.params.id]);
 
   if (loading) {
-    return (<Loader message="Loading movie" />)
+    return (<Loader message="Loading show" />)
   }
 
   return (
-    <ItemPage itemType="movie" item={movie} />
+    <ItemPage itemType="show" item={show} />
   );
 };
 
-export default withRouter(Movies);
+export default withRouter(Show);

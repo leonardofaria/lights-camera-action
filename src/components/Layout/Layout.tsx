@@ -3,7 +3,7 @@ import {
   NavLink
 } from "react-router-dom";
 
-const linkClassName:string = 'uppercase border-b-2 border-black text-inter-sm text-white font-bold py-3 mr-8 opacity-75 hover:opacity-100 transition duration-300 ease-in-out';
+const linkClassName:string = 'uppercase border-b-2 border-black text-inter-base text-white font-bold py-3 mr-8 opacity-75 hover:opacity-100 transition duration-300 ease-in-out';
 
 const Layout: FunctionComponent = ({ children }) => {
 
