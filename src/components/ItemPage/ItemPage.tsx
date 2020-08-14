@@ -1,6 +1,6 @@
 import React, { FunctionComponent} from 'react';
 import { IMAGE_PATH, IMAGE_SIZE } from '../../constants';
-import { MovieGenres } from '../Genres';
+import Genres from '../Genres';
 
 type Props = {
   item?: any,
@@ -20,7 +20,7 @@ const ItemPage: FunctionComponent<Props> = ({ item, mediaType }) => {
       <div className="w-full sm:w-1/2 md:w-2/3">
         <h2 className="text-inter-3xl text-white mb-5">{item?.title}{item?.name}</h2>
 
-        <MovieGenres genres={item?.genres} mediaType={mediaType} />
+        <Genres genres={item?.genres} mediaType={mediaType} />
 
         <p>{item?.overview}</p>
 
