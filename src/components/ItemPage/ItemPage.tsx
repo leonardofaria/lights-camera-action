@@ -4,10 +4,10 @@ import { MovieGenres } from '../Genres';
 
 type Props = {
   item?: any,
-  itemType: "movie" | "show",
+  mediaType: "movie" | "show",
 }
 
-const ItemPage: FunctionComponent<Props> = ({ item, itemType }) => {
+const ItemPage: FunctionComponent<Props> = ({ item, mediaType }) => {
   
   return (
     <section className="flex">
@@ -20,7 +20,7 @@ const ItemPage: FunctionComponent<Props> = ({ item, itemType }) => {
       <div className="w-full sm:w-1/2 md:w-2/3">
         <h2 className="text-inter-3xl text-white mb-5">{item?.title}{item?.name}</h2>
 
-        <MovieGenres genres={item?.genres} />
+        <MovieGenres genres={item?.genres} mediaType={mediaType} />
 
         <p>{item?.overview}</p>
 

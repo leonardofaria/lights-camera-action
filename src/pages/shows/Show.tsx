@@ -32,7 +32,7 @@ const Show: FunctionComponent<MatchProps> = ({ children, match }) => {
   }
 
   return (
-    <ItemPage itemType="show" item={show} />
+    <ItemPage mediaType="show" item={show} />
   );
 };
 
