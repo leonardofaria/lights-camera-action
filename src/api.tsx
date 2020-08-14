@@ -1,14 +1,13 @@
-const fetchPopularMovies = () => {
-  return fetch(`https://api.themoviedb.org/3/movie/popular?api_key=${process.env.REACT_APP_TMDB_API_KEY}`)
-    .then(x => x.json())
-    .then(x => x.results);
-};
+const BASE_URL = 'https://api.themoviedb.org/3';
 
-const fetchPopularShows = () => {
-  return fetch(`https://api.themoviedb.org/3/tv/popular?api_key=${process.env.REACT_APP_TMDB_API_KEY}`)
+const fetchApiData = (resourceType: String, params: String | null) => {
+  const url = `${BASE_URL}/${resourceType}?api_key=${process.env.REACT_APP_TMDB_API_KEY}`;
+
+  console.log(url)
+  return fetch(url)
     .then(x => x.json())
     .then(x => x.results);
-};
+}
 
 const wrapPromise = (promise: any) => {
   let status = "pending";
@@ -37,9 +36,8 @@ const wrapPromise = (promise: any) => {
   };
 };
 
-export const createResource = () => {
+export const createResource = (type: String, params: String | null) => {
   return {
-    popularMovies: wrapPromise(fetchPopularMovies()),
-    popularShows: wrapPromise(fetchPopularShows()),
+    fetchData: wrapPromise(fetchApiData(type, params)),
   };
 };
