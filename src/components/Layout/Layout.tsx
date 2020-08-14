@@ -27,8 +27,8 @@ const Layout: FunctionComponent = ({ children }) => {
               </NavLink>
             </li>
             <li className="h-12 flex items-end">
-              <NavLink activeClassName="border-white" className={linkClassName} to="/series">
-                Series
+              <NavLink activeClassName="border-white" className={linkClassName} to="/shows">
+                Shows
               </NavLink>
             </li>
           </ul>    

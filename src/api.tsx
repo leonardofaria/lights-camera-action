@@ -3,7 +3,6 @@ const BASE_URL = 'https://api.themoviedb.org/3';
 const fetchApiData = (resourceType: String, params: String | null) => {
   const url = `${BASE_URL}/${resourceType}?api_key=${process.env.REACT_APP_TMDB_API_KEY}`;
 
-  console.log(url)
   return fetch(url)
     .then(x => x.json())
     .then(x => x.results);

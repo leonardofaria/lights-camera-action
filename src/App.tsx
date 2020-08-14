@@ -9,7 +9,7 @@ import Layout from './components/Layout';
 
 const Dashboard = lazy(() => import('./pages/dashboard'));
 const Movies = lazy(() => import('./pages/movies'));
-const Series = lazy(() => import('./pages/series'));
+const Shows = lazy(() => import('./pages/shows'));
 
 function App() {
   return (
@@ -19,7 +19,7 @@ function App() {
           <Switch>
             <Route exact path='/' component={Dashboard} />
             <Route path='/movies' component={Movies} />
-            <Route path='/series' component={Series} />
+            <Route path='/shows' component={Shows} />
           </Switch>
         </Suspense>
       </Layout>
