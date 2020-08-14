@@ -22,8 +22,8 @@ function App() {
           <Suspense fallback={<Loader message="Loading" />}>
             <Switch>
               <Route exact path='/' component={Dashboard} />
-              <Route path='/movies' component={Movies} />
-              <Route path='/movie/:id' component={Movie} />
+              <Route exact path='/movies' component={Movies} />
+              <Route path='/movies/:id' component={Movie} />
               <Route path='/shows' component={Shows} />
             </Switch>
           </Suspense>
