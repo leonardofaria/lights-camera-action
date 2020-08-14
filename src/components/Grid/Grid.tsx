@@ -10,7 +10,7 @@ const Grid: FunctionComponent<Props> = ({ collection, itemType }) => {
   
   return (
     <div className="flex flex-wrap">
-      { collection.map((item: any) => <ItemCard item={item} key={item.id} />)}
+      { collection.results.map((item: any) => <ItemCard item={item} key={item.id} />)}
     </div>
   );
 };

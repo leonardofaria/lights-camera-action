@@ -1,14 +1,6 @@
-const BASE_URL = 'https://api.themoviedb.org/3';
+import { fetchAPIData } from './api';
 
-const fetchApiData = (resourceType: String, params: String | null) => {
-  const url = `${BASE_URL}/${resourceType}?api_key=${process.env.REACT_APP_TMDB_API_KEY}`;
-
-  return fetch(url)
-    .then(x => x.json())
-    .then(x => x.results);
-}
-
-const wrapPromise = (promise: any) => {
+export const wrapPromise = (promise: any) => {
   let status = "pending";
   let result = "";
   let suspender = promise.then(
@@ -37,6 +29,6 @@ const wrapPromise = (promise: any) => {
 
 export const createResource = (type: String, params: String | null) => {
   return {
-    fetchData: wrapPromise(fetchApiData(type, params)),
+    fetchData: wrapPromise(fetchAPIData(type, params)),
   };
 };

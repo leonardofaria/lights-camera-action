@@ -5,9 +5,9 @@ import {
   Route,
   Switch 
 } from "react-router-dom";
+import { APIContextProvider } from './api/context';
 import Layout from './components/Layout';
 import Loader from './components/Loader';
-import { createResource } from './api/suspense';
 
 const Dashboard = lazy(() => import('./pages/dashboard'));
 const Movies = lazy(() => import('./pages/movies'));
@@ -16,18 +16,20 @@ const Shows = lazy(() => import('./pages/shows/Shows'));
 
 function App() {
   return (
-    <Router>
-      <Layout>
-        <Suspense fallback={<Loader message="Loading" />}>
-          <Switch>
-            <Route exact path='/' component={Dashboard} />
-            <Route path='/movies' component={Movies} />
-            <Route path='/shows' component={Shows} />
-          </Switch>
-        </Suspense>
-      </Layout>
-    </Router>
-    
+    <APIContextProvider>
+      <Router>
+        <Layout>
+          <Suspense fallback={<Loader message="Loading" />}>
+            <Switch>
+              <Route exact path='/' component={Dashboard} />
+              <Route path='/movies' component={Movies} />
+              <Route path='/movie/:id' component={Movie} />
+              <Route path='/shows' component={Shows} />
+            </Switch>
+          </Suspense>
+        </Layout>
+      </Router>
+    </APIContextProvider>    
   );
 }
 
