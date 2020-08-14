@@ -10,7 +10,7 @@ const Layout: FunctionComponent = ({ children }) => {
   return (
     <div className="flex flex-col min-h-screen bg-gray-900 font-inter">
       <header className="bg-black bg-opacity-75 fixed z-10 w-full border-gray-700 border-b">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-inter-3xl text-white h-16 flex items-center">
             Lights, camera, action
           </div>
@@ -36,7 +36,7 @@ const Layout: FunctionComponent = ({ children }) => {
         </div>
       </header>
       
-      <main className="flex-1 w-full mt-32 max-w-7xl mx-auto py-6 sm:px-6 lg:px-8 text-white">
+      <main className="flex-1 w-full mt-32 max-w-5xl mx-auto py-6 sm:px-6 lg:px-8 text-white">
         {children}
       </main>
     </div>
