@@ -5,7 +5,7 @@ import { fetchAPIData } from '../../api/api';
 import { IShow } from '../../api/types';
 
 import { RouteComponentProps, withRouter } from 'react-router-dom';
-import ItemPage from '../../components/ItemPage';
+import ItemPage from '../../components/MediaPage';
 
 interface MatchParams {
   id: string;
