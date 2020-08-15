@@ -4,12 +4,16 @@
 
 Small app created with create-react-app that uses [The Movie Database API](https://developers.themoviedb.org/). **[Live](https://lights-camera-action.vercel.app/)**
 
+This is just a playground to play with different tech stacks.
+
 Tech details:
 
 - TypeScript
 - React concurrent mode
 - Suspense and/or fetch for fetching data
 - Tailwind CSS for design
+- Feather Icons
+- reakit for a few UI elements
 - Deployed at Vercel
 
 ## Installing
