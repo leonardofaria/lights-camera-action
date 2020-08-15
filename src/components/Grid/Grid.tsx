@@ -9,7 +9,7 @@ type Props = {
 const Grid: FunctionComponent<Props> = ({ collection, mediaType }) => {
   
   return (
-    <div className="flex flex-wrap justify-around">
+    <div className="flex flex-wrap justify-around -m-5">
       { collection.results.map((item: any) => <MediaCard item={item} mediaType={mediaType} key={item.id} />)}
     </div>
   );

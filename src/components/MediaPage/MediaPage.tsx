@@ -13,20 +13,21 @@ const ItemPage: FunctionComponent<Props> = ({ item, mediaType }) => {
 
   return (
     <>
-      <section className="flex">
+      <section className="flex lg:py-8">
         <div className="w-1/3">
-          <div className="mr-6">
-            <img src={`${IMAGE_PATH}/${IMAGE_SIZE}/${item?.poster_path}`} alt={item?.title} className="w-full h-auto" />
+          <div className="mr-4 lg:mr-8 _nmp_ -nmp_src--lt -nmp_light--gray-600 -nmp_shadow--gray-600 -nmp_dist--xs rounded-lg">
+            <img src={`${IMAGE_PATH}/${IMAGE_SIZE}/${item?.poster_path}`} alt={item?.title} className="rounded-lg w-full h-auto" />
           </div>
         </div>
 
-        <div className="w-2/3">
-          <h2 className="text-inter-3xl text-white mb-5">{item?.title}{item?.name}</h2>
+        <div className="w-2/3 lg:ml-4">
+          <div>
+            <h2 className="text-inter-3xl text-white mb-5">{item?.title}{item?.name}</h2>
 
-          <Genres genres={item?.genres} mediaType={mediaType} />
+            <Genres genres={item?.genres} mediaType={mediaType} />
 
-          <p>{item?.overview}</p>
-
+            <p>{item?.overview}</p>
+          </div>
         </div>
       </section>
 
