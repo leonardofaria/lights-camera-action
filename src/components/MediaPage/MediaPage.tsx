@@ -30,7 +30,7 @@ const ItemPage: FunctionComponent<Props> = ({ item, mediaType }) => {
         </div>
       </section>
 
-      <section className="flex mt-6">
+      <section className="flex mt-8">
         <div className="w-full sm:w-1/2">
           <div className="mr-6">
             <TabList {...tab}>

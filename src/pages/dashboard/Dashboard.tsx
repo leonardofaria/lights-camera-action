@@ -9,7 +9,7 @@ const Dashboard: FunctionComponent = ({ children }) => {
 
   return (
     <>
-      <h2 className="text-inter-2xl text-white mb-5">Trending</h2>
+      <h2 className="text-inter-3xl text-white mb-8">Trending</h2>
 
       <Suspense fallback={<Loader message="Loading trending" />}>
         <Grid collection={resource.fetchData.read()} mediaType="trending" />
